@@ -1,46 +1,46 @@
 {
- "paivitetty": "2026-11-21 15:02 UTC",
- "hyokkayksia_24h": 301590,
- "hyokkaajia_24h": 1712,
- "tervakuoppa_h_7pv": 373.1,
- "jumissa_nyt": 38,
+ "paivitetty": "2026-11-21 16:03 UTC",
+ "hyokkayksia_24h": 206622,
+ "hyokkaajia_24h": 1798,
+ "tervakuoppa_h_7pv": 382.0,
+ "jumissa_nyt": 36,
  "uutuus_pct": 8.8,
  "abuseipdb_paiva": 2927,
- "tekoaly_komentoja_24h": 4733,
- "docker_7pv": 622,
- "syotteja_7pv": 87,
+ "tekoaly_komentoja_24h": 4772,
+ "docker_7pv": 626,
+ "syotteja_7pv": 89,
  "maat": [
   [
    "Bulgaria",
-   135372
+   136575
   ],
   [
    "Germany",
-   127146
+   127216
   ],
   [
    "United States",
-   53554
+   54544
   ],
   [
    "Romania",
-   23039
+   23292
   ],
   [
    "China",
-   8519
+   8555
   ],
   [
    "Mexico",
-   4608
+   4612
   ],
   [
    "Iran",
-   2000
+   2055
   ],
   [
    "?",
-   1766
+   1791
   ],
   [
    "Taiwan",
@@ -48,13 +48,13 @@
   ],
   [
    "Vietnam",
-   1044
+   1048
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   448
+   450
   ],
   [
    "hikvision",
@@ -66,7 +66,7 @@
   ],
   [
    "boa",
-   23
+   25
   ],
   [
    "Exchange / PHP probes",
@@ -78,7 +78,7 @@
   ],
   [
    "command injection",
-   10
+   12
   ],
   [
    "wordpress",
@@ -109,26 +109,26 @@
  ],
  "haitalliset_tagit": [
   [
-   "Mirai TCP Scanner",
-   3
+   "Mirai",
+   1
   ],
   [
-   "Mirai",
-   3
+   "Mirai TCP Scanner",
+   1
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1533
+   1505
   ],
   [
    "CVE_1999_0517",
-   487
+   493
   ],
   [
    "CVE_2022_27255",
-   412
+   418
   ],
   [
    "CVE_2021_44228",
@@ -146,7 +146,7 @@
  "tunnukset": [
   [
    "root",
-   11091
+   11119
   ],
   [
    "ftp",
@@ -154,15 +154,15 @@
   ],
   [
    "anonymous",
-   9921
+   10159
   ],
   [
    "admin",
-   3431
+   3434
   ],
   [
    "ubuntu",
-   2945
+   2949
   ],
   [
    "user",
@@ -170,14 +170,34 @@
   ],
   [
    "deploy",
-   2599
+   2608
   ],
   [
    "test",
-   2524
+   2527
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-21 15:30",
+   "ip": "78.153.140.39",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
+  {
+   "aika": "2026-11-21 15:09",
+   "ip": "78.153.140.43",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
   {
    "aika": "2026-11-21 14:33",
    "ip": "78.153.140.250",
@@ -302,26 +322,6 @@
    "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
    "maa": "GB",
    "kutsut": [
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-21 09:10",
-   "ip": "78.153.140.93",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-21 09:07",
-   "ip": "78.153.140.43",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
     "ListVerifiedEmailAddresses"
    ]
   }
