@@ -1,46 +1,46 @@
 {
- "paivitetty": "2026-11-21 16:03 UTC",
- "hyokkayksia_24h": 206622,
- "hyokkaajia_24h": 1798,
- "tervakuoppa_h_7pv": 382.0,
- "jumissa_nyt": 36,
+ "paivitetty": "2026-11-21 17:03 UTC",
+ "hyokkayksia_24h": 204005,
+ "hyokkaajia_24h": 1873,
+ "tervakuoppa_h_7pv": 391.9,
+ "jumissa_nyt": 45,
  "uutuus_pct": 8.8,
  "abuseipdb_paiva": 2927,
- "tekoaly_komentoja_24h": 4772,
- "docker_7pv": 626,
- "syotteja_7pv": 89,
+ "tekoaly_komentoja_24h": 4866,
+ "docker_7pv": 644,
+ "syotteja_7pv": 91,
  "maat": [
   [
    "Bulgaria",
-   136575
+   134601
   ],
   [
    "Germany",
-   127216
+   127270
   ],
   [
    "United States",
-   54544
+   49808
   ],
   [
    "Romania",
-   23292
+   25869
   ],
   [
    "China",
-   8555
+   8544
   ],
   [
    "Mexico",
-   4612
+   4613
   ],
   [
    "Iran",
-   2055
+   2136
   ],
   [
    "?",
-   1791
+   1803
   ],
   [
    "Taiwan",
@@ -48,17 +48,17 @@
   ],
   [
    "Vietnam",
-   1048
+   1054
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   450
+   452
   ],
   [
    "hikvision",
-   87
+   92
   ],
   [
    "Java services (actuator/solr)",
@@ -66,7 +66,7 @@
   ],
   [
    "boa",
-   25
+   26
   ],
   [
    "Exchange / PHP probes",
@@ -88,47 +88,47 @@
  "docker_imaget": [
   [
    "alpine",
-   15
+   16
   ],
   [
    "postgres:15",
-   11
+   12
   ],
   [
    "alpine:latest",
    5
   ],
   [
-   "docker72590/apache",
-   2
+   "metal3d/xmrig",
+   4
   ],
   [
-   "metal3d/xmrig",
+   "docker72590/apache",
    2
   ]
  ],
  "haitalliset_tagit": [
   [
    "Mirai",
-   1
+   3
   ],
   [
    "Mirai TCP Scanner",
-   1
+   3
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1505
+   1518
   ],
   [
    "CVE_1999_0517",
-   493
+   498
   ],
   [
    "CVE_2022_27255",
-   418
+   442
   ],
   [
    "CVE_2021_44228",
@@ -139,26 +139,26 @@
    29
   ],
   [
-   "CVE_2002_1149",
-   18
+   "CVE_2002_0012",
+   13
   ]
  ],
  "tunnukset": [
   [
    "root",
-   11119
+   11197
+  ],
+  [
+   "anonymous",
+   10452
   ],
   [
    "ftp",
    10371
   ],
   [
-   "anonymous",
-   10159
-  ],
-  [
    "admin",
-   3434
+   3453
   ],
   [
    "ubuntu",
@@ -166,7 +166,7 @@
   ],
   [
    "user",
-   2671
+   2678
   ],
   [
    "deploy",
@@ -174,10 +174,40 @@
   ],
   [
    "test",
-   2527
+   2533
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-21 16:53",
+   "ip": "78.153.140.93",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
+  {
+   "aika": "2026-11-21 16:14",
+   "ip": "78.153.140.39",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
+  {
+   "aika": "2026-11-21 16:09",
+   "ip": "78.153.140.93",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
   {
    "aika": "2026-11-21 15:30",
    "ip": "78.153.140.39",
@@ -293,35 +323,6 @@
    "maa": "GB",
    "kutsut": [
     "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-21 10:23",
-   "ip": "78.153.140.39",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-21 09:32",
-   "ip": "78.153.140.250",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-21 09:13",
-   "ip": "78.153.140.93",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
     "ListVerifiedEmailAddresses"
    ]
   }
