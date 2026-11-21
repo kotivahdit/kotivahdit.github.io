@@ -1,0 +1,30 @@
+<!doctype html><html lang=en><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+<title>Kotivahdit Live</title><meta name=description content="Live numbers from the Kotivahdit volunteer honeypot network (Finland)">
+<style>:root{--bg:#0b0f14;--c:#141a22;--c2:#1b2330;--t:#e6edf3;--m:#8b98a8;--a:#f0b429;--sin:#58a6ff}*{box-sizing:border-box}
+body{margin:0 auto;max-width:1100px;padding:16px;background:var(--bg);color:var(--t);font:15px/1.5 system-ui,-apple-system,sans-serif}
+h1{margin:0;font-size:26px}h2{font-size:15px;color:var(--a);margin:0 0 10px}.m{color:var(--m)}a{color:var(--sin)}
+.sk{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin:14px 0}.sk div{background:linear-gradient(160deg,var(--c2),var(--c));border-radius:12px;padding:12px 14px}
+.sk b{display:block;font-size:26px}.g{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}.c{background:var(--c);border-radius:12px;padding:14px 16px;margin-bottom:12px}
+.r{display:grid;grid-template-columns:minmax(0,1.4fr) 2fr 56px;gap:8px;align-items:center;margin:3px 0}.k{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.b{background:#222b37;border-radius:4px;height:9px}.b i{display:block;height:100%;background:var(--a);border-radius:4px}.n{text-align:right;color:var(--m)}
+table{width:100%;border-collapse:collapse;font-size:13px}td{padding:5px 6px;border-top:1px solid #222b37;vertical-align:top}code{color:var(--sin);font-size:12px}
+.tw{overflow-x:auto}</style><body>
+<h1>🛡️ Kotivahdit Live</h1><div class=m>Volunteer honeypot network from Finland · sensors in Stockholm (Oracle Cloud) and Iowa (Google Cloud) · updated <span id=t></span> ·
+<a href="https://github.com/kotivahdit/toolkit">toolkit on GitHub</a> · <a href="https://github.com/kotivahdit/toolkit/blob/main/docs/llm-honeypot-fingerprinting.md">field note: LLM honeypot fingerprinting</a></div>
+<div class=sk id=sk></div>
+<div class=g><div class=c><h2>Attack sources (countries)</h2><div id=maat></div></div><div class=c><h2>Web exploit attempts</h2><div id=tyypit></div></div>
+<div class=c><h2>Malicious actors / CVEs (GreyNoise tags)</h2><div id=tagit></div></div><div class=c><h2>Most tried usernames</h2><div id=tunnukset></div></div></div>
+<div class=c><h2>🪤 Caught: honeytoken key thieves</h2><p class=m>Bait <code>.env</code> files on our web trap carry fake AWS keys. These hosts stole a key and tried to use it (mostly to send spam via SES). All reported to AbuseIPDB.</p><div class=tw><table id=varkaat></table></div></div>
+<div class=c><h2>How it works</h2><p class=m>Tarpits waste bots' time, decoys collect what attackers try, and every attacker is reported automatically to AbuseIPDB, abuse.ch (URLhaus, MalwareBazaar, ThreatFox), SANS ISC/DShield, AlienVault OTX, CrowdSec, GreyNoise and Netcraft.
+<b>Novelty</b> = share of our attackers not (yet) on major public blocklists (ipsum, FireHOL, blocklist.de). Passive only – no hack-back. Contact: kotivahdit@proton.me</p></div>
+<script>
+const e=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));const f=n=>n==null?'–':Number(n).toLocaleString('fi-FI');
+function palkit(id,r){const mx=Math.max(1,...r.map(x=>x[1]));document.getElementById(id).innerHTML=r.length?r.map(([k,n])=>`<div class=r><span class=k>${e(k)}</span><span class=b><i style="width:${n/mx*100}%"></i></span><span class=n>${f(n)}</span></div>`).join(''):'<p class=m>no data yet</p>'}
+fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{document.getElementById('t').textContent=d.paivitetty;
+const s=[['⚔️ Attacks, 24 h',f(d.hyokkayksia_24h)],['🌍 Attacker IPs, 24 h',f(d.hyokkaajia_24h)],['⏳ Bot time wasted in tarpits, 7 d',f(d.tervakuoppa_h_7pv)+' h'],
+['🆕 Novelty vs public blocklists',d.uutuus_pct==null?'–':d.uutuus_pct+' %'],['📣 AbuseIPDB reports / day',f(d.abuseipdb_paiva)],['🤖 LLM-honeypot commands, 24 h',f(d.tekoaly_komentoja_24h)],
+['🪤 Key thieves caught',f(new Set(d.varkaat.map(v=>v.ip)).size)],['🐳 Fake Docker API hits, 7 d',f(d.docker_7pv)]];
+document.getElementById('sk').innerHTML=s.map(([a,b])=>`<div><span class=m>${a}</span><b>${b}</b></div>`).join('');
+palkit('maat',d.maat);palkit('tyypit',d.hyokkaystyypit);palkit('tagit',d.haitalliset_tagit.concat(d.cvet));palkit('tunnukset',d.tunnukset);
+document.getElementById('varkaat').innerHTML='<tr class=m><td>Time (UTC)</td><td>IP</td><td>Network</td><td>API calls</td></tr>'+d.varkaat.map(v=>`<tr><td>${e(v.aika)}</td><td><code>${e(v.ip)}</code></td><td>${e(v.verkko)} ${e(v.maa)}</td><td class=m>${e(v.kutsut.join(', '))}</td></tr>`).join('')});
+</script></body></html>
