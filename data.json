@@ -1,34 +1,34 @@
 {
- "paivitetty": "2026-11-21 08:57 UTC",
- "hyokkayksia_24h": 1274986,
- "hyokkaajia_24h": 7104,
+ "paivitetty": "2026-11-21 09:00 UTC",
+ "hyokkayksia_24h": 1277612,
+ "hyokkaajia_24h": 7183,
  "tervakuoppa_h_7pv": 306.1,
  "jumissa_nyt": 32,
  "uutuus_pct": 8.8,
  "abuseipdb_paiva": 2927,
- "tekoaly_komentoja_24h": 4069,
+ "tekoaly_komentoja_24h": 4438,
  "docker_7pv": 493,
  "syotteja_7pv": 73,
  "maat": [
   [
    "United States",
-   408786
+   409491
   ],
   [
    "Germany",
-   158793
+   156426
   ],
   [
    "Bulgaria",
-   116611
+   118268
   ],
   [
    "France",
-   27612
+   28011
   ],
   [
    "China",
-   26385
+   26392
   ],
   [
    "Mexico",
@@ -40,11 +40,11 @@
   ],
   [
    "United Kingdom",
-   10280
+   10399
   ],
   [
    "The Netherlands",
-   6855
+   6946
   ],
   [
    "Iran",
@@ -116,11 +116,11 @@
  "cvet": [
   [
    "CVE_2024_6387",
-   1519
+   1513
   ],
   [
    "CVE_1999_0517",
-   447
+   449
   ],
   [
    "CVE_2021_44228",
@@ -128,7 +128,7 @@
   ],
   [
    "CVE_2022_27255",
-   294
+   296
   ],
   [
    "CVE_2017_9791",
