@@ -1,5 +1,5 @@
 {
- "paivitetty": "2026-11-21 08:56 UTC",
+ "paivitetty": "2026-11-21 08:57 UTC",
  "hyokkayksia_24h": 1274986,
  "hyokkaajia_24h": 7104,
  "tervakuoppa_h_7pv": 306.1,
@@ -12,23 +12,15 @@
  "maat": [
   [
    "United States",
-   394148
-  ],
-  [
-   "DE",
-   125925
-  ],
-  [
-   "BG",
-   69279
-  ],
-  [
-   "Bulgaria",
-   47332
+   408786
   ],
   [
    "Germany",
-   32868
+   158793
+  ],
+  [
+   "Bulgaria",
+   116611
   ],
   [
    "France",
@@ -36,24 +28,32 @@
   ],
   [
    "China",
-   24526
+   26385
   ],
   [
    "Mexico",
    23083
   ],
   [
-   "RO",
+   "Romania",
    20687
   ],
   [
-   "US",
-   14638
+   "United Kingdom",
+   10280
+  ],
+  [
+   "The Netherlands",
+   6855
+  ],
+  [
+   "Iran",
+   1763
   ]
  ],
  "hyokkaystyypit": [
   [
-   "tiedostovuoto",
+   "secret-file leak (.env/.git)",
    434
   ],
   [
@@ -61,7 +61,7 @@
    67
   ],
   [
-   "java-palvelu",
+   "Java services (actuator/solr)",
    33
   ],
   [
@@ -73,11 +73,11 @@
    16
   ],
   [
-   "exchange/php",
+   "Exchange / PHP probes",
    15
   ],
   [
-   "komento",
+   "command injection",
    9
   ],
   [
@@ -174,6 +174,15 @@
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-21 08:56",
+   "ip": "78.153.140.39",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "ListVerifiedEmailAddresses"
+   ]
+  },
   {
    "aika": "2026-11-21 08:11",
    "ip": "78.153.140.39",
@@ -311,16 +320,6 @@
    "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
    "maa": "GB",
    "kutsut": [
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-21 01:48",
-   "ip": "78.153.140.39",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
     "ListVerifiedEmailAddresses"
    ]
   }
