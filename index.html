@@ -22,8 +22,8 @@ const e=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"
 function palkit(id,r){const mx=Math.max(1,...r.map(x=>x[1]));document.getElementById(id).innerHTML=r.length?r.map(([k,n])=>`<div class=r><span class=k>${e(k)}</span><span class=b><i style="width:${n/mx*100}%"></i></span><span class=n>${f(n)}</span></div>`).join(''):'<p class=m>no data yet</p>'}
 fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{document.getElementById('t').textContent=d.paivitetty;
 const s=[['⚡ Honeypot events, 24 h',f(d.hyokkayksia_24h)],['🌍 Unique source IPs, 24 h',f(d.hyokkaajia_24h)],['⏳ Bot time wasted in tarpits, 7 d',f(d.tervakuoppa_h_7pv)+' h'],
-['🆕 Novelty vs public blocklists',d.uutuus_pct==null?'–':d.uutuus_pct+' %'],['📣 AbuseIPDB reports / day',f(d.abuseipdb_paiva)],['🤖 LLM-honeypot commands, 24 h',f(d.tekoaly_komentoja_24h)],
-['🪤 Key thieves caught',f(new Set(d.varkaat.map(v=>v.ip)).size)],['🐳 Fake Docker API hits, 7 d',f(d.docker_7pv)]];
+['🆕 Novelty vs public blocklists',d.uutuus_pct==null?'–':d.uutuus_pct+' %'],['📣 AbuseIPDB reports / day',f(d.abuseipdb_paiva)],['🤖 Commands sent to our LLM honeypot, 24 h',f(d.tekoaly_komentoja_24h)],
+['🪤 Key thieves caught (all time)',f(d.varkaita_yht)],['🐳 Fake Docker API hits, 7 d',f(d.docker_7pv)]];
 document.getElementById('sk').innerHTML=s.map(([a,b])=>`<div><span class=m>${a}</span><b>${b}</b></div>`).join('');
 palkit('maat',d.maat);palkit('tyypit',d.hyokkaystyypit);palkit('tagit',d.haitalliset_tagit.concat(d.cvet));palkit('tunnukset',d.tunnukset);
 document.getElementById('varkaat').innerHTML='<tr class=m><td>Time (UTC)</td><td>IP</td><td>Network</td><td>API calls</td></tr>'+d.varkaat.map(v=>`<tr><td>${e(v.aika)}</td><td><code>${e(v.ip)}</code></td><td>${e(v.verkko)} ${e(v.maa)}</td><td class=m>${e(v.kutsut.join(', '))}</td></tr>`).join('')});

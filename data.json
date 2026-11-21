@@ -1,5 +1,5 @@
 {
- "paivitetty": "2026-11-21 15:01 UTC",
+ "paivitetty": "2026-11-21 15:02 UTC",
  "hyokkayksia_24h": 301590,
  "hyokkaajia_24h": 1712,
  "tervakuoppa_h_7pv": 373.1,
@@ -326,6 +326,7 @@
    ]
   }
  ],
+ "varkaita_yht": 7,
  "historia": [
   {
    "pv": "2026-11-20",
