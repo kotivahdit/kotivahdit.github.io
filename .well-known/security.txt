@@ -1,0 +1,5 @@
+Contact: mailto:kotivahdit@proton.me
+Expires: 2027-11-20T00:00:00.000Z
+Preferred-Languages: en, fi
+Canonical: https://kotivahdit.github.io/.well-known/security.txt
+Policy: https://github.com/kotivahdit/blocklist/blob/main/METHODOLOGY.md
