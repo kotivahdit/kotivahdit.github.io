@@ -1,15 +1,15 @@
 <!doctype html><html lang=en><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
-<title>Kotivahdit Live</title><meta name=description content="Live numbers from the Kotivahdit volunteer honeypot network (Finland)">
-<style>:root{--bg:#0b0f14;--c:#141a22;--c2:#1b2330;--t:#e6edf3;--m:#8b98a8;--a:#f0b429;--sin:#58a6ff}*{box-sizing:border-box}
-body{margin:0 auto;max-width:1100px;padding:16px;background:var(--bg);color:var(--t);font:15px/1.5 system-ui,-apple-system,sans-serif}
+<title>Kotivahdit Live</title><link rel=icon href=favicon.png><meta name=description content="Live numbers from the Kotivahdit volunteer honeypot network (Finland)">
+<style>:root{--bg:#0b0f14;--c:#141a22;--c2:#1b2330;--t:#e6edf3;--m:#8b98a8;--a:#22e4ff;--a2:#ff4fd8;--sin:#7fd8ff}*{box-sizing:border-box}
+body{margin:0 auto;max-width:1100px;padding:16px;background:radial-gradient(ellipse at top,#14123a,#08081c 55%,#03030a) fixed;color:var(--t);font:15px/1.5 system-ui,-apple-system,sans-serif}
 h1{margin:0;font-size:26px}h2{font-size:15px;color:var(--a);margin:0 0 10px}.m{color:var(--m)}a{color:var(--sin)}
 .sk{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin:14px 0}.sk div{background:linear-gradient(160deg,var(--c2),var(--c));border-radius:12px;padding:12px 14px}
 .sk b{display:block;font-size:26px}.g{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}.c{background:var(--c);border-radius:12px;padding:14px 16px;margin-bottom:12px}
 .r{display:grid;grid-template-columns:minmax(0,1.4fr) 2fr 56px;gap:8px;align-items:center;margin:3px 0}.k{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.b{background:#222b37;border-radius:4px;height:9px}.b i{display:block;height:100%;background:var(--a);border-radius:4px}.n{text-align:right;color:var(--m)}
+.b{background:#222b37;border-radius:4px;height:9px}.b i{display:block;height:100%;background:linear-gradient(90deg,var(--a2),#7a5cff,var(--a));border-radius:4px}.n{text-align:right;color:var(--m)}
 table{width:100%;border-collapse:collapse;font-size:13px}td{padding:5px 6px;border-top:1px solid #222b37;vertical-align:top}code{color:var(--sin);font-size:12px}
 .tw{overflow-x:auto}</style><body>
-<h1>🛡️ Kotivahdit Live</h1><div class=m>Volunteer honeypot network from Finland · sensors in Stockholm (Oracle Cloud) and Iowa (Google Cloud) · updated <span id=t></span> ·
+<div style="display:flex;align-items:center;gap:14px"><img src="logo_256.png" alt="" width=64 height=64 style="border-radius:50%"><h1>Kotivahdit <span style="color:var(--a)">Live</span></h1></div><div class=m>Volunteer honeypot network from Finland · sensors in Stockholm (Oracle Cloud) and Iowa (Google Cloud) · updated <span id=t></span> ·
 <a href="https://github.com/kotivahdit/toolkit">toolkit on GitHub</a> · <a href="https://github.com/kotivahdit/blocklist">hourly blocklist</a> · <a href="https://github.com/kotivahdit/toolkit/blob/main/docs/llm-honeypot-fingerprinting.md">field note: LLM honeypot fingerprinting</a></div>
 <div class=sk id=sk></div>
 <div class=g><div class=c><h2>Attack sources (countries)</h2><div id=maat></div></div><div class=c><h2>Web exploit attempts</h2><div id=tyypit></div></div>
