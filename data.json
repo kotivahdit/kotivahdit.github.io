@@ -1,34 +1,30 @@
 {
- "paivitetty": "2026-11-22 02:00 UTC",
- "hyokkayksia_24h": 262243,
- "hyokkaajia_24h": 2348,
+ "paivitetty": "2026-11-22 03:01 UTC",
+ "hyokkayksia_24h": 270660,
+ "hyokkaajia_24h": 2421,
  "tervakuoppa_h_7pv": 537.9,
  "jumissa_nyt": 42,
  "uutuus_pct": 22.7,
  "abuseipdb_paiva": 3022,
- "tekoaly_komentoja_24h": 4655,
+ "tekoaly_komentoja_24h": 4697,
  "docker_7pv": 767,
  "syotteja_7pv": 214,
  "maat": [
   [
    "Bulgaria",
-   166276
+   173965
   ],
   [
    "Germany",
-   132299
+   132458
   ],
   [
    "United States",
-   55665
+   55890
   ],
   [
    "Romania",
-   33331
-  ],
-  [
-   "China",
-   6647
+   33711
   ],
   [
    "Mexico",
@@ -47,8 +43,12 @@
    2454
   ],
   [
+   "China",
+   1886
+  ],
+  [
    "Russia",
-   1442
+   1441
   ]
  ],
  "hyokkaystyypit": [
@@ -107,24 +107,15 @@
    3
   ]
  ],
- "haitalliset_tagit": [
-  [
-   "Mirai",
-   1
-  ],
-  [
-   "Mirai TCP Scanner",
-   1
-  ]
- ],
+ "haitalliset_tagit": [],
  "cvet": [
   [
    "CVE_2024_6387",
-   1539
+   1538
   ],
   [
    "CVE_1999_0517",
-   546
+   563
   ],
   [
    "CVE_2021_44228",
@@ -132,7 +123,7 @@
   ],
   [
    "CVE_2022_27255",
-   317
+   295
   ],
   [
    "CVE_2017_9791",
@@ -140,7 +131,7 @@
   ],
   [
    "CVE_2016_20017",
-   15
+   16
   ]
  ],
  "tunnukset": [
@@ -178,6 +169,16 @@
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-22 02:52",
+   "ip": "78.153.140.39",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
   {
    "aika": "2026-11-22 01:20",
    "ip": "78.153.140.149",
@@ -314,16 +315,6 @@
   {
    "aika": "2026-11-21 21:24",
    "ip": "78.153.140.43",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-21 21:09",
-   "ip": "78.153.140.93",
    "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
    "maa": "GB",
    "kutsut": [
