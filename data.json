@@ -1,34 +1,34 @@
 {
- "paivitetty": "2026-11-22 20:04 UTC",
- "hyokkayksia_24h": 359233,
- "hyokkaajia_24h": 2681,
- "tervakuoppa_h_7pv": 828.1,
- "jumissa_nyt": 52,
+ "paivitetty": "2026-11-22 21:02 UTC",
+ "hyokkayksia_24h": 364090,
+ "hyokkaajia_24h": 2687,
+ "tervakuoppa_h_7pv": 837.3,
+ "jumissa_nyt": 61,
  "uutuus_pct": 22.7,
  "abuseipdb_paiva": 3022,
- "tekoaly_komentoja_24h": 3184,
- "docker_7pv": 1529,
- "syotteja_7pv": 499,
+ "tekoaly_komentoja_24h": 4157,
+ "docker_7pv": 1537,
+ "syotteja_7pv": 559,
  "maat": [
   [
    "Bulgaria",
-   287170
+   294879
   ],
   [
    "Germany",
-   149267
+   149181
   ],
   [
    "Romania",
-   48381
+   49699
   ],
   [
    "United States",
-   37772
+   37803
   ],
   [
    "?",
-   7348
+   7430
   ],
   [
    "Turkey",
@@ -39,38 +39,38 @@
    6011
   ],
   [
-   "Russia",
-   4292
+   "Iran",
+   4351
   ],
   [
-   "Iran",
-   4239
+   "Russia",
+   4291
   ],
   [
    "CI",
-   3169
+   3393
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   1845
+   2085
   ],
   [
    "hikvision",
-   179
+   183
   ],
   [
    "Java services (actuator/solr)",
-   94
+   118
   ],
   [
    "cgi",
-   81
+   82
   ],
   [
    "boa",
-   46
+   48
   ],
   [
    "Exchange / PHP probes",
@@ -78,7 +78,7 @@
   ],
   [
    "command injection",
-   33
+   36
   ],
   [
    "path traversal",
@@ -109,26 +109,26 @@
  ],
  "haitalliset_tagit": [
   [
-   "Mirai TCP Scanner",
-   2
+   "Mirai",
+   3
   ],
   [
-   "Mirai",
-   2
+   "Mirai TCP Scanner",
+   3
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1544
+   1562
   ],
   [
    "CVE_1999_0517",
-   181
+   182
   ],
   [
    "CVE_2022_27255",
-   67
+   84
   ],
   [
    "CVE_2001_0540",
@@ -136,21 +136,21 @@
   ],
   [
    "CVE_2016_20017",
-   19
+   18
   ],
   [
    "CVE_2021_35395",
-   19
+   18
   ]
  ],
  "tunnukset": [
   [
    "anonymous",
-   21806
+   22962
   ],
   [
    "root",
-   17494
+   17627
   ],
   [
    "ftp",
@@ -158,26 +158,66 @@
   ],
   [
    "admin",
-   4376
+   4392
   ],
   [
    "ubuntu",
-   3519
+   3526
   ],
   [
    "user",
-   3009
+   3014
   ],
   [
    "deploy",
-   2846
+   2848
   ],
   [
    "test",
-   2751
+   2754
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-22 20:45",
+   "ip": "78.153.140.156",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
+  {
+   "aika": "2026-11-22 20:34",
+   "ip": "78.153.140.43",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
+  {
+   "aika": "2026-11-22 20:25",
+   "ip": "78.153.140.250",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
+  {
+   "aika": "2026-11-22 20:07",
+   "ip": "78.153.140.93",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
   {
    "aika": "2026-11-22 19:55",
    "ip": "78.153.140.250",
@@ -283,46 +323,6 @@
   },
   {
    "aika": "2026-11-22 17:21",
-   "ip": "78.153.140.39",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-22 17:13",
-   "ip": "78.153.140.43",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-22 16:48",
-   "ip": "78.153.140.149",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-22 16:34",
-   "ip": "78.153.140.93",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-22 16:06",
    "ip": "78.153.140.39",
    "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
    "maa": "GB",
