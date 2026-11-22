@@ -1,30 +1,30 @@
 {
- "paivitetty": "2026-11-22 16:03 UTC",
- "hyokkayksia_24h": 312788,
- "hyokkaajia_24h": 2767,
+ "paivitetty": "2026-11-22 17:01 UTC",
+ "hyokkayksia_24h": 325621,
+ "hyokkaajia_24h": 2763,
  "tervakuoppa_h_7pv": 751.0,
  "jumissa_nyt": 54,
  "uutuus_pct": 22.7,
  "abuseipdb_paiva": 3022,
- "tekoaly_komentoja_24h": 4714,
+ "tekoaly_komentoja_24h": 3117,
  "docker_7pv": 1450,
  "syotteja_7pv": 379,
  "maat": [
   [
    "Bulgaria",
-   243215
+   253397
   ],
   [
    "Germany",
-   145683
+   146044
   ],
   [
    "Romania",
-   42246
+   44147
   ],
   [
    "United States",
-   33790
+   34879
   ],
   [
    "?",
@@ -36,11 +36,11 @@
   ],
   [
    "Mexico",
-   6012
+   6011
   ],
   [
    "Russia",
-   4309
+   4301
   ],
   [
    "Iran",
@@ -110,25 +110,25 @@
  "haitalliset_tagit": [
   [
    "Mirai",
-   6
+   4
   ],
   [
    "Mirai TCP Scanner",
-   6
+   4
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1547
+   1536
   ],
   [
    "CVE_1999_0517",
-   194
+   193
   ],
   [
    "CVE_2022_27255",
-   80
+   59
   ],
   [
    "CVE_2001_0540",
@@ -136,11 +136,11 @@
   ],
   [
    "CVE_2016_20017",
-   21
+   19
   ],
   [
    "CVE_2021_35395",
-   21
+   19
   ]
  ],
  "tunnukset": [
@@ -178,6 +178,26 @@
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-22 16:34",
+   "ip": "78.153.140.93",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
+  {
+   "aika": "2026-11-22 16:06",
+   "ip": "78.153.140.39",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
   {
    "aika": "2026-11-22 15:52",
    "ip": "78.153.140.250",
@@ -307,28 +327,6 @@
    "kutsut": [
     "CreateUser",
     "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-22 12:39",
-   "ip": "78.153.140.156",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-22 12:33",
-   "ip": "146.103.127.90",
-   "verkko": "AS216071 SERVERS TECH FZCO",
-   "maa": "NL",
-   "kutsut": [
-    "ListBuckets",
-    "ListFoundationModels",
-    "ListUsers",
-    "SimulatePrincipalPolicy"
    ]
   }
  ],
