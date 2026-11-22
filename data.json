@@ -1,30 +1,30 @@
 {
- "paivitetty": "2026-11-22 13:00 UTC",
- "hyokkayksia_24h": 275156,
- "hyokkaajia_24h": 2708,
+ "paivitetty": "2026-11-22 14:03 UTC",
+ "hyokkayksia_24h": 287369,
+ "hyokkaajia_24h": 2759,
  "tervakuoppa_h_7pv": 692.7,
  "jumissa_nyt": 60,
  "uutuus_pct": 22.7,
  "abuseipdb_paiva": 3022,
- "tekoaly_komentoja_24h": 3995,
+ "tekoaly_komentoja_24h": 5766,
  "docker_7pv": 1336,
  "syotteja_7pv": 313,
  "maat": [
   [
    "Bulgaria",
-   209522
+   220202
   ],
   [
    "Germany",
-   140528
+   142868
   ],
   [
    "Romania",
-   40205
+   40235
   ],
   [
    "United States",
-   33341
+   33402
   ],
   [
    "Turkey",
@@ -36,7 +36,7 @@
   ],
   [
    "Russia",
-   4325
+   4328
   ],
   [
    "Iran",
@@ -110,25 +110,29 @@
  "haitalliset_tagit": [
   [
    "Mirai",
-   6
+   2
   ],
   [
    "Mirai TCP Scanner",
-   6
+   2
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1572
+   1570
   ],
   [
    "CVE_1999_0517",
-   170
+   178
   ],
   [
    "CVE_2022_27255",
-   116
+   94
+  ],
+  [
+   "CVE_2001_0540",
+   24
   ],
   [
    "CVE_2016_20017",
@@ -137,10 +141,6 @@
   [
    "CVE_2021_35395",
    18
-  ],
-  [
-   "CVE_2001_0540",
-   8
   ]
  ],
  "tunnukset": [
@@ -178,6 +178,46 @@
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-22 13:48",
+   "ip": "78.153.140.93",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
+  {
+   "aika": "2026-11-22 13:30",
+   "ip": "78.153.140.149",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
+  {
+   "aika": "2026-11-22 13:10",
+   "ip": "5.231.221.23",
+   "verkko": "AS44486 synlinq.de",
+   "maa": "DE",
+   "kutsut": [
+    "GetCallerIdentity",
+    "ListBuckets"
+   ]
+  },
+  {
+   "aika": "2026-11-22 13:08",
+   "ip": "78.153.140.39",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
   {
    "aika": "2026-11-22 12:41",
    "ip": "78.153.140.250",
@@ -290,47 +330,6 @@
     "ListFoundationModels",
     "ListUsers",
     "SimulatePrincipalPolicy"
-   ]
-  },
-  {
-   "aika": "2026-11-22 10:46",
-   "ip": "150.109.18.216",
-   "verkko": "AS132203 Tencent Building, Kejizhongyi Avenue",
-   "maa": "SG",
-   "kutsut": [
-    "GetCallerIdentity"
-   ]
-  },
-  {
-   "aika": "2026-11-22 10:46",
-   "ip": "43.163.118.228",
-   "verkko": "AS132203 Tencent Building, Kejizhongyi Avenue",
-   "maa": "SG",
-   "kutsut": [
-    "Converse",
-    "ListBuckets",
-    "ListFoundationModels",
-    "ListSecrets"
-   ]
-  },
-  {
-   "aika": "2026-11-22 10:32",
-   "ip": "78.153.140.149",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-22 10:25",
-   "ip": "5.231.221.23",
-   "verkko": "AS44486 synlinq.de",
-   "maa": "DE",
-   "kutsut": [
-    "GetCallerIdentity",
-    "ListBuckets"
    ]
   }
  ],
