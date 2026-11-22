@@ -1,22 +1,22 @@
 {
- "paivitetty": "2026-11-22 19:31 UTC",
- "hyokkayksia_24h": 360734,
- "hyokkaajia_24h": 2691,
+ "paivitetty": "2026-11-22 20:04 UTC",
+ "hyokkayksia_24h": 359233,
+ "hyokkaajia_24h": 2681,
  "tervakuoppa_h_7pv": 828.1,
  "jumissa_nyt": 52,
  "uutuus_pct": 22.7,
  "abuseipdb_paiva": 3022,
- "tekoaly_komentoja_24h": 2705,
+ "tekoaly_komentoja_24h": 3184,
  "docker_7pv": 1529,
  "syotteja_7pv": 499,
  "maat": [
   [
    "Bulgaria",
-   286875
+   287170
   ],
   [
    "Germany",
-   149277
+   149267
   ],
   [
    "Romania",
@@ -24,7 +24,7 @@
   ],
   [
    "United States",
-   38005
+   37772
   ],
   [
    "?",
@@ -40,7 +40,7 @@
   ],
   [
    "Russia",
-   4296
+   4292
   ],
   [
    "Iran",
@@ -120,15 +120,15 @@
  "cvet": [
   [
    "CVE_2024_6387",
-   1548
+   1544
   ],
   [
    "CVE_1999_0517",
-   176
+   181
   ],
   [
    "CVE_2022_27255",
-   64
+   67
   ],
   [
    "CVE_2001_0540",
@@ -178,6 +178,44 @@
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-22 19:55",
+   "ip": "78.153.140.250",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
+  {
+   "aika": "2026-11-22 19:49",
+   "ip": "78.153.140.149",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "ListVerifiedEmailAddresses"
+   ]
+  },
+  {
+   "aika": "2026-11-22 19:46",
+   "ip": "78.153.140.149",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
+  {
+   "aika": "2026-11-22 19:34",
+   "ip": "35.129.115.40",
+   "verkko": "AS20115 Charter Communications LLC",
+   "maa": "US",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
   {
    "aika": "2026-11-22 19:03",
    "ip": "78.153.140.39",
@@ -292,52 +330,9 @@
     "CreateUser",
     "ListVerifiedEmailAddresses"
    ]
-  },
-  {
-   "aika": "2026-11-22 15:52",
-   "ip": "78.153.140.250",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-22 15:51",
-   "ip": "5.231.221.23",
-   "verkko": "AS44486 synlinq.de",
-   "maa": "DE",
-   "kutsut": [
-    "GetBucketAcl",
-    "GetCallerIdentity",
-    "GetUser",
-    "ListAccessKeys",
-    "ListBuckets"
-   ]
-  },
-  {
-   "aika": "2026-11-22 15:41",
-   "ip": "78.153.140.93",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-22 15:18",
-   "ip": "78.153.140.156",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
   }
  ],
- "varkaita_yht": 23,
+ "varkaita_yht": 24,
  "historia": [
   {
    "pv": "2026-11-20",
