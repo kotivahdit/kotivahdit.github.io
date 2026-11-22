@@ -1,30 +1,30 @@
 {
- "paivitetty": "2026-11-22 12:02 UTC",
- "hyokkayksia_24h": 255717,
- "hyokkaajia_24h": 2732,
- "tervakuoppa_h_7pv": 679.1,
- "jumissa_nyt": 50,
+ "paivitetty": "2026-11-22 13:00 UTC",
+ "hyokkayksia_24h": 275156,
+ "hyokkaajia_24h": 2708,
+ "tervakuoppa_h_7pv": 692.7,
+ "jumissa_nyt": 60,
  "uutuus_pct": 22.7,
  "abuseipdb_paiva": 3022,
- "tekoaly_komentoja_24h": 4603,
- "docker_7pv": 1239,
- "syotteja_7pv": 271,
+ "tekoaly_komentoja_24h": 3995,
+ "docker_7pv": 1336,
+ "syotteja_7pv": 313,
  "maat": [
   [
    "Bulgaria",
-   184659
+   209522
   ],
   [
    "Germany",
-   139243
+   140528
   ],
   [
    "Romania",
-   38865
+   40205
   ],
   [
    "United States",
-   32974
+   33341
   ],
   [
    "Turkey",
@@ -36,49 +36,49 @@
   ],
   [
    "Russia",
-   4322
+   4325
   ],
   [
    "Iran",
-   3578
+   3726
   ],
   [
    "?",
-   2913
+   3001
   ],
   [
-   "China",
-   1952
+   "CI",
+   2193
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   964
+   998
   ],
   [
    "hikvision",
-   150
+   159
   ],
   [
    "Java services (actuator/solr)",
-   57
+   61
   ],
   [
    "cgi",
-   50
+   59
   ],
   [
    "boa",
-   38
+   39
   ],
   [
    "Exchange / PHP probes",
-   30
+   31
   ],
   [
    "command injection",
-   19
+   21
   ],
   [
    "path traversal",
@@ -92,15 +92,15 @@
   ],
   [
    "postgres:15",
-   13
+   14
+  ],
+  [
+   "alpine:latest",
+   8
   ],
   [
    "metal3d/xmrig",
    8
-  ],
-  [
-   "alpine:latest",
-   7
   ],
   [
    "xmrig/xmrig:latest",
@@ -124,60 +124,111 @@
   ],
   [
    "CVE_1999_0517",
-   171
+   170
   ],
   [
    "CVE_2022_27255",
-   138
+   116
   ],
   [
    "CVE_2016_20017",
-   17
+   18
   ],
   [
    "CVE_2021_35395",
-   17
+   18
   ],
   [
-   "CVE_2002_1149",
-   5
+   "CVE_2001_0540",
+   8
   ]
  ],
  "tunnukset": [
   [
    "anonymous",
-   17113
+   17856
   ],
   [
    "root",
-   15564
+   16228
   ],
   [
    "ftp",
-   10467
+   10468
   ],
   [
    "admin",
-   4011
+   4153
   ],
   [
    "ubuntu",
-   3398
+   3447
   ],
   [
    "user",
-   2906
+   2944
   ],
   [
    "deploy",
-   2783
+   2809
   ],
   [
    "test",
-   2680
+   2714
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-22 12:41",
+   "ip": "78.153.140.250",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
+  {
+   "aika": "2026-11-22 12:39",
+   "ip": "78.153.140.156",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
+  {
+   "aika": "2026-11-22 12:33",
+   "ip": "146.103.127.90",
+   "verkko": "AS216071 SERVERS TECH FZCO",
+   "maa": "NL",
+   "kutsut": [
+    "ListBuckets",
+    "ListFoundationModels",
+    "ListUsers",
+    "SimulatePrincipalPolicy"
+   ]
+  },
+  {
+   "aika": "2026-11-22 12:29",
+   "ip": "78.153.140.39",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "ListVerifiedEmailAddresses"
+   ]
+  },
+  {
+   "aika": "2026-11-22 12:26",
+   "ip": "78.153.140.149",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
   {
    "aika": "2026-11-22 11:54",
    "ip": "78.153.140.93",
@@ -280,51 +331,6 @@
    "kutsut": [
     "GetCallerIdentity",
     "ListBuckets"
-   ]
-  },
-  {
-   "aika": "2026-11-22 10:20",
-   "ip": "18.220.230.234",
-   "verkko": "AS16509 Amazon.com, Inc.",
-   "maa": "US",
-   "kutsut": [
-    "ListFoundationModels"
-   ]
-  },
-  {
-   "aika": "2026-11-22 10:19",
-   "ip": "185.120.139.217",
-   "verkko": "AS56630 Melbikomas UAB",
-   "maa": "ES",
-   "kutsut": [
-    "ListFoundationModels"
-   ]
-  },
-  {
-   "aika": "2026-11-22 10:19",
-   "ip": "13.184.174.102",
-   "verkko": "AS16509 Amazon.com, Inc.",
-   "maa": "US",
-   "kutsut": [
-    "ListFoundationModels"
-   ]
-  },
-  {
-   "aika": "2026-11-22 10:19",
-   "ip": "3.144.22.115",
-   "verkko": "AS16509 Amazon.com, Inc.",
-   "maa": "US",
-   "kutsut": [
-    "ListFoundationModels"
-   ]
-  },
-  {
-   "aika": "2026-11-22 10:19",
-   "ip": "192.198.124.30",
-   "verkko": "AS55286 B2 Net Solutions Inc.",
-   "maa": "US",
-   "kutsut": [
-    "GetCallerIdentity"
    ]
   }
  ],
