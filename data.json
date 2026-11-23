@@ -1,38 +1,38 @@
 {
- "paivitetty": "2026-11-23 15:00 UTC",
- "hyokkayksia_24h": 115846,
- "hyokkaajia_24h": 867,
- "tervakuoppa_h_7pv": 1258.5,
- "jumissa_nyt": 78,
+ "paivitetty": "2026-11-23 16:00 UTC",
+ "hyokkayksia_24h": 116984,
+ "hyokkaajia_24h": 889,
+ "tervakuoppa_h_7pv": 1309.1,
+ "jumissa_nyt": 74,
  "uutuus_pct": 20.3,
  "abuseipdb_paiva": 1179,
- "tekoaly_komentoja_24h": 5040,
- "docker_7pv": 1928,
- "syotteja_7pv": 686,
+ "tekoaly_komentoja_24h": 5474,
+ "docker_7pv": 1933,
+ "syotteja_7pv": 687,
  "maat": [
   [
    "Bulgaria",
-   165786
+   167171
   ],
   [
    "Germany",
-   135837
+   135850
   ],
   [
    "Romania",
-   63096
+   63261
   ],
   [
    "United States",
-   29904
+   30018
   ],
   [
    "?",
-   14717
+   15737
   ],
   [
    "China",
-   7847
+   7861
   ],
   [
    "Turkey",
@@ -40,7 +40,7 @@
   ],
   [
    "CI",
-   6097
+   6217
   ],
   [
    "Iran",
@@ -54,7 +54,7 @@
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   2700
+   2701
   ],
   [
    "path traversal",
@@ -62,7 +62,7 @@
   ],
   [
    "hikvision",
-   238
+   242
   ],
   [
    "Java services (actuator/solr)",
@@ -70,11 +70,11 @@
   ],
   [
    "cgi",
-   103
+   105
   ],
   [
    "command injection",
-   73
+   75
   ],
   [
    "boa",
@@ -110,22 +110,22 @@
  "haitalliset_tagit": [
   [
    "Mirai",
-   5
+   2
   ],
   [
    "Mirai TCP Scanner",
-   5
+   2
   ]
  ],
  "cvet": [],
  "tunnukset": [
   [
    "anonymous",
-   32228
+   32624
   ],
   [
    "root",
-   21155
+   21192
   ],
   [
    "ftp",
@@ -133,11 +133,11 @@
   ],
   [
    "admin",
-   4854
+   4860
   ],
   [
    "ubuntu",
-   3868
+   3883
   ],
   [
    "user",
@@ -153,6 +153,15 @@
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-23 14:48",
+   "ip": "85.11.167.204",
+   "verkko": "AS197170 TechTies Inc.",
+   "maa": "NL",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
   {
    "aika": "2026-11-23 14:08",
    "ip": "78.153.140.250",
@@ -285,16 +294,6 @@
    "maa": "NL",
    "kutsut": [
     "GetCallerIdentity"
-   ]
-  },
-  {
-   "aika": "2026-11-23 08:29",
-   "ip": "78.153.140.93",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
    ]
   }
  ],
