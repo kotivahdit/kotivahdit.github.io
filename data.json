@@ -1,38 +1,38 @@
 {
- "paivitetty": "2026-11-23 07:01 UTC",
- "hyokkayksia_24h": 466412,
- "hyokkaajia_24h": 2539,
- "tervakuoppa_h_7pv": 1015.4,
- "jumissa_nyt": 67,
+ "paivitetty": "2026-11-23 08:03 UTC",
+ "hyokkayksia_24h": 477198,
+ "hyokkaajia_24h": 2531,
+ "tervakuoppa_h_7pv": 1039.2,
+ "jumissa_nyt": 73,
  "uutuus_pct": 20.3,
  "abuseipdb_paiva": 1179,
- "tekoaly_komentoja_24h": 6059,
- "docker_7pv": 1644,
- "syotteja_7pv": 638,
+ "tekoaly_komentoja_24h": 6050,
+ "docker_7pv": 1688,
+ "syotteja_7pv": 646,
  "maat": [
   [
    "Bulgaria",
-   419589
+   428078
   ],
   [
    "Germany",
-   149852
+   149886
   ],
   [
    "Romania",
-   57470
+   60720
   ],
   [
    "United States",
-   45670
+   52638
   ],
   [
    "China",
-   21489
+   23733
   ],
   [
    "?",
-   7900
+   7991
   ],
   [
    "Turkey",
@@ -40,11 +40,11 @@
   ],
   [
    "CI",
-   4721
+   5017
   ],
   [
    "Iran",
-   4717
+   4733
   ],
   [
    "India",
@@ -54,11 +54,11 @@
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   2159
+   2165
   ],
   [
    "hikvision",
-   212
+   218
   ],
   [
    "Java services (actuator/solr)",
@@ -66,19 +66,19 @@
   ],
   [
    "cgi",
-   91
+   93
   ],
   [
    "boa",
-   58
+   59
   ],
   [
    "command injection",
-   53
+   59
   ],
   [
    "Exchange / PHP probes",
-   46
+   51
   ],
   [
    "path traversal",
@@ -110,21 +110,21 @@
  "haitalliset_tagit": [
   [
    "Mirai TCP Scanner",
-   5
+   1
   ],
   [
    "Mirai",
-   5
+   1
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1578
+   1582
   ],
   [
    "CVE_1999_0517",
-   186
+   177
   ],
   [
    "CVE_2022_27255",
@@ -136,45 +136,45 @@
   ],
   [
    "CVE_2025_55182",
-   22
+   23
   ],
   [
    "CVE_2016_20017",
-   18
+   19
   ]
  ],
  "tunnukset": [
   [
    "anonymous",
-   27595
+   28500
   ],
   [
    "root",
-   18798
+   19432
   ],
   [
    "ftp",
-   10484
+   10485
   ],
   [
    "admin",
-   4626
+   4663
   ],
   [
    "ubuntu",
-   3591
+   3636
   ],
   [
    "user",
-   3066
+   3096
   ],
   [
    "deploy",
-   2885
+   2908
   ],
   [
    "test",
-   2789
+   2807
   ]
  ],
  "varkaat": [
