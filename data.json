@@ -1,42 +1,42 @@
 {
- "paivitetty": "2026-11-23 20:03 UTC",
- "hyokkayksia_24h": 535137,
- "hyokkaajia_24h": 5945,
- "tervakuoppa_h_7pv": 1430.0,
- "jumissa_nyt": 80,
+ "paivitetty": "2026-11-23 21:00 UTC",
+ "hyokkayksia_24h": 553129,
+ "hyokkaajia_24h": 6379,
+ "tervakuoppa_h_7pv": 1438.1,
+ "jumissa_nyt": 84,
  "uutuus_pct": 20.3,
  "abuseipdb_paiva": 1179,
- "tekoaly_komentoja_24h": 5270,
- "docker_7pv": 1952,
- "syotteja_7pv": 704,
+ "tekoaly_komentoja_24h": 5432,
+ "docker_7pv": 2016,
+ "syotteja_7pv": 708,
  "maat": [
   [
    "Bulgaria",
-   444255
+   450369
   ],
   [
    "Germany",
-   137888
+   135902
   ],
   [
    "United States",
-   72163
+   74020
   ],
   [
    "Romania",
-   67884
+   67904
   ],
   [
    "?",
-   33684
+   41115
   ],
   [
    "China",
-   25720
+   25798
   ],
   [
    "France",
-   18012
+   18845
   ],
   [
    "Ivory Coast",
@@ -44,17 +44,17 @@
   ],
   [
    "CI",
-   6825
+   6913
   ],
   [
-   "Turkey",
-   6309
+   "The Netherlands",
+   6425
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   2717
+   2721
   ],
   [
    "path traversal",
@@ -62,7 +62,7 @@
   ],
   [
    "hikvision",
-   254
+   258
   ],
   [
    "Java services (actuator/solr)",
@@ -70,11 +70,11 @@
   ],
   [
    "cgi",
-   105
+   106
   ],
   [
    "command injection",
-   83
+   84
   ],
   [
    "boa",
@@ -109,30 +109,26 @@
  ],
  "haitalliset_tagit": [
   [
-   "Mirai",
-   6
+   "Mirai TCP Scanner",
+   2
   ],
   [
-   "Mirai TCP Scanner",
-   6
+   "Mirai",
+   2
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1745
+   1741
   ],
   [
    "CVE_1999_0517",
-   177
+   210
   ],
   [
    "CVE_2025_55182",
    55
-  ],
-  [
-   "CVE_2022_27255",
-   31
   ],
   [
    "CVE_2016_20017",
@@ -141,40 +137,44 @@
   [
    "CVE_2021_35395",
    15
+  ],
+  [
+   "CVE_2022_27255",
+   14
   ]
  ],
  "tunnukset": [
   [
    "anonymous",
-   34631
+   35170
   ],
   [
    "root",
-   26890
+   29534
   ],
   [
    "ftp",
-   10497
+   10498
   ],
   [
    "admin",
-   4995
+   5058
   ],
   [
    "ubuntu",
-   4035
+   4060
   ],
   [
    "user",
-   3219
+   3233
   ],
   [
    "deploy",
-   3019
+   3029
   ],
   [
    "test",
-   2894
+   2905
   ]
  ],
  "varkaat": [
