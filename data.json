@@ -1,38 +1,38 @@
 {
- "paivitetty": "2026-11-23 12:01 UTC",
- "hyokkayksia_24h": 115161,
- "hyokkaajia_24h": 884,
- "tervakuoppa_h_7pv": 1147.5,
- "jumissa_nyt": 72,
+ "paivitetty": "2026-11-23 13:02 UTC",
+ "hyokkayksia_24h": 115197,
+ "hyokkaajia_24h": 892,
+ "tervakuoppa_h_7pv": 1157.6,
+ "jumissa_nyt": 74,
  "uutuus_pct": 20.3,
  "abuseipdb_paiva": 1179,
- "tekoaly_komentoja_24h": 5102,
- "docker_7pv": 1767,
- "syotteja_7pv": 669,
+ "tekoaly_komentoja_24h": 5541,
+ "docker_7pv": 1778,
+ "syotteja_7pv": 673,
  "maat": [
   [
    "Bulgaria",
-   163261
+   164050
   ],
   [
    "Germany",
-   135786
+   135802
   ],
   [
    "Romania",
-   60542
+   62826
   ],
   [
    "United States",
-   28979
+   29286
   ],
   [
    "?",
-   11248
+   12364
   ],
   [
    "China",
-   7792
+   7813
   ],
   [
    "Turkey",
@@ -40,7 +40,7 @@
   ],
   [
    "CI",
-   5649
+   5793
   ],
   [
    "Iran",
@@ -54,15 +54,15 @@
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   2460
-  ],
-  [
-   "hikvision",
-   229
+   2570
   ],
   [
    "path traversal",
-   227
+   335
+  ],
+  [
+   "hikvision",
+   234
   ],
   [
    "Java services (actuator/solr)",
@@ -70,7 +70,7 @@
   ],
   [
    "cgi",
-   95
+   102
   ],
   [
    "command injection",
@@ -82,7 +82,7 @@
   ],
   [
    "Exchange / PHP probes",
-   56
+   59
   ]
  ],
  "docker_imaget": [
@@ -92,7 +92,7 @@
   ],
   [
    "postgres:15",
-   15
+   16
   ],
   [
    "alpine:latest",
@@ -109,47 +109,47 @@
  ],
  "haitalliset_tagit": [
   [
-   "Mirai TCP Scanner",
-   6
+   "Mirai",
+   4
   ],
   [
-   "Mirai",
-   6
+   "Mirai TCP Scanner",
+   4
   ]
  ],
  "cvet": [],
  "tunnukset": [
   [
    "anonymous",
-   30457
+   30997
   ],
   [
    "root",
-   20912
+   21065
   ],
   [
    "ftp",
-   10490
+   10493
   ],
   [
    "admin",
-   4828
+   4846
   ],
   [
    "ubuntu",
-   3807
+   3836
   ],
   [
    "user",
-   3162
+   3169
   ],
   [
    "deploy",
-   2966
+   2976
   ],
   [
    "test",
-   2854
+   2859
   ]
  ],
  "varkaat": [
