@@ -1,42 +1,42 @@
 {
- "paivitetty": "2026-11-23 18:02 UTC",
- "hyokkayksia_24h": 514568,
- "hyokkaajia_24h": 5210,
- "tervakuoppa_h_7pv": 1324.2,
- "jumissa_nyt": 74,
+ "paivitetty": "2026-11-23 19:02 UTC",
+ "hyokkayksia_24h": 514880,
+ "hyokkaajia_24h": 5538,
+ "tervakuoppa_h_7pv": 1424.8,
+ "jumissa_nyt": 75,
  "uutuus_pct": 20.3,
  "abuseipdb_paiva": 1179,
- "tekoaly_komentoja_24h": 5725,
- "docker_7pv": 1941,
- "syotteja_7pv": 697,
+ "tekoaly_komentoja_24h": 5579,
+ "docker_7pv": 1947,
+ "syotteja_7pv": 700,
  "maat": [
   [
    "Bulgaria",
-   443503
+   435939
   ],
   [
    "Germany",
-   137752
+   137879
   ],
   [
    "United States",
-   71267
+   70832
   ],
   [
    "Romania",
-   67811
+   67876
   ],
   [
    "China",
-   25596
+   25689
   ],
   [
    "?",
-   16604
+   24822
   ],
   [
    "France",
-   13969
+   16352
   ],
   [
    "Ivory Coast",
@@ -44,7 +44,7 @@
   ],
   [
    "CI",
-   6513
+   6673
   ],
   [
    "Turkey",
@@ -54,7 +54,7 @@
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   2710
+   2713
   ],
   [
    "path traversal",
@@ -62,7 +62,7 @@
   ],
   [
    "hikvision",
-   246
+   254
   ],
   [
    "Java services (actuator/solr)",
@@ -74,7 +74,7 @@
   ],
   [
    "command injection",
-   81
+   83
   ],
   [
    "boa",
@@ -110,29 +110,29 @@
  "haitalliset_tagit": [
   [
    "Mirai",
-   7
+   5
   ],
   [
    "Mirai TCP Scanner",
-   7
+   5
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1720
+   1728
   ],
   [
    "CVE_1999_0517",
-   158
-  ],
-  [
-   "CVE_2022_27255",
-   55
+   177
   ],
   [
    "CVE_2025_55182",
-   48
+   53
+  ],
+  [
+   "CVE_2022_27255",
+   39
   ],
   [
    "CVE_2016_20017",
@@ -146,183 +146,175 @@
  "tunnukset": [
   [
    "anonymous",
-   33588
+   34115
   ],
   [
    "root",
-   21316
+   23789
   ],
   [
    "ftp",
-   10493
+   10494
   ],
   [
    "admin",
-   4870
+   4909
   ],
   [
    "ubuntu",
-   3923
+   3969
   ],
   [
    "user",
-   3171
+   3191
   ],
   [
    "deploy",
-   2980
+   3001
   ],
   [
    "test",
-   2860
+   2876
   ]
  ],
  "varkaat": [
   {
-   "aika": "2026-11-23 17:01",
-   "ip": "5.231.221.23",
-   "verkko": "AS44486 synlinq.de",
-   "maa": "DE",
+   "aika": "2026-11-23 18:38",
+   "ip": "196.189.29.10",
+   "verkko": "AS24757 Ethio Telecom",
+   "maa": "ET",
    "kutsut": [
-    "GetCallerIdentity",
-    "ListBuckets"
+    "DescribeParameters"
    ]
   },
   {
-   "aika": "2026-11-23 17:00",
-   "ip": "5.231.221.23",
-   "verkko": "AS44486 synlinq.de",
-   "maa": "DE",
+   "aika": "2026-11-23 18:38",
+   "ip": "45.189.253.143",
+   "verkko": "AS265613 TRACERED SA DE CV",
+   "maa": "MX",
    "kutsut": [
-    "GetCallerIdentity",
-    "ListBuckets"
+    "ListSecrets"
    ]
   },
   {
-   "aika": "2026-11-23 16:19",
-   "ip": "44.196.47.198",
-   "verkko": "AS14618 Amazon.com, Inc.",
-   "maa": "US",
+   "aika": "2026-11-23 18:37",
+   "ip": "62.244.238.149",
+   "verkko": "AS15924 Vodafone Net Iletisim Hizmetler AS",
+   "maa": "TR",
    "kutsut": [
-    "Converse"
+    "ListRoles"
    ]
   },
   {
-   "aika": "2026-11-23 16:02",
-   "ip": "44.196.47.198",
-   "verkko": "AS14618 Amazon.com, Inc.",
-   "maa": "US",
-   "kutsut": [
-    "Converse"
-   ]
-  },
-  {
-   "aika": "2026-11-23 14:48",
-   "ip": "85.11.167.204",
-   "verkko": "AS197170 TechTies Inc.",
-   "maa": "NL",
+   "aika": "2026-11-23 18:37",
+   "ip": "78.105.179.122",
+   "verkko": "AS2856 British Telecommunications Limited",
+   "maa": "GB",
    "kutsut": [
     "GetCallerIdentity"
    ]
   },
   {
-   "aika": "2026-11-23 14:08",
-   "ip": "78.153.140.250",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-23 14:03",
-   "ip": "78.153.140.250",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-23 13:59",
-   "ip": "78.153.140.250",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-23 11:52",
-   "ip": "78.153.140.80",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser"
-   ]
-  },
-  {
-   "aika": "2026-11-23 11:18",
-   "ip": "78.153.140.93",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-23 11:01",
-   "ip": "78.153.140.93",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-23 10:46",
-   "ip": "78.153.140.250",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-23 10:37",
-   "ip": "78.153.140.93",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-23 10:16",
-   "ip": "78.153.140.250",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-23 10:14",
-   "ip": "45.144.212.163",
-   "verkko": "AS51396 Pfcloud UG",
-   "maa": "NL",
+   "aika": "2026-11-23 18:37",
+   "ip": "72.255.42.216",
+   "verkko": "AS9541 Cyber Internet Services (Pvt) Ltd.",
+   "maa": "PK",
    "kutsut": [
     "GetCallerIdentity"
+   ]
+  },
+  {
+   "aika": "2026-11-23 18:36",
+   "ip": "87.49.44.240",
+   "verkko": "AS3292 TDC Holding A/S",
+   "maa": "DK",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
+  {
+   "aika": "2026-11-23 18:36",
+   "ip": "140.213.200.240",
+   "verkko": "AS139994 PT XL Axiata Tbk",
+   "maa": "ID",
+   "kutsut": [
+    "ListSecrets"
+   ]
+  },
+  {
+   "aika": "2026-11-23 18:36",
+   "ip": "79.117.197.244",
+   "verkko": "AS57269 DIGI SPAIN TELECOM S.A",
+   "maa": "ES",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
+  {
+   "aika": "2026-11-23 18:36",
+   "ip": "186.19.226.230",
+   "verkko": "AS27747 Telecentro S.A.",
+   "maa": "AR",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
+  {
+   "aika": "2026-11-23 18:36",
+   "ip": "151.123.251.134",
+   "verkko": "AS138349 Sky Net Multi Services Pvt Ltd",
+   "maa": "PK",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
+  {
+   "aika": "2026-11-23 18:36",
+   "ip": "103.152.43.30",
+   "verkko": "AS131471 Login.Me (Pvt) Ltd",
+   "maa": "PK",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
+  {
+   "aika": "2026-11-23 18:36",
+   "ip": "5.109.46.154",
+   "verkko": "AS35819 Etihad Etisalat, a joint stock company",
+   "maa": "SA",
+   "kutsut": [
+    "ListFunctions20150331"
+   ]
+  },
+  {
+   "aika": "2026-11-23 18:36",
+   "ip": "103.180.207.15",
+   "verkko": "AS149480 Decent Network",
+   "maa": "BD",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
+  {
+   "aika": "2026-11-23 18:36",
+   "ip": "51.39.92.127",
+   "verkko": "AS43766 Mobile Telecommunication Company Saudi Arabia Joint-Stock company",
+   "maa": "SA",
+   "kutsut": [
+    "ListPolicies"
+   ]
+  },
+  {
+   "aika": "2026-11-23 18:36",
+   "ip": "200.26.184.49",
+   "verkko": "AS273217 ACOLME TECH, SRL",
+   "maa": "DO",
+   "kutsut": [
+    "CreateRole"
    ]
   }
  ],
- "varkaita_yht": 30,
+ "varkaita_yht": 69,
  "historia": [
   {
    "pv": "2026-11-20",
