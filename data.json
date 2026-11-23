@@ -1,68 +1,68 @@
 {
- "paivitetty": "2026-11-23 21:00 UTC",
- "hyokkayksia_24h": 553129,
- "hyokkaajia_24h": 6379,
- "tervakuoppa_h_7pv": 1438.1,
- "jumissa_nyt": 84,
+ "paivitetty": "2026-11-23 22:03 UTC",
+ "hyokkayksia_24h": 554871,
+ "hyokkaajia_24h": 6641,
+ "tervakuoppa_h_7pv": 1444.0,
+ "jumissa_nyt": 82,
  "uutuus_pct": 20.3,
  "abuseipdb_paiva": 1179,
- "tekoaly_komentoja_24h": 5432,
- "docker_7pv": 2016,
- "syotteja_7pv": 708,
+ "tekoaly_komentoja_24h": 5108,
+ "docker_7pv": 2035,
+ "syotteja_7pv": 714,
  "maat": [
   [
    "Bulgaria",
-   450369
+   441801
   ],
   [
    "Germany",
-   135902
+   135911
   ],
   [
    "United States",
-   74020
+   74800
   ],
   [
    "Romania",
-   67904
+   68324
   ],
   [
    "?",
-   41115
+   50532
   ],
   [
    "China",
-   25798
+   25797
   ],
   [
    "France",
-   18845
+   18983
   ],
   [
    "Ivory Coast",
-   7519
+   7521
   ],
   [
    "CI",
-   6913
+   6930
   ],
   [
    "The Netherlands",
-   6425
+   6833
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   2721
+   2895
   ],
   [
    "path traversal",
-   476
+   567
   ],
   [
    "hikvision",
-   258
+   259
   ],
   [
    "Java services (actuator/solr)",
@@ -70,11 +70,11 @@
   ],
   [
    "cgi",
-   106
+   107
   ],
   [
    "command injection",
-   84
+   89
   ],
   [
    "boa",
@@ -82,7 +82,7 @@
   ],
   [
    "Exchange / PHP probes",
-   61
+   62
   ]
  ],
  "docker_imaget": [
@@ -109,26 +109,26 @@
  ],
  "haitalliset_tagit": [
   [
-   "Mirai TCP Scanner",
-   2
+   "Mirai",
+   7
   ],
   [
-   "Mirai",
-   2
+   "Mirai TCP Scanner",
+   7
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1741
+   1738
   ],
   [
    "CVE_1999_0517",
-   210
+   211
   ],
   [
    "CVE_2025_55182",
-   55
+   57
   ],
   [
    "CVE_2016_20017",
@@ -139,18 +139,18 @@
    15
   ],
   [
-   "CVE_2022_27255",
-   14
+   "CVE_2002_0012",
+   8
   ]
  ],
  "tunnukset": [
   [
    "anonymous",
-   35170
+   35597
   ],
   [
    "root",
-   29534
+   32970
   ],
   [
    "ftp",
@@ -158,26 +158,35 @@
   ],
   [
    "admin",
-   5058
+   5079
   ],
   [
    "ubuntu",
-   4060
+   4090
   ],
   [
    "user",
-   3233
+   3245
   ],
   [
    "deploy",
-   3029
+   3057
   ],
   [
    "test",
-   2905
+   2912
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-23 21:33",
+   "ip": "85.11.167.204",
+   "verkko": "AS197170 TechTies Inc.",
+   "maa": "NL",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
   {
    "aika": "2026-11-23 18:38",
    "ip": "196.189.29.10",
@@ -302,15 +311,6 @@
    "maa": "SA",
    "kutsut": [
     "ListPolicies"
-   ]
-  },
-  {
-   "aika": "2026-11-23 18:36",
-   "ip": "200.26.184.49",
-   "verkko": "AS273217 ACOLME TECH, SRL",
-   "maa": "DO",
-   "kutsut": [
-    "CreateRole"
    ]
   }
  ],
