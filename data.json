@@ -1,60 +1,60 @@
 {
- "paivitetty": "2026-11-23 17:01 UTC",
- "hyokkayksia_24h": 115135,
- "hyokkaajia_24h": 864,
- "tervakuoppa_h_7pv": 1319.4,
- "jumissa_nyt": 77,
+ "paivitetty": "2026-11-23 18:02 UTC",
+ "hyokkayksia_24h": 514568,
+ "hyokkaajia_24h": 5210,
+ "tervakuoppa_h_7pv": 1324.2,
+ "jumissa_nyt": 74,
  "uutuus_pct": 20.3,
  "abuseipdb_paiva": 1179,
- "tekoaly_komentoja_24h": 5939,
- "docker_7pv": 1938,
- "syotteja_7pv": 695,
+ "tekoaly_komentoja_24h": 5725,
+ "docker_7pv": 1941,
+ "syotteja_7pv": 697,
  "maat": [
   [
    "Bulgaria",
-   169034
+   443503
   ],
   [
    "Germany",
-   135840
-  ],
-  [
-   "Romania",
-   63732
+   137752
   ],
   [
    "United States",
-   30019
+   71267
   ],
   [
-   "?",
-   15824
+   "Romania",
+   67811
   ],
   [
    "China",
-   7898
+   25596
+  ],
+  [
+   "?",
+   16604
+  ],
+  [
+   "France",
+   13969
+  ],
+  [
+   "Ivory Coast",
+   7519
   ],
   [
    "CI",
-   6393
+   6513
   ],
   [
    "Turkey",
    6309
-  ],
-  [
-   "Iran",
-   4743
-  ],
-  [
-   "India",
-   3428
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   2708
+   2710
   ],
   [
    "path traversal",
@@ -66,7 +66,7 @@
   ],
   [
    "Java services (actuator/solr)",
-   118
+   119
   ],
   [
    "cgi",
@@ -74,7 +74,7 @@
   ],
   [
    "command injection",
-   75
+   81
   ],
   [
    "boa",
@@ -110,22 +110,47 @@
  "haitalliset_tagit": [
   [
    "Mirai",
-   1
+   7
   ],
   [
    "Mirai TCP Scanner",
-   1
+   7
   ]
  ],
- "cvet": [],
+ "cvet": [
+  [
+   "CVE_2024_6387",
+   1720
+  ],
+  [
+   "CVE_1999_0517",
+   158
+  ],
+  [
+   "CVE_2022_27255",
+   55
+  ],
+  [
+   "CVE_2025_55182",
+   48
+  ],
+  [
+   "CVE_2016_20017",
+   14
+  ],
+  [
+   "CVE_2021_35395",
+   14
+  ]
+ ],
  "tunnukset": [
   [
    "anonymous",
-   33172
+   33588
   ],
   [
    "root",
-   21240
+   21316
   ],
   [
    "ftp",
@@ -133,26 +158,36 @@
   ],
   [
    "admin",
-   4862
+   4870
   ],
   [
    "ubuntu",
-   3902
+   3923
   ],
   [
    "user",
-   3169
+   3171
   ],
   [
    "deploy",
-   2976
+   2980
   ],
   [
    "test",
-   2859
+   2860
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-23 17:01",
+   "ip": "5.231.221.23",
+   "verkko": "AS44486 synlinq.de",
+   "maa": "DE",
+   "kutsut": [
+    "GetCallerIdentity",
+    "ListBuckets"
+   ]
+  },
   {
    "aika": "2026-11-23 17:00",
    "ip": "5.231.221.23",
@@ -284,16 +319,6 @@
    "maa": "NL",
    "kutsut": [
     "GetCallerIdentity"
-   ]
-  },
-  {
-   "aika": "2026-11-23 09:42",
-   "ip": "78.153.140.93",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
    ]
   }
  ],
