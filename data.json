@@ -1,50 +1,50 @@
 {
- "paivitetty": "2026-11-23 16:00 UTC",
- "hyokkayksia_24h": 116984,
- "hyokkaajia_24h": 889,
- "tervakuoppa_h_7pv": 1309.1,
- "jumissa_nyt": 74,
+ "paivitetty": "2026-11-23 17:01 UTC",
+ "hyokkayksia_24h": 115135,
+ "hyokkaajia_24h": 864,
+ "tervakuoppa_h_7pv": 1319.4,
+ "jumissa_nyt": 77,
  "uutuus_pct": 20.3,
  "abuseipdb_paiva": 1179,
- "tekoaly_komentoja_24h": 5474,
- "docker_7pv": 1933,
- "syotteja_7pv": 687,
+ "tekoaly_komentoja_24h": 5939,
+ "docker_7pv": 1938,
+ "syotteja_7pv": 695,
  "maat": [
   [
    "Bulgaria",
-   167171
+   169034
   ],
   [
    "Germany",
-   135850
+   135840
   ],
   [
    "Romania",
-   63261
+   63732
   ],
   [
    "United States",
-   30018
+   30019
   ],
   [
    "?",
-   15737
+   15824
   ],
   [
    "China",
-   7861
+   7898
+  ],
+  [
+   "CI",
+   6393
   ],
   [
    "Turkey",
    6309
   ],
   [
-   "CI",
-   6217
-  ],
-  [
    "Iran",
-   4740
+   4743
   ],
   [
    "India",
@@ -54,7 +54,7 @@
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   2701
+   2708
   ],
   [
    "path traversal",
@@ -62,7 +62,7 @@
   ],
   [
    "hikvision",
-   242
+   246
   ],
   [
    "Java services (actuator/solr)",
@@ -110,22 +110,22 @@
  "haitalliset_tagit": [
   [
    "Mirai",
-   2
+   1
   ],
   [
    "Mirai TCP Scanner",
-   2
+   1
   ]
  ],
  "cvet": [],
  "tunnukset": [
   [
    "anonymous",
-   32624
+   33172
   ],
   [
    "root",
-   21192
+   21240
   ],
   [
    "ftp",
@@ -133,11 +133,11 @@
   ],
   [
    "admin",
-   4860
+   4862
   ],
   [
    "ubuntu",
-   3883
+   3902
   ],
   [
    "user",
@@ -153,6 +153,34 @@
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-23 17:00",
+   "ip": "5.231.221.23",
+   "verkko": "AS44486 synlinq.de",
+   "maa": "DE",
+   "kutsut": [
+    "GetCallerIdentity",
+    "ListBuckets"
+   ]
+  },
+  {
+   "aika": "2026-11-23 16:19",
+   "ip": "44.196.47.198",
+   "verkko": "AS14618 Amazon.com, Inc.",
+   "maa": "US",
+   "kutsut": [
+    "Converse"
+   ]
+  },
+  {
+   "aika": "2026-11-23 16:02",
+   "ip": "44.196.47.198",
+   "verkko": "AS14618 Amazon.com, Inc.",
+   "maa": "US",
+   "kutsut": [
+    "Converse"
+   ]
+  },
   {
    "aika": "2026-11-23 14:48",
    "ip": "85.11.167.204",
@@ -267,37 +295,9 @@
     "CreateUser",
     "ListVerifiedEmailAddresses"
    ]
-  },
-  {
-   "aika": "2026-11-23 09:40",
-   "ip": "78.153.140.93",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-23 09:10",
-   "ip": "78.153.140.93",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-23 09:02",
-   "ip": "85.11.167.204",
-   "verkko": "AS197170 TechTies Inc.",
-   "maa": "NL",
-   "kutsut": [
-    "GetCallerIdentity"
-   ]
   }
  ],
- "varkaita_yht": 29,
+ "varkaita_yht": 30,
  "historia": [
   {
    "pv": "2026-11-20",
