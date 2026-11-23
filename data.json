@@ -1,42 +1,42 @@
 {
- "paivitetty": "2026-11-23 19:02 UTC",
- "hyokkayksia_24h": 514880,
- "hyokkaajia_24h": 5538,
- "tervakuoppa_h_7pv": 1424.8,
- "jumissa_nyt": 75,
+ "paivitetty": "2026-11-23 20:03 UTC",
+ "hyokkayksia_24h": 535137,
+ "hyokkaajia_24h": 5945,
+ "tervakuoppa_h_7pv": 1430.0,
+ "jumissa_nyt": 80,
  "uutuus_pct": 20.3,
  "abuseipdb_paiva": 1179,
- "tekoaly_komentoja_24h": 5579,
- "docker_7pv": 1947,
- "syotteja_7pv": 700,
+ "tekoaly_komentoja_24h": 5270,
+ "docker_7pv": 1952,
+ "syotteja_7pv": 704,
  "maat": [
   [
    "Bulgaria",
-   435939
+   444255
   ],
   [
    "Germany",
-   137879
+   137888
   ],
   [
    "United States",
-   70832
+   72163
   ],
   [
    "Romania",
-   67876
-  ],
-  [
-   "China",
-   25689
+   67884
   ],
   [
    "?",
-   24822
+   33684
+  ],
+  [
+   "China",
+   25720
   ],
   [
    "France",
-   16352
+   18012
   ],
   [
    "Ivory Coast",
@@ -44,7 +44,7 @@
   ],
   [
    "CI",
-   6673
+   6825
   ],
   [
    "Turkey",
@@ -54,7 +54,7 @@
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   2713
+   2717
   ],
   [
    "path traversal",
@@ -110,17 +110,17 @@
  "haitalliset_tagit": [
   [
    "Mirai",
-   5
+   6
   ],
   [
    "Mirai TCP Scanner",
-   5
+   6
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1728
+   1745
   ],
   [
    "CVE_1999_0517",
@@ -128,53 +128,53 @@
   ],
   [
    "CVE_2025_55182",
-   53
+   55
   ],
   [
    "CVE_2022_27255",
-   39
+   31
   ],
   [
    "CVE_2016_20017",
-   14
+   15
   ],
   [
    "CVE_2021_35395",
-   14
+   15
   ]
  ],
  "tunnukset": [
   [
    "anonymous",
-   34115
+   34631
   ],
   [
    "root",
-   23789
+   26890
   ],
   [
    "ftp",
-   10494
+   10497
   ],
   [
    "admin",
-   4909
+   4995
   ],
   [
    "ubuntu",
-   3969
+   4035
   ],
   [
    "user",
-   3191
+   3219
   ],
   [
    "deploy",
-   3001
+   3019
   ],
   [
    "test",
-   2876
+   2894
   ]
  ],
  "varkaat": [
