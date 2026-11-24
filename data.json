@@ -1,42 +1,42 @@
 {
- "paivitetty": "2026-11-23 23:02 UTC",
- "hyokkayksia_24h": 554377,
- "hyokkaajia_24h": 6850,
- "tervakuoppa_h_7pv": 1463.2,
+ "paivitetty": "2026-11-24 00:04 UTC",
+ "hyokkayksia_24h": 568067,
+ "hyokkaajia_24h": 7019,
+ "tervakuoppa_h_7pv": 1468.1,
  "jumissa_nyt": 81,
- "uutuus_pct": 20.3,
- "abuseipdb_paiva": 1179,
- "tekoaly_komentoja_24h": 5656,
- "docker_7pv": 2084,
- "syotteja_7pv": 733,
+ "uutuus_pct": 9.7,
+ "abuseipdb_paiva": 1142,
+ "tekoaly_komentoja_24h": 5520,
+ "docker_7pv": 2131,
+ "syotteja_7pv": 737,
  "maat": [
   [
    "Bulgaria",
-   436914
+   436553
   ],
   [
    "Germany",
-   135925
+   135940
   ],
   [
    "United States",
-   75675
+   78905
   ],
   [
    "Romania",
-   68856
+   69058
   ],
   [
    "?",
-   58956
+   68778
   ],
   [
    "China",
-   25881
+   26542
   ],
   [
    "France",
-   18941
+   18999
   ],
   [
    "Ivory Coast",
@@ -44,17 +44,17 @@
   ],
   [
    "The Netherlands",
-   7207
+   7502
   ],
   [
    "CI",
-   6978
+   7042
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   3090
+   3094
   ],
   [
    "path traversal",
@@ -62,7 +62,7 @@
   ],
   [
    "hikvision",
-   266
+   267
   ],
   [
    "Java services (actuator/solr)",
@@ -78,11 +78,11 @@
   ],
   [
    "Exchange / PHP probes",
-   66
+   68
   ],
   [
    "boa",
-   65
+   66
   ]
  ],
  "docker_imaget": [
@@ -96,7 +96,7 @@
   ],
   [
    "alpine:latest",
-   8
+   16
   ],
   [
    "metal3d/xmrig",
@@ -110,21 +110,21 @@
  "haitalliset_tagit": [
   [
    "Mirai",
-   4
+   3
   ],
   [
    "Mirai TCP Scanner",
-   4
+   3
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1756
+   1763
   ],
   [
    "CVE_1999_0517",
-   217
+   210
   ],
   [
    "CVE_2025_55182",
@@ -145,12 +145,12 @@
  ],
  "tunnukset": [
   [
-   "anonymous",
-   36250
+   "root",
+   39620
   ],
   [
-   "root",
-   36112
+   "anonymous",
+   36926
   ],
   [
    "ftp",
@@ -158,23 +158,23 @@
   ],
   [
    "admin",
-   5106
+   5132
   ],
   [
    "ubuntu",
-   4142
+   4210
   ],
   [
    "user",
-   3266
+   3288
   ],
   [
    "deploy",
-   3073
+   3089
   ],
   [
    "test",
-   2920
+   2932
   ]
  ],
  "varkaat": [
@@ -334,6 +334,11 @@
    "pv": "2026-11-22",
    "hyokkayksia": 384855,
    "uutuus": 20.3
+  },
+  {
+   "pv": "2026-11-23",
+   "hyokkayksia": 544117,
+   "uutuus": 9.7
   }
  ]
 }
