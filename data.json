@@ -1,60 +1,60 @@
 {
- "paivitetty": "2026-11-24 00:04 UTC",
- "hyokkayksia_24h": 568067,
- "hyokkaajia_24h": 7019,
- "tervakuoppa_h_7pv": 1468.1,
- "jumissa_nyt": 81,
+ "paivitetty": "2026-11-24 01:02 UTC",
+ "hyokkayksia_24h": 569291,
+ "hyokkaajia_24h": 7224,
+ "tervakuoppa_h_7pv": 1492.2,
+ "jumissa_nyt": 82,
  "uutuus_pct": 9.7,
  "abuseipdb_paiva": 1142,
- "tekoaly_komentoja_24h": 5520,
- "docker_7pv": 2131,
- "syotteja_7pv": 737,
+ "tekoaly_komentoja_24h": 1532,
+ "docker_7pv": 2181,
+ "syotteja_7pv": 739,
  "maat": [
   [
    "Bulgaria",
-   436553
+   426240
   ],
   [
    "Germany",
-   135940
+   135973
   ],
   [
    "United States",
-   78905
-  ],
-  [
-   "Romania",
-   69058
+   80658
   ],
   [
    "?",
-   68778
+   79659
+  ],
+  [
+   "Romania",
+   69072
   ],
   [
    "China",
-   26542
+   27276
   ],
   [
    "France",
-   18999
+   19080
+  ],
+  [
+   "The Netherlands",
+   7744
   ],
   [
    "Ivory Coast",
    7521
   ],
   [
-   "The Netherlands",
-   7502
-  ],
-  [
    "CI",
-   7042
+   7090
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   3094
+   3096
   ],
   [
    "path traversal",
@@ -62,7 +62,7 @@
   ],
   [
    "hikvision",
-   267
+   271
   ],
   [
    "Java services (actuator/solr)",
@@ -74,7 +74,7 @@
   ],
   [
    "command injection",
-   93
+   94
   ],
   [
    "Exchange / PHP probes",
@@ -87,15 +87,15 @@
  ],
  "docker_imaget": [
   [
+   "alpine:latest",
+   24
+  ],
+  [
    "alpine",
    19
   ],
   [
    "postgres:15",
-   16
-  ],
-  [
-   "alpine:latest",
    16
   ],
   [
@@ -109,22 +109,22 @@
  ],
  "haitalliset_tagit": [
   [
-   "Mirai",
-   3
+   "Mirai TCP Scanner",
+   5
   ],
   [
-   "Mirai TCP Scanner",
-   3
+   "Mirai",
+   5
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1763
+   1771
   ],
   [
    "CVE_1999_0517",
-   210
+   236
   ],
   [
    "CVE_2025_55182",
@@ -140,17 +140,17 @@
   ],
   [
    "CVE_2024_14007",
-   11
+   12
   ]
  ],
  "tunnukset": [
   [
    "root",
-   39620
+   43415
   ],
   [
    "anonymous",
-   36926
+   37584
   ],
   [
    "ftp",
@@ -158,26 +158,36 @@
   ],
   [
    "admin",
-   5132
+   5154
   ],
   [
    "ubuntu",
-   4210
+   4247
   ],
   [
    "user",
-   3288
+   3295
   ],
   [
    "deploy",
-   3089
+   3099
   ],
   [
    "test",
-   2932
+   2940
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-23 23:56",
+   "ip": "5.231.221.23",
+   "verkko": "AS44486 synlinq.de",
+   "maa": "DE",
+   "kutsut": [
+    "GetCallerIdentity",
+    "ListBuckets"
+   ]
+  },
   {
    "aika": "2026-11-23 22:26",
    "ip": "5.231.221.23",
@@ -306,15 +316,6 @@
    "maa": "SA",
    "kutsut": [
     "ListFunctions20150331"
-   ]
-  },
-  {
-   "aika": "2026-11-23 18:36",
-   "ip": "103.180.207.15",
-   "verkko": "AS149480 Decent Network",
-   "maa": "BD",
-   "kutsut": [
-    "GetCallerIdentity"
    ]
   }
  ],
