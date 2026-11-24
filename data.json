@@ -1,46 +1,46 @@
 {
- "paivitetty": "2026-11-24 03:01 UTC",
- "hyokkayksia_24h": 583723,
- "hyokkaajia_24h": 7623,
- "tervakuoppa_h_7pv": 1545.0,
- "jumissa_nyt": 86,
+ "paivitetty": "2026-11-24 04:00 UTC",
+ "hyokkayksia_24h": 576156,
+ "hyokkaajia_24h": 7841,
+ "tervakuoppa_h_7pv": 1554.6,
+ "jumissa_nyt": 89,
  "uutuus_pct": 9.7,
  "abuseipdb_paiva": 1142,
- "tekoaly_komentoja_24h": 6075,
- "docker_7pv": 2201,
- "syotteja_7pv": 749,
+ "tekoaly_komentoja_24h": 5771,
+ "docker_7pv": 2207,
+ "syotteja_7pv": 752,
  "maat": [
   [
    "Bulgaria",
-   437064
+   418263
   ],
   [
    "Germany",
-   136044
+   136052
   ],
   [
    "?",
-   97573
+   106966
   ],
   [
    "United States",
-   84899
+   88840
   ],
   [
    "Romania",
-   69245
+   70129
   ],
   [
    "France",
-   19304
+   19529
   ],
   [
    "China",
-   15438
+   11353
   ],
   [
    "The Netherlands",
-   8154
+   8235
   ],
   [
    "Ivory Coast",
@@ -48,13 +48,13 @@
   ],
   [
    "CI",
-   7202
+   7266
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   3105
+   3108
   ],
   [
    "path traversal",
@@ -62,11 +62,11 @@
   ],
   [
    "hikvision",
-   283
+   287
   ],
   [
    "Java services (actuator/solr)",
-   125
+   126
   ],
   [
    "cgi",
@@ -74,15 +74,15 @@
   ],
   [
    "command injection",
-   100
+   101
   ],
   [
    "Exchange / PHP probes",
-   76
+   77
   ],
   [
    "boa",
-   69
+   70
   ]
  ],
  "docker_imaget": [
@@ -109,22 +109,22 @@
  ],
  "haitalliset_tagit": [
   [
-   "Mirai",
-   5
+   "Mirai TCP Scanner",
+   4
   ],
   [
-   "Mirai TCP Scanner",
-   5
+   "Mirai",
+   4
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1800
+   1811
   ],
   [
    "CVE_1999_0517",
-   246
+   244
   ],
   [
    "CVE_2025_55182",
@@ -132,52 +132,70 @@
   ],
   [
    "CVE_2016_20017",
-   16
+   15
   ],
   [
    "CVE_2021_35395",
-   16
+   15
   ],
   [
    "CVE_2024_14007",
-   14
+   15
   ]
  ],
  "tunnukset": [
   [
    "root",
-   50041
+   53544
   ],
   [
    "anonymous",
-   38797
+   39514
   ],
   [
    "ftp",
-   10501
+   10502
   ],
   [
    "admin",
-   5218
+   5252
   ],
   [
    "ubuntu",
-   4335
+   4386
   ],
   [
    "user",
-   3337
+   3358
   ],
   [
    "deploy",
-   3134
+   3150
   ],
   [
    "test",
-   2966
+   2978
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-24 03:21",
+   "ip": "44.196.47.198",
+   "verkko": "AS14618 Amazon.com, Inc.",
+   "maa": "US",
+   "kutsut": [
+    "Converse"
+   ]
+  },
+  {
+   "aika": "2026-11-24 02:57",
+   "ip": "44.196.47.198",
+   "verkko": "AS14618 Amazon.com, Inc.",
+   "maa": "US",
+   "kutsut": [
+    "Converse"
+   ]
+  },
   {
    "aika": "2026-11-23 23:56",
    "ip": "5.231.221.23",
@@ -298,24 +316,6 @@
    "maa": "PK",
    "kutsut": [
     "GetCallerIdentity"
-   ]
-  },
-  {
-   "aika": "2026-11-23 18:36",
-   "ip": "103.152.43.30",
-   "verkko": "AS131471 Login.Me (Pvt) Ltd",
-   "maa": "PK",
-   "kutsut": [
-    "GetCallerIdentity"
-   ]
-  },
-  {
-   "aika": "2026-11-23 18:36",
-   "ip": "5.109.46.154",
-   "verkko": "AS35819 Etihad Etisalat, a joint stock company",
-   "maa": "SA",
-   "kutsut": [
-    "ListFunctions20150331"
    ]
   }
  ],
