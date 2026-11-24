@@ -1,50 +1,50 @@
 {
- "paivitetty": "2026-11-24 18:04 UTC",
- "hyokkayksia_24h": 605110,
- "hyokkaajia_24h": 10411,
- "tervakuoppa_h_7pv": 2067.6,
- "jumissa_nyt": 87,
+ "paivitetty": "2026-11-24 19:02 UTC",
+ "hyokkayksia_24h": 596031,
+ "hyokkaajia_24h": 10401,
+ "tervakuoppa_h_7pv": 2154.9,
+ "jumissa_nyt": 88,
  "uutuus_pct": 9.7,
  "abuseipdb_paiva": 1142,
- "tekoaly_komentoja_24h": 5533,
- "docker_7pv": 2720,
- "syotteja_7pv": 826,
+ "tekoaly_komentoja_24h": 5448,
+ "docker_7pv": 2722,
+ "syotteja_7pv": 833,
  "maat": [
   [
    "Bulgaria",
-   398013
+   399702
   ],
   [
    "?",
-   201760
+   201955
   ],
   [
    "Germany",
-   147578
+   147409
   ],
   [
    "United States",
-   87300
+   88164
   ],
   [
    "Romania",
-   76724
+   77378
   ],
   [
    "United Kingdom",
-   17510
+   18887
   ],
   [
    "China",
-   11505
+   11509
   ],
   [
    "CI",
-   8202
+   8274
   ],
   [
    "Belgium",
-   8180
+   8143
   ],
   [
    "Iran",
@@ -54,7 +54,7 @@
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   3327
+   3334
   ],
   [
    "path traversal",
@@ -62,11 +62,11 @@
   ],
   [
    "hikvision",
-   333
+   336
   ],
   [
    "command injection",
-   141
+   143
   ],
   [
    "Java services (actuator/solr)",
@@ -107,7 +107,16 @@
    4
   ]
  ],
- "haitalliset_tagit": [],
+ "haitalliset_tagit": [
+  [
+   "Mirai",
+   5
+  ],
+  [
+   "Mirai TCP Scanner",
+   5
+  ]
+ ],
  "cvet": [
   [
    "CVE_2024_6387",
@@ -115,11 +124,11 @@
   ],
   [
    "CVE_1999_0517",
-   207
+   189
   ],
   [
    "CVE_2025_55182",
-   81
+   79
   ],
   [
    "CVE_2022_27255",
@@ -131,17 +140,17 @@
   ],
   [
    "CVE_2016_20017",
-   13
+   10
   ]
  ],
  "tunnukset": [
   [
    "root",
-   86434
+   86430
   ],
   [
    "anonymous",
-   46298
+   46775
   ],
   [
    "ftp",
@@ -149,11 +158,11 @@
   ],
   [
    "admin",
-   5703
+   5704
   ],
   [
    "ubuntu",
-   4876
+   4893
   ],
   [
    "user",
@@ -165,10 +174,19 @@
   ],
   [
    "79",
-   3196
+   3267
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-24 18:34",
+   "ip": "85.11.167.204",
+   "verkko": "AS197170 TechTies Inc.",
+   "maa": "NL",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
   {
    "aika": "2026-11-24 17:14",
    "ip": "195.178.110.48",
@@ -302,16 +320,6 @@
    "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
    "maa": "GB",
    "kutsut": [
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-24 11:34",
-   "ip": "78.153.140.80",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
     "ListVerifiedEmailAddresses"
    ]
   }
