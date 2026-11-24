@@ -1,60 +1,60 @@
 {
- "paivitetty": "2026-11-24 04:00 UTC",
- "hyokkayksia_24h": 576156,
- "hyokkaajia_24h": 7841,
- "tervakuoppa_h_7pv": 1554.6,
- "jumissa_nyt": 89,
+ "paivitetty": "2026-11-24 05:02 UTC",
+ "hyokkayksia_24h": 570646,
+ "hyokkaajia_24h": 8052,
+ "tervakuoppa_h_7pv": 1603.0,
+ "jumissa_nyt": 85,
  "uutuus_pct": 9.7,
  "abuseipdb_paiva": 1142,
- "tekoaly_komentoja_24h": 5771,
- "docker_7pv": 2207,
- "syotteja_7pv": 752,
+ "tekoaly_komentoja_24h": 5682,
+ "docker_7pv": 2212,
+ "syotteja_7pv": 753,
  "maat": [
   [
    "Bulgaria",
-   418263
+   401492
   ],
   [
    "Germany",
-   136052
+   136106
   ],
   [
    "?",
-   106966
+   118107
   ],
   [
    "United States",
-   88840
+   91250
   ],
   [
    "Romania",
-   70129
+   70130
   ],
   [
    "France",
-   19529
+   19720
   ],
   [
    "China",
-   11353
+   11354
   ],
   [
    "The Netherlands",
-   8235
+   8914
+  ],
+  [
+   "United Kingdom",
+   7701
   ],
   [
    "Ivory Coast",
    7521
-  ],
-  [
-   "CI",
-   7266
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   3108
+   3109
   ],
   [
    "path traversal",
@@ -62,11 +62,11 @@
   ],
   [
    "hikvision",
-   287
+   294
   ],
   [
    "Java services (actuator/solr)",
-   126
+   127
   ],
   [
    "cgi",
@@ -74,11 +74,11 @@
   ],
   [
    "command injection",
-   101
+   104
   ],
   [
    "Exchange / PHP probes",
-   77
+   78
   ],
   [
    "boa",
@@ -107,20 +107,11 @@
    3
   ]
  ],
- "haitalliset_tagit": [
-  [
-   "Mirai TCP Scanner",
-   4
-  ],
-  [
-   "Mirai",
-   4
-  ]
- ],
+ "haitalliset_tagit": [],
  "cvet": [
   [
    "CVE_2024_6387",
-   1811
+   1825
   ],
   [
    "CVE_1999_0517",
@@ -146,11 +137,11 @@
  "tunnukset": [
   [
    "root",
-   53544
+   57344
   ],
   [
    "anonymous",
-   39514
+   40127
   ],
   [
    "ftp",
@@ -158,23 +149,23 @@
   ],
   [
    "admin",
-   5252
+   5267
   ],
   [
    "ubuntu",
-   4386
+   4417
   ],
   [
    "user",
-   3358
+   3367
   ],
   [
    "deploy",
-   3150
+   3158
   ],
   [
    "test",
-   2978
+   2980
   ]
  ],
  "varkaat": [
