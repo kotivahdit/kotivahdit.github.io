@@ -1,50 +1,50 @@
 {
- "paivitetty": "2026-11-24 06:01 UTC",
- "hyokkayksia_24h": 586978,
- "hyokkaajia_24h": 8349,
- "tervakuoppa_h_7pv": 1668.3,
- "jumissa_nyt": 84,
+ "paivitetty": "2026-11-24 07:03 UTC",
+ "hyokkayksia_24h": 603487,
+ "hyokkaajia_24h": 8549,
+ "tervakuoppa_h_7pv": 1699.8,
+ "jumissa_nyt": 82,
  "uutuus_pct": 9.7,
  "abuseipdb_paiva": 1142,
- "tekoaly_komentoja_24h": 5822,
- "docker_7pv": 2217,
- "syotteja_7pv": 759,
+ "tekoaly_komentoja_24h": 5931,
+ "docker_7pv": 2223,
+ "syotteja_7pv": 767,
  "maat": [
   [
    "Bulgaria",
-   409576
+   419074
   ],
   [
    "Germany",
-   136164
+   136198
   ],
   [
    "?",
-   126701
+   134096
   ],
   [
    "United States",
-   93375
+   95875
   ],
   [
    "Romania",
-   70140
+   70159
   ],
   [
    "France",
-   19848
+   19992
   ],
   [
    "China",
-   11447
+   11450
   ],
   [
    "United Kingdom",
-   9505
+   10213
   ],
   [
    "The Netherlands",
-   8974
+   9010
   ],
   [
    "Ivory Coast",
@@ -54,7 +54,7 @@
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   3115
+   3125
   ],
   [
    "path traversal",
@@ -62,7 +62,7 @@
   ],
   [
    "hikvision",
-   294
+   298
   ],
   [
    "Java services (actuator/solr)",
@@ -70,7 +70,7 @@
   ],
   [
    "cgi",
-   111
+   112
   ],
   [
    "command injection",
@@ -110,29 +110,29 @@
  "haitalliset_tagit": [
   [
    "Mirai",
-   2
+   7
   ],
   [
    "Mirai TCP Scanner",
-   2
+   7
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1838
+   1852
   ],
   [
    "CVE_1999_0517",
-   235
+   231
   ],
   [
    "CVE_2025_55182",
-   69
+   72
   ],
   [
    "CVE_2024_14007",
-   18
+   22
   ],
   [
    "CVE_2016_20017",
@@ -146,11 +146,11 @@
  "tunnukset": [
   [
    "root",
-   60474
+   63143
   ],
   [
    "anonymous",
-   40769
+   41226
   ],
   [
    "ftp",
@@ -158,23 +158,23 @@
   ],
   [
    "admin",
-   5299
+   5339
   ],
   [
    "ubuntu",
-   4450
+   4486
   ],
   [
    "user",
-   3384
+   3392
   ],
   [
    "deploy",
-   3171
+   3182
   ],
   [
    "test",
-   2987
+   2996
   ]
  ],
  "varkaat": [
