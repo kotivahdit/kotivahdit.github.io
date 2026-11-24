@@ -1,60 +1,60 @@
 {
- "paivitetty": "2026-11-24 22:03 UTC",
- "hyokkayksia_24h": 567308,
- "hyokkaajia_24h": 10451,
- "tervakuoppa_h_7pv": 2232.5,
- "jumissa_nyt": 95,
+ "paivitetty": "2026-11-24 23:03 UTC",
+ "hyokkayksia_24h": 558549,
+ "hyokkaajia_24h": 10420,
+ "tervakuoppa_h_7pv": 2309.8,
+ "jumissa_nyt": 86,
  "uutuus_pct": 9.7,
  "abuseipdb_paiva": 1142,
- "tekoaly_komentoja_24h": 5779,
- "docker_7pv": 2730,
- "syotteja_7pv": 865,
+ "tekoaly_komentoja_24h": 5615,
+ "docker_7pv": 2732,
+ "syotteja_7pv": 873,
  "maat": [
   [
    "Bulgaria",
-   406718
+   406351
   ],
   [
    "?",
-   202411
+   202712
   ],
   [
    "Germany",
-   147385
+   147396
   ],
   [
    "United States",
-   89021
+   93675
   ],
   [
    "Romania",
-   78309
+   79185
   ],
   [
    "United Kingdom",
-   22226
+   23869
   ],
   [
    "China",
-   11982
+   13250
   ],
   [
    "CI",
-   8466
+   8554
   ],
   [
    "Belgium",
-   7874
+   7806
   ],
   [
    "Iran",
-   6951
+   7012
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   3476
+   3485
   ],
   [
    "path traversal",
@@ -62,7 +62,7 @@
   ],
   [
    "hikvision",
-   345
+   352
   ],
   [
    "command injection",
@@ -74,15 +74,15 @@
   ],
   [
    "cgi",
-   130
+   132
   ],
   [
    "Exchange / PHP probes",
-   84
+   85
   ],
   [
    "boa",
-   81
+   82
   ]
  ],
  "docker_imaget": [
@@ -107,28 +107,19 @@
    4
   ]
  ],
- "haitalliset_tagit": [
-  [
-   "Mirai TCP Scanner",
-   1
-  ],
-  [
-   "Mirai",
-   1
-  ]
- ],
+ "haitalliset_tagit": [],
  "cvet": [
   [
    "CVE_2024_6387",
-   1818
+   1814
   ],
   [
    "CVE_1999_0517",
-   167
+   162
   ],
   [
    "CVE_2025_55182",
-   87
+   82
   ],
   [
    "CVE_2022_27255",
@@ -136,21 +127,21 @@
   ],
   [
    "CVE_2024_14007",
-   40
+   38
   ],
   [
    "CVE_2016_20017",
-   10
+   11
   ]
  ],
  "tunnukset": [
   [
    "root",
-   87674
+   88036
   ],
   [
    "anonymous",
-   48046
+   48826
   ],
   [
    "ftp",
@@ -158,174 +149,164 @@
   ],
   [
    "admin",
-   5775
+   5832
   ],
   [
    "ubuntu",
-   5037
+   5071
   ],
   [
    "user",
-   3644
+   3654
   ],
   [
    "79",
-   3434
+   3520
   ],
   [
    "deploy",
-   3353
+   3366
   ]
  ],
  "varkaat": [
   {
-   "aika": "2026-11-24 21:52",
-   "ip": "85.11.167.204",
-   "verkko": "AS197170 TechTies Inc.",
-   "maa": "NL",
-   "kutsut": [
-    "GetCallerIdentity"
-   ]
-  },
-  {
-   "aika": "2026-11-24 20:43",
-   "ip": "195.178.110.48",
-   "verkko": "AS48090 TECHOFF SRV LIMITED",
-   "maa": "NL",
-   "kutsut": [
-    "GetCallerIdentity",
-    "InvokeModel",
-    "ListIdentities"
-   ]
-  },
-  {
-   "aika": "2026-11-24 20:54",
-   "ip": "158.220.97.233",
-   "verkko": "AS51167 Contabo GmbH",
-   "maa": "FR",
-   "kutsut": [
-    "CreateUser",
-    "GetFederationToken"
-   ]
-  },
-  {
-   "aika": "2026-11-24 20:28",
-   "ip": "158.220.97.233",
-   "verkko": "AS51167 Contabo GmbH",
-   "maa": "FR",
-   "kutsut": [
-    "GetAccount",
-    "GetCallerIdentity",
-    "GetSMSAttributes"
-   ]
-  },
-  {
-   "aika": "2026-11-24 19:03",
-   "ip": "85.11.167.204",
-   "verkko": "AS197170 TechTies Inc.",
-   "maa": "NL",
-   "kutsut": [
-    "GetCallerIdentity"
-   ]
-  },
-  {
-   "aika": "2026-11-24 18:34",
-   "ip": "85.11.167.204",
-   "verkko": "AS197170 TechTies Inc.",
-   "maa": "NL",
-   "kutsut": [
-    "GetCallerIdentity"
-   ]
-  },
-  {
-   "aika": "2026-11-24 17:14",
-   "ip": "195.178.110.48",
-   "verkko": "AS48090 TECHOFF SRV LIMITED",
-   "maa": "NL",
-   "kutsut": [
-    "GetCallerIdentity",
-    "InvokeModel",
-    "ListIdentities"
-   ]
-  },
-  {
-   "aika": "2026-11-24 16:53",
-   "ip": "78.153.140.80",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-24 16:52",
-   "ip": "78.153.140.80",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-24 16:38",
-   "ip": "196.251.102.161",
-   "verkko": "AS403005 Blatant Technologies, LLC",
+   "aika": "2026-11-24 22:44",
+   "ip": "81.199.26.103",
+   "verkko": "AS62240 Clouvider",
    "maa": "DE",
    "kutsut": [
-    "CreateBucket"
+    "GetSendQuota"
    ]
   },
   {
-   "aika": "2026-11-24 15:36",
-   "ip": "196.251.102.161",
-   "verkko": "AS403005 Blatant Technologies, LLC",
+   "aika": "2026-11-24 22:44",
+   "ip": "85.203.15.86",
+   "verkko": "AS62240 Clouvider",
    "maa": "DE",
    "kutsut": [
-    "GetCallerIdentity",
-    "ListAccountAliases"
+    "GetSendQuota"
    ]
   },
   {
-   "aika": "2026-11-24 14:38",
-   "ip": "78.153.140.80",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
+   "aika": "2026-11-24 22:44",
+   "ip": "85.203.15.95",
+   "verkko": "AS62240 Clouvider",
+   "maa": "DE",
    "kutsut": [
-    "ListVerifiedEmailAddresses"
+    "Converse"
    ]
   },
   {
-   "aika": "2026-11-24 14:36",
-   "ip": "78.153.140.80",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
+   "aika": "2026-11-24 22:43",
+   "ip": "85.203.15.79",
+   "verkko": "AS62240 Clouvider",
+   "maa": "DE",
    "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
+    "Converse"
    ]
   },
   {
-   "aika": "2026-11-24 12:37",
-   "ip": "78.153.140.80",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
+   "aika": "2026-11-24 22:43",
+   "ip": "85.203.15.81",
+   "verkko": "AS62240 Clouvider",
+   "maa": "DE",
    "kutsut": [
-    "ListVerifiedEmailAddresses"
+    "GetSendQuota"
    ]
   },
   {
-   "aika": "2026-11-24 12:33",
-   "ip": "78.153.140.80",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
+   "aika": "2026-11-24 22:43",
+   "ip": "85.203.15.50",
+   "verkko": "AS62240 Clouvider",
+   "maa": "DE",
    "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
+    "Converse"
+   ]
+  },
+  {
+   "aika": "2026-11-24 22:43",
+   "ip": "81.199.26.104",
+   "verkko": "AS62240 Clouvider",
+   "maa": "DE",
+   "kutsut": [
+    "GetSendQuota"
+   ]
+  },
+  {
+   "aika": "2026-11-24 22:43",
+   "ip": "85.203.15.62",
+   "verkko": "AS62240 Clouvider",
+   "maa": "DE",
+   "kutsut": [
+    "Converse",
+    "GetSendQuota"
+   ]
+  },
+  {
+   "aika": "2026-11-24 22:43",
+   "ip": "81.199.26.93",
+   "verkko": "AS62240 Clouvider",
+   "maa": "DE",
+   "kutsut": [
+    "GetSendQuota"
+   ]
+  },
+  {
+   "aika": "2026-11-24 22:43",
+   "ip": "85.203.15.54",
+   "verkko": "AS62240 Clouvider",
+   "maa": "DE",
+   "kutsut": [
+    "Converse"
+   ]
+  },
+  {
+   "aika": "2026-11-24 22:43",
+   "ip": "85.203.15.49",
+   "verkko": "AS62240 Clouvider",
+   "maa": "DE",
+   "kutsut": [
+    "GetSendQuota"
+   ]
+  },
+  {
+   "aika": "2026-11-24 22:43",
+   "ip": "81.199.26.100",
+   "verkko": "AS62240 Clouvider",
+   "maa": "DE",
+   "kutsut": [
+    "Converse"
+   ]
+  },
+  {
+   "aika": "2026-11-24 22:43",
+   "ip": "85.203.15.63",
+   "verkko": "AS62240 Clouvider",
+   "maa": "DE",
+   "kutsut": [
+    "GetSendQuota"
+   ]
+  },
+  {
+   "aika": "2026-11-24 22:43",
+   "ip": "85.203.15.59",
+   "verkko": "AS62240 Clouvider",
+   "maa": "DE",
+   "kutsut": [
+    "Converse"
+   ]
+  },
+  {
+   "aika": "2026-11-24 22:43",
+   "ip": "81.199.26.102",
+   "verkko": "AS62240 Clouvider",
+   "maa": "DE",
+   "kutsut": [
+    "Converse"
    ]
   }
  ],
- "varkaita_yht": 75,
+ "varkaita_yht": 91,
  "historia": [
   {
    "pv": "2026-11-20",
