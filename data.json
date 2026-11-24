@@ -1,60 +1,60 @@
 {
- "paivitetty": "2026-11-24 16:02 UTC",
- "hyokkayksia_24h": 605955,
- "hyokkaajia_24h": 10118,
- "tervakuoppa_h_7pv": 2013.7,
- "jumissa_nyt": 84,
+ "paivitetty": "2026-11-24 17:04 UTC",
+ "hyokkayksia_24h": 598084,
+ "hyokkaajia_24h": 10271,
+ "tervakuoppa_h_7pv": 2049.5,
+ "jumissa_nyt": 87,
  "uutuus_pct": 9.7,
  "abuseipdb_paiva": 1142,
- "tekoaly_komentoja_24h": 5525,
- "docker_7pv": 2325,
- "syotteja_7pv": 808,
+ "tekoaly_komentoja_24h": 5624,
+ "docker_7pv": 2717,
+ "syotteja_7pv": 814,
  "maat": [
   [
    "Bulgaria",
-   382848
+   389038
   ],
   [
    "?",
-   200949
+   201488
   ],
   [
    "Germany",
-   147598
+   147544
   ],
   [
    "United States",
-   100125
+   89677
   ],
   [
    "Romania",
-   71672
+   76502
   ],
   [
    "United Kingdom",
-   14156
-  ],
-  [
-   "France",
-   12455
+   15064
   ],
   [
    "China",
-   11462
+   11463
+  ],
+  [
+   "France",
+   9306
   ],
   [
    "Belgium",
-   8149
+   8265
   ],
   [
    "CI",
-   8066
+   8130
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   3272
+   3278
   ],
   [
    "path traversal",
@@ -62,30 +62,34 @@
   ],
   [
    "hikvision",
-   327
-  ],
-  [
-   "Java services (actuator/solr)",
-   134
+   332
   ],
   [
    "command injection",
-   134
+   139
+  ],
+  [
+   "Java services (actuator/solr)",
+   135
   ],
   [
    "cgi",
-   122
+   124
+  ],
+  [
+   "Exchange / PHP probes",
+   80
   ],
   [
    "boa",
    80
-  ],
-  [
-   "Exchange / PHP probes",
-   79
   ]
  ],
  "docker_imaget": [
+  [
+   "postgres:15",
+   27
+  ],
   [
    "alpine:latest",
    24
@@ -93,10 +97,6 @@
   [
    "alpine",
    22
-  ],
-  [
-   "postgres:15",
-   17
   ],
   [
    "metal3d/xmrig",
@@ -109,30 +109,30 @@
  ],
  "haitalliset_tagit": [
   [
-   "Mirai TCP Scanner",
-   3
+   "Mirai",
+   4
   ],
   [
-   "Mirai",
-   3
+   "Mirai TCP Scanner",
+   4
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1857
+   1864
   ],
   [
    "CVE_1999_0517",
-   212
+   211
   ],
   [
    "CVE_2025_55182",
-   77
+   78
   ],
   [
    "CVE_2022_27255",
-   69
+   66
   ],
   [
    "CVE_2024_14007",
@@ -146,11 +146,11 @@
  "tunnukset": [
   [
    "root",
-   86345
+   86424
   ],
   [
    "anonymous",
-   45385
+   45842
   ],
   [
    "ftp",
@@ -158,11 +158,11 @@
   ],
   [
    "admin",
-   5689
+   5699
   ],
   [
    "ubuntu",
-   4843
+   4860
   ],
   [
    "user",
@@ -170,14 +170,32 @@
   ],
   [
    "deploy",
-   3296
+   3297
   ],
   [
-   "test",
-   3117
+   "79",
+   3135
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-24 16:52",
+   "ip": "78.153.140.80",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "ListVerifiedEmailAddresses"
+   ]
+  },
+  {
+   "aika": "2026-11-24 16:38",
+   "ip": "196.251.102.161",
+   "verkko": "AS403005 Blatant Technologies, LLC",
+   "maa": "DE",
+   "kutsut": [
+    "CreateBucket"
+   ]
+  },
   {
    "aika": "2026-11-24 15:36",
    "ip": "196.251.102.161",
@@ -301,24 +319,6 @@
    "maa": "GB",
    "kutsut": [
     "CreateUser"
-   ]
-  },
-  {
-   "aika": "2026-11-24 05:02",
-   "ip": "73.191.110.195",
-   "verkko": "AS7922 Comcast Cable Communications, LLC",
-   "maa": "US",
-   "kutsut": [
-    "ListBuckets"
-   ]
-  },
-  {
-   "aika": "2026-11-24 05:02",
-   "ip": "73.184.145.167",
-   "verkko": "AS7922 Comcast Cable Communications, LLC",
-   "maa": "US",
-   "kutsut": [
-    "GetCallerIdentity"
    ]
   }
  ],
