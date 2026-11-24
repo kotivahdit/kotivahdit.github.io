@@ -1,50 +1,50 @@
 {
- "paivitetty": "2026-11-24 05:02 UTC",
- "hyokkayksia_24h": 570646,
- "hyokkaajia_24h": 8052,
- "tervakuoppa_h_7pv": 1603.0,
- "jumissa_nyt": 85,
+ "paivitetty": "2026-11-24 06:01 UTC",
+ "hyokkayksia_24h": 586978,
+ "hyokkaajia_24h": 8349,
+ "tervakuoppa_h_7pv": 1668.3,
+ "jumissa_nyt": 84,
  "uutuus_pct": 9.7,
  "abuseipdb_paiva": 1142,
- "tekoaly_komentoja_24h": 5682,
- "docker_7pv": 2212,
- "syotteja_7pv": 753,
+ "tekoaly_komentoja_24h": 5822,
+ "docker_7pv": 2217,
+ "syotteja_7pv": 759,
  "maat": [
   [
    "Bulgaria",
-   401492
+   409576
   ],
   [
    "Germany",
-   136106
+   136164
   ],
   [
    "?",
-   118107
+   126701
   ],
   [
    "United States",
-   91250
+   93375
   ],
   [
    "Romania",
-   70130
+   70140
   ],
   [
    "France",
-   19720
+   19848
   ],
   [
    "China",
-   11354
-  ],
-  [
-   "The Netherlands",
-   8914
+   11447
   ],
   [
    "United Kingdom",
-   7701
+   9505
+  ],
+  [
+   "The Netherlands",
+   8974
   ],
   [
    "Ivory Coast",
@@ -54,7 +54,7 @@
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   3109
+   3115
   ],
   [
    "path traversal",
@@ -70,11 +70,11 @@
   ],
   [
    "cgi",
-   110
+   111
   ],
   [
    "command injection",
-   104
+   110
   ],
   [
    "Exchange / PHP probes",
@@ -82,7 +82,7 @@
   ],
   [
    "boa",
-   70
+   71
   ]
  ],
  "docker_imaget": [
@@ -107,19 +107,32 @@
    3
   ]
  ],
- "haitalliset_tagit": [],
+ "haitalliset_tagit": [
+  [
+   "Mirai",
+   2
+  ],
+  [
+   "Mirai TCP Scanner",
+   2
+  ]
+ ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1825
+   1838
   ],
   [
    "CVE_1999_0517",
-   244
+   235
   ],
   [
    "CVE_2025_55182",
    69
+  ],
+  [
+   "CVE_2024_14007",
+   18
   ],
   [
    "CVE_2016_20017",
@@ -128,47 +141,61 @@
   [
    "CVE_2021_35395",
    15
-  ],
-  [
-   "CVE_2024_14007",
-   15
   ]
  ],
  "tunnukset": [
   [
    "root",
-   57344
+   60474
   ],
   [
    "anonymous",
-   40127
+   40769
   ],
   [
    "ftp",
-   10502
+   10503
   ],
   [
    "admin",
-   5267
+   5299
   ],
   [
    "ubuntu",
-   4417
+   4450
   ],
   [
    "user",
-   3367
+   3384
   ],
   [
    "deploy",
-   3158
+   3171
   ],
   [
    "test",
-   2980
+   2987
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-24 05:02",
+   "ip": "73.191.110.195",
+   "verkko": "AS7922 Comcast Cable Communications, LLC",
+   "maa": "US",
+   "kutsut": [
+    "ListBuckets"
+   ]
+  },
+  {
+   "aika": "2026-11-24 05:02",
+   "ip": "73.184.145.167",
+   "verkko": "AS7922 Comcast Cable Communications, LLC",
+   "maa": "US",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
   {
    "aika": "2026-11-24 03:21",
    "ip": "44.196.47.198",
@@ -290,27 +317,9 @@
    "kutsut": [
     "GetCallerIdentity"
    ]
-  },
-  {
-   "aika": "2026-11-23 18:36",
-   "ip": "186.19.226.230",
-   "verkko": "AS27747 Telecentro S.A.",
-   "maa": "AR",
-   "kutsut": [
-    "GetCallerIdentity"
-   ]
-  },
-  {
-   "aika": "2026-11-23 18:36",
-   "ip": "151.123.251.134",
-   "verkko": "AS138349 Sky Net Multi Services Pvt Ltd",
-   "maa": "PK",
-   "kutsut": [
-    "GetCallerIdentity"
-   ]
   }
  ],
- "varkaita_yht": 69,
+ "varkaita_yht": 71,
  "historia": [
   {
    "pv": "2026-11-20",
