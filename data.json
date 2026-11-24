@@ -1,60 +1,60 @@
 {
- "paivitetty": "2026-11-24 14:02 UTC",
- "hyokkayksia_24h": 611060,
- "hyokkaajia_24h": 9491,
- "tervakuoppa_h_7pv": 1937.2,
- "jumissa_nyt": 84,
+ "paivitetty": "2026-11-24 15:00 UTC",
+ "hyokkayksia_24h": 613259,
+ "hyokkaajia_24h": 10064,
+ "tervakuoppa_h_7pv": 1993.0,
+ "jumissa_nyt": 86,
  "uutuus_pct": 9.7,
  "abuseipdb_paiva": 1142,
- "tekoaly_komentoja_24h": 5710,
- "docker_7pv": 2301,
- "syotteja_7pv": 800,
+ "tekoaly_komentoja_24h": 5122,
+ "docker_7pv": 2302,
+ "syotteja_7pv": 804,
  "maat": [
   [
    "Bulgaria",
-   377836
+   379343
   ],
   [
    "?",
-   193415
+   197316
   ],
   [
    "Germany",
-   147341
+   147540
   ],
   [
    "United States",
-   102229
+   103075
   ],
   [
    "Romania",
-   70302
+   71574
   ],
   [
    "France",
-   16993
+   15096
   ],
   [
    "United Kingdom",
-   13063
+   14050
   ],
   [
    "China",
-   11459
+   11461
   ],
   [
    "The Netherlands",
-   8553
+   8265
   ],
   [
-   "CI",
-   7930
+   "Belgium",
+   8041
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   3264
+   3268
   ],
   [
    "path traversal",
@@ -66,7 +66,7 @@
   ],
   [
    "Java services (actuator/solr)",
-   133
+   134
   ],
   [
    "command injection",
@@ -74,7 +74,7 @@
   ],
   [
    "cgi",
-   121
+   122
   ],
   [
    "boa",
@@ -110,25 +110,25 @@
  "haitalliset_tagit": [
   [
    "Mirai",
-   5
+   4
   ],
   [
    "Mirai TCP Scanner",
-   5
+   4
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1859
+   1860
   ],
   [
    "CVE_1999_0517",
-   217
+   213
   ],
   [
    "CVE_2025_55182",
-   85
+   83
   ],
   [
    "CVE_2022_27255",
@@ -136,7 +136,7 @@
   ],
   [
    "CVE_2024_14007",
-   36
+   39
   ],
   [
    "CVE_2002_0012",
@@ -146,11 +146,11 @@
  "tunnukset": [
   [
    "root",
-   83736
+   85014
   ],
   [
    "anonymous",
-   44480
+   44911
   ],
   [
    "ftp",
@@ -158,26 +158,45 @@
   ],
   [
    "admin",
-   5601
+   5660
   ],
   [
    "ubuntu",
-   4764
+   4802
   ],
   [
    "user",
-   3540
+   3558
   ],
   [
    "deploy",
-   3270
+   3279
   ],
   [
    "test",
-   3093
+   3109
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-24 14:38",
+   "ip": "78.153.140.80",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "ListVerifiedEmailAddresses"
+   ]
+  },
+  {
+   "aika": "2026-11-24 14:36",
+   "ip": "78.153.140.80",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
   {
    "aika": "2026-11-24 12:37",
    "ip": "78.153.140.80",
@@ -299,25 +318,6 @@
    "maa": "US",
    "kutsut": [
     "Converse"
-   ]
-  },
-  {
-   "aika": "2026-11-24 02:57",
-   "ip": "44.196.47.198",
-   "verkko": "AS14618 Amazon.com, Inc.",
-   "maa": "US",
-   "kutsut": [
-    "Converse"
-   ]
-  },
-  {
-   "aika": "2026-11-23 23:56",
-   "ip": "5.231.221.23",
-   "verkko": "AS44486 synlinq.de",
-   "maa": "DE",
-   "kutsut": [
-    "GetCallerIdentity",
-    "ListBuckets"
    ]
   }
  ],
