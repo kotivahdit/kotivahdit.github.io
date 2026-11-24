@@ -1,50 +1,50 @@
 {
- "paivitetty": "2026-11-24 21:01 UTC",
- "hyokkayksia_24h": 565001,
- "hyokkaajia_24h": 10401,
- "tervakuoppa_h_7pv": 2222.5,
- "jumissa_nyt": 86,
+ "paivitetty": "2026-11-24 22:03 UTC",
+ "hyokkayksia_24h": 567308,
+ "hyokkaajia_24h": 10451,
+ "tervakuoppa_h_7pv": 2232.5,
+ "jumissa_nyt": 95,
  "uutuus_pct": 9.7,
  "abuseipdb_paiva": 1142,
- "tekoaly_komentoja_24h": 5156,
- "docker_7pv": 2728,
- "syotteja_7pv": 858,
+ "tekoaly_komentoja_24h": 5779,
+ "docker_7pv": 2730,
+ "syotteja_7pv": 865,
  "maat": [
   [
    "Bulgaria",
-   395728
+   406718
   ],
   [
    "?",
-   202269
+   202411
   ],
   [
    "Germany",
-   147483
+   147385
   ],
   [
    "United States",
-   89048
+   89021
   ],
   [
    "Romania",
-   78109
+   78309
   ],
   [
    "United Kingdom",
-   22213
+   22226
   ],
   [
    "China",
-   11385
+   11982
   ],
   [
    "CI",
-   8410
+   8466
   ],
   [
    "Belgium",
-   7931
+   7874
   ],
   [
    "Iran",
@@ -54,15 +54,15 @@
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   3414
+   3476
   ],
   [
    "path traversal",
-   742
+   798
   ],
   [
    "hikvision",
-   344
+   345
   ],
   [
    "command injection",
@@ -74,11 +74,11 @@
   ],
   [
    "cgi",
-   124
+   130
   ],
   [
    "Exchange / PHP probes",
-   81
+   84
   ],
   [
    "boa",
@@ -110,25 +110,25 @@
  "haitalliset_tagit": [
   [
    "Mirai TCP Scanner",
-   4
+   1
   ],
   [
    "Mirai",
-   4
+   1
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1815
+   1818
   ],
   [
    "CVE_1999_0517",
-   166
+   167
   ],
   [
    "CVE_2025_55182",
-   81
+   87
   ],
   [
    "CVE_2022_27255",
@@ -136,7 +136,7 @@
   ],
   [
    "CVE_2024_14007",
-   41
+   40
   ],
   [
    "CVE_2016_20017",
@@ -146,38 +146,47 @@
  "tunnukset": [
   [
    "root",
-   87289
+   87674
   ],
   [
    "anonymous",
-   47697
+   48046
   ],
   [
    "ftp",
-   10541
+   10542
   ],
   [
    "admin",
-   5750
+   5775
   ],
   [
    "ubuntu",
-   4989
+   5037
   ],
   [
    "user",
-   3623
+   3644
   ],
   [
    "79",
-   3391
+   3434
   ],
   [
    "deploy",
-   3332
+   3353
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-24 21:52",
+   "ip": "85.11.167.204",
+   "verkko": "AS197170 TechTies Inc.",
+   "maa": "NL",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
   {
    "aika": "2026-11-24 20:43",
    "ip": "195.178.110.48",
@@ -313,16 +322,6 @@
    "kutsut": [
     "CreateUser",
     "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-24 12:10",
-   "ip": "200.163.88.118",
-   "verkko": "AS213541 WS Telecom Inc",
-   "maa": "US",
-   "kutsut": [
-    "GetCallerIdentity",
-    "ListFoundationModels"
    ]
   }
  ],
