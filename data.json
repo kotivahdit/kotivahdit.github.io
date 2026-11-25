@@ -1,60 +1,60 @@
 {
- "paivitetty": "2026-11-25 02:02 UTC",
- "hyokkayksia_24h": 502551,
- "hyokkaajia_24h": 10362,
- "tervakuoppa_h_7pv": 2342.5,
- "jumissa_nyt": 86,
+ "paivitetty": "2026-11-25 03:04 UTC",
+ "hyokkayksia_24h": 483976,
+ "hyokkaajia_24h": 10370,
+ "tervakuoppa_h_7pv": 2353.3,
+ "jumissa_nyt": 92,
  "uutuus_pct": 7.6,
  "abuseipdb_paiva": 2562,
- "tekoaly_komentoja_24h": 1352,
- "docker_7pv": 2735,
- "syotteja_7pv": 893,
+ "tekoaly_komentoja_24h": 2583,
+ "docker_7pv": 2751,
+ "syotteja_7pv": 899,
  "maat": [
   [
    "Bulgaria",
-   377768
+   370883
   ],
   [
    "?",
-   203320
+   203532
   ],
   [
    "Germany",
-   147396
+   147284
   ],
   [
    "United States",
-   97141
+   97099
   ],
   [
    "Romania",
-   81303
+   81911
   ],
   [
    "United Kingdom",
-   28667
+   30576
   ],
   [
    "China",
-   16595
+   17530
   ],
   [
    "CI",
-   8754
+   8826
   ],
   [
    "Belgium",
-   7710
+   7522
   ],
   [
    "Iran",
-   7247
+   7337
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   3542
+   3548
   ],
   [
    "path traversal",
@@ -62,7 +62,7 @@
   ],
   [
    "hikvision",
-   360
+   364
   ],
   [
    "command injection",
@@ -70,19 +70,19 @@
   ],
   [
    "Java services (actuator/solr)",
-   136
+   140
   ],
   [
    "cgi",
-   134
+   135
+  ],
+  [
+   "Exchange / PHP probes",
+   87
   ],
   [
    "boa",
    86
-  ],
-  [
-   "Exchange / PHP probes",
-   85
   ]
  ],
  "docker_imaget": [
@@ -107,28 +107,19 @@
    4
   ]
  ],
- "haitalliset_tagit": [
-  [
-   "Mirai",
-   4
-  ],
-  [
-   "Mirai TCP Scanner",
-   4
-  ]
- ],
+ "haitalliset_tagit": [],
  "cvet": [
   [
    "CVE_2024_6387",
-   1821
+   1830
   ],
   [
    "CVE_1999_0517",
-   126
+   125
   ],
   [
    "CVE_2025_55182",
-   86
+   80
   ],
   [
    "CVE_2022_27255",
@@ -136,21 +127,21 @@
   ],
   [
    "CVE_2024_14007",
-   41
+   42
   ],
   [
    "CVE_2016_20017",
-   11
+   10
   ]
  ],
  "tunnukset": [
   [
    "root",
-   88411
+   88772
   ],
   [
    "anonymous",
-   50704
+   51348
   ],
   [
    "ftp",
@@ -158,26 +149,70 @@
   ],
   [
    "admin",
-   5874
+   5898
   ],
   [
    "ubuntu",
-   5153
+   5190
   ],
   [
    "79",
-   3702
+   3769
   ],
   [
    "user",
-   3679
+   3698
   ],
   [
    "deploy",
-   3385
+   3396
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-25 02:56",
+   "ip": "198.13.159.7",
+   "verkko": "AS399629 BL Networks",
+   "maa": "NL",
+   "kutsut": [
+    "DescribeAddresses",
+    "DescribeIamInstanceProfileAssociations",
+    "DescribeImages",
+    "DescribeInstances",
+    "DescribeLaunchTemplates"
+   ]
+  },
+  {
+   "aika": "2026-11-25 02:32",
+   "ip": "78.153.140.80",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser"
+   ]
+  },
+  {
+   "aika": "2026-11-25 02:33",
+   "ip": "78.153.140.80",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser"
+   ]
+  },
+  {
+   "aika": "2026-11-25 02:43",
+   "ip": "198.13.159.7",
+   "verkko": "AS399629 BL Networks",
+   "maa": "NL",
+   "kutsut": [
+    "DescribeFileSystems",
+    "DescribeVolumes",
+    "GetCallerIdentity",
+    "ListDirectoryBuckets",
+    "ListTableBuckets"
+   ]
+  },
   {
    "aika": "2026-11-25 01:33",
    "ip": "78.153.140.80",
@@ -281,46 +316,9 @@
    "kutsut": [
     "Converse"
    ]
-  },
-  {
-   "aika": "2026-11-24 22:43",
-   "ip": "85.203.15.81",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
-   "kutsut": [
-    "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-24 22:43",
-   "ip": "85.203.15.50",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
-   "kutsut": [
-    "Converse"
-   ]
-  },
-  {
-   "aika": "2026-11-24 22:43",
-   "ip": "81.199.26.104",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
-   "kutsut": [
-    "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-24 22:43",
-   "ip": "85.203.15.62",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
-   "kutsut": [
-    "Converse",
-    "GetSendQuota"
-   ]
   }
  ],
- "varkaita_yht": 91,
+ "varkaita_yht": 92,
  "historia": [
   {
    "pv": "2026-11-20",
