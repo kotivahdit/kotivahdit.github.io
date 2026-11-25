@@ -1,60 +1,60 @@
 {
- "paivitetty": "2026-11-25 01:02 UTC",
- "hyokkayksia_24h": 528126,
- "hyokkaajia_24h": 10327,
- "tervakuoppa_h_7pv": 2335.9,
- "jumissa_nyt": 85,
+ "paivitetty": "2026-11-25 02:02 UTC",
+ "hyokkayksia_24h": 502551,
+ "hyokkaajia_24h": 10362,
+ "tervakuoppa_h_7pv": 2342.5,
+ "jumissa_nyt": 86,
  "uutuus_pct": 7.6,
  "abuseipdb_paiva": 2562,
- "tekoaly_komentoja_24h": 79,
- "docker_7pv": 2733,
- "syotteja_7pv": 891,
+ "tekoaly_komentoja_24h": 1352,
+ "docker_7pv": 2735,
+ "syotteja_7pv": 893,
  "maat": [
   [
    "Bulgaria",
-   394844
+   377768
   ],
   [
    "?",
-   203128
+   203320
   ],
   [
    "Germany",
-   147538
+   147396
   ],
   [
    "United States",
-   97068
+   97141
   ],
   [
    "Romania",
-   80202
+   81303
   ],
   [
    "United Kingdom",
-   26412
+   28667
   ],
   [
    "China",
-   15754
+   16595
   ],
   [
    "CI",
-   8698
+   8754
   ],
   [
    "Belgium",
-   7733
+   7710
   ],
   [
    "Iran",
-   7180
+   7247
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   3540
+   3542
   ],
   [
    "path traversal",
@@ -62,7 +62,7 @@
   ],
   [
    "hikvision",
-   356
+   360
   ],
   [
    "command injection",
@@ -77,11 +77,11 @@
    134
   ],
   [
-   "Exchange / PHP probes",
-   85
+   "boa",
+   86
   ],
   [
-   "boa",
+   "Exchange / PHP probes",
    85
   ]
  ],
@@ -110,11 +110,11 @@
  "haitalliset_tagit": [
   [
    "Mirai",
-   1
+   4
   ],
   [
    "Mirai TCP Scanner",
-   1
+   4
   ]
  ],
  "cvet": [
@@ -124,11 +124,11 @@
   ],
   [
    "CVE_1999_0517",
-   135
+   126
   ],
   [
    "CVE_2025_55182",
-   85
+   86
   ],
   [
    "CVE_2022_27255",
@@ -136,48 +136,97 @@
   ],
   [
    "CVE_2024_14007",
-   40
+   41
   ],
   [
    "CVE_2016_20017",
-   12
+   11
   ]
  ],
  "tunnukset": [
   [
    "root",
-   88132
+   88411
   ],
   [
    "anonymous",
-   50150
+   50704
   ],
   [
    "ftp",
-   10542
+   10543
   ],
   [
    "admin",
-   5843
+   5874
   ],
   [
    "ubuntu",
-   5117
-  ],
-  [
-   "user",
-   3658
+   5153
   ],
   [
    "79",
-   3646
+   3702
+  ],
+  [
+   "user",
+   3679
   ],
   [
    "deploy",
-   3373
+   3385
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-25 01:33",
+   "ip": "78.153.140.80",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
+  {
+   "aika": "2026-11-25 01:20",
+   "ip": "78.153.140.80",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
+  {
+   "aika": "2026-11-25 01:22",
+   "ip": "78.153.140.80",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "ListVerifiedEmailAddresses"
+   ]
+  },
+  {
+   "aika": "2026-11-25 01:20",
+   "ip": "78.153.140.80",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
+  {
+   "aika": "2026-11-25 01:20",
+   "ip": "78.153.140.80",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
   {
    "aika": "2026-11-24 23:57",
    "ip": "195.178.110.48",
@@ -267,51 +316,6 @@
    "maa": "DE",
    "kutsut": [
     "Converse",
-    "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-24 22:43",
-   "ip": "81.199.26.93",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
-   "kutsut": [
-    "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-24 22:43",
-   "ip": "85.203.15.54",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
-   "kutsut": [
-    "Converse"
-   ]
-  },
-  {
-   "aika": "2026-11-24 22:43",
-   "ip": "85.203.15.49",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
-   "kutsut": [
-    "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-24 22:43",
-   "ip": "81.199.26.100",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
-   "kutsut": [
-    "Converse"
-   ]
-  },
-  {
-   "aika": "2026-11-24 22:43",
-   "ip": "85.203.15.63",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
-   "kutsut": [
     "GetSendQuota"
    ]
   }
