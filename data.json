@@ -1,64 +1,64 @@
 {
- "paivitetty": "2026-11-25 20:02 UTC",
- "hyokkayksia_24h": 494846,
- "hyokkaajia_24h": 10191,
- "tervakuoppa_h_7pv": 3827.8,
- "jumissa_nyt": 81,
+ "paivitetty": "2026-11-25 21:02 UTC",
+ "hyokkayksia_24h": 497148,
+ "hyokkaajia_24h": 10233,
+ "tervakuoppa_h_7pv": 3835.5,
+ "jumissa_nyt": 87,
  "uutuus_pct": 7.6,
  "abuseipdb_paiva": 2562,
- "tekoaly_komentoja_24h": 5866,
- "docker_7pv": 2906,
- "syotteja_7pv": 1020,
+ "tekoaly_komentoja_24h": 5241,
+ "docker_7pv": 2908,
+ "syotteja_7pv": 1028,
  "maat": [
   [
    "Bulgaria",
-   468860
+   472594
   ],
   [
    "?",
-   208749
+   209099
   ],
   [
    "Germany",
-   170521
+   170539
   ],
   [
    "United States",
-   99113
+   99743
   ],
   [
    "Romania",
-   85712
+   85689
   ],
   [
    "United Kingdom",
-   41611
+   41428
   ],
   [
    "China",
-   17971
+   17975
   ],
   [
    "Iran",
-   12077
+   12449
   ],
   [
    "CI",
-   10034
+   10106
   ],
   [
-   "The Netherlands",
-   7427
+   "ET",
+   7479
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   3811
+   3821
   ],
   [
    "path traversal",
-   802
+   803
   ],
   [
    "hikvision",
@@ -66,11 +66,11 @@
   ],
   [
    "command injection",
-   196
+   197
   ],
   [
    "cgi",
-   163
+   165
   ],
   [
    "Java services (actuator/solr)",
@@ -78,7 +78,7 @@
   ],
   [
    "Exchange / PHP probes",
-   104
+   105
   ],
   [
    "boa",
@@ -109,29 +109,25 @@
  ],
  "haitalliset_tagit": [
   [
-   "Mirai",
-   8
+   "Mirai TCP Scanner",
+   6
   ],
   [
-   "Mirai TCP Scanner",
-   8
+   "Mirai",
+   6
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1818
+   1820
   ],
   [
    "CVE_1999_0517",
-   108
+   121
   ],
   [
    "CVE_2002_1149",
-   81
-  ],
-  [
-   "CVE_2025_55182",
    81
   ],
   [
@@ -139,45 +135,87 @@
    80
   ],
   [
+   "CVE_2025_55182",
+   78
+  ],
+  [
    "CVE_2022_27255",
-   63
+   69
   ]
  ],
  "tunnukset": [
   [
    "root",
-   95794
+   96006
   ],
   [
    "anonymous",
-   63734
+   64476
   ],
   [
    "ftp",
-   10568
+   10569
   ],
   [
    "admin",
-   6569
+   6574
   ],
   [
    "ubuntu",
-   6060
+   6093
   ],
   [
    "79",
-   4766
+   4825
   ],
   [
    "user",
-   4070
+   4085
   ],
   [
    "deploy",
-   3710
+   3716
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-25 20:38",
+   "ip": "198.13.159.7",
+   "verkko": "AS399629 BL Networks",
+   "maa": "NL",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
+  {
+   "aika": "2026-11-25 20:23",
+   "ip": "198.13.159.7",
+   "verkko": "AS399629 BL Networks",
+   "maa": "NL",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
+  {
+   "aika": "2026-11-25 20:07",
+   "ip": "198.13.159.7",
+   "verkko": "AS399629 BL Networks",
+   "maa": "NL",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
+  {
+   "aika": "2026-11-25 19:52",
+   "ip": "198.13.159.7",
+   "verkko": "AS399629 BL Networks",
+   "maa": "NL",
+   "kutsut": [
+    "DescribeRegions",
+    "GetCallerIdentity",
+    "ListRegions"
+   ]
+  },
   {
    "aika": "2026-11-25 19:46",
    "ip": "142.147.128.194",
@@ -273,42 +311,6 @@
    "ip": "206.206.118.116",
    "verkko": "AS13332 Hype Enterprises",
    "maa": "US",
-   "kutsut": [
-    "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-25 19:46",
-   "ip": "152.55.176.173",
-   "verkko": "AS400940 Railway",
-   "maa": "US",
-   "kutsut": [
-    "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-25 19:46",
-   "ip": "173.211.68.222",
-   "verkko": "AS13332 Hype Enterprises",
-   "maa": "US",
-   "kutsut": [
-    "GetSMSAttributes"
-   ]
-  },
-  {
-   "aika": "2026-11-25 19:46",
-   "ip": "140.245.92.138",
-   "verkko": "AS31898 Oracle Corporation",
-   "maa": "JP",
-   "kutsut": [
-    "GetSMSAttributes"
-   ]
-  },
-  {
-   "aika": "2026-11-25 19:46",
-   "ip": "178.18.251.62",
-   "verkko": "AS51167 Contabo GmbH",
-   "maa": "FR",
    "kutsut": [
     "GetSendQuota"
    ]
