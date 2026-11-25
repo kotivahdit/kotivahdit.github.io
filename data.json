@@ -1,38 +1,38 @@
 {
- "paivitetty": "2026-11-25 10:05 UTC",
- "hyokkayksia_24h": 460819,
- "hyokkaajia_24h": 10433,
- "tervakuoppa_h_7pv": 2965.9,
+ "paivitetty": "2026-11-25 11:01 UTC",
+ "hyokkayksia_24h": 454874,
+ "hyokkaajia_24h": 10418,
+ "tervakuoppa_h_7pv": 2971.3,
  "jumissa_nyt": 86,
  "uutuus_pct": 7.6,
  "abuseipdb_paiva": 2562,
- "tekoaly_komentoja_24h": 4780,
- "docker_7pv": 2835,
- "syotteja_7pv": 942,
+ "tekoaly_komentoja_24h": 4680,
+ "docker_7pv": 2838,
+ "syotteja_7pv": 950,
  "maat": [
   [
    "Bulgaria",
-   422105
+   428048
   ],
   [
    "?",
-   205288
+   205426
   ],
   [
    "Germany",
-   147331
+   147166
   ],
   [
    "United States",
-   92700
+   88185
   ],
   [
    "Romania",
-   84169
+   84295
   ],
   [
    "United Kingdom",
-   37359
+   39327
   ],
   [
    "China",
@@ -40,21 +40,21 @@
   ],
   [
    "CI",
-   9330
+   9378
   ],
   [
    "Iran",
-   7904
+   7966
   ],
   [
    "The Netherlands",
-   7331
+   7430
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   3669
+   3704
   ],
   [
    "path traversal",
@@ -62,11 +62,11 @@
   ],
   [
    "hikvision",
-   385
+   390
   ],
   [
    "command injection",
-   172
+   175
   ],
   [
    "Java services (actuator/solr)",
@@ -82,7 +82,7 @@
   ],
   [
    "boa",
-   88
+   89
   ]
  ],
  "docker_imaget": [
@@ -110,25 +110,25 @@
  "haitalliset_tagit": [
   [
    "Mirai",
-   4
+   5
   ],
   [
    "Mirai TCP Scanner",
-   4
+   5
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1824
+   1818
   ],
   [
    "CVE_1999_0517",
-   116
+   114
   ],
   [
    "CVE_2025_55182",
-   82
+   79
   ],
   [
    "CVE_2022_27255",
@@ -136,21 +136,21 @@
   ],
   [
    "CVE_2024_14007",
-   35
+   37
   ],
   [
    "CVE_2016_20017",
-   10
+   9
   ]
  ],
  "tunnukset": [
   [
    "root",
-   92421
+   93013
   ],
   [
    "anonymous",
-   55713
+   56176
   ],
   [
    "ftp",
@@ -158,163 +158,163 @@
   ],
   [
    "admin",
-   6250
+   6300
   ],
   [
    "ubuntu",
-   5600
+   5656
   ],
   [
    "79",
-   4202
+   4239
   ],
   [
    "user",
-   3888
+   3918
   ],
   [
    "deploy",
-   3562
+   3590
   ]
  ],
  "varkaat": [
   {
-   "aika": "2026-11-25 10:01",
-   "ip": "178.92.30.24",
-   "verkko": "AS219329 FLASH EDGE INFORMATION TECHNOLOGY LLC",
+   "aika": "2026-11-25 10:36",
+   "ip": "82.40.76.180",
+   "verkko": "AS40403 Rocks Computer Services, LLC",
    "maa": "US",
    "kutsut": [
-    "ListFoundationModels"
+    "GetSMSAttributes"
    ]
   },
   {
-   "aika": "2026-11-25 10:01",
-   "ip": "64.137.103.200",
-   "verkko": "AS133944 trafficforce, UAB",
-   "maa": "AT",
-   "kutsut": [
-    "ListFoundationModels"
-   ]
-  },
-  {
-   "aika": "2026-11-25 10:01",
-   "ip": "178.92.231.109",
-   "verkko": "AS219329 FLASH EDGE INFORMATION TECHNOLOGY LLC",
+   "aika": "2026-11-25 10:36",
+   "ip": "158.46.196.187",
+   "verkko": "AS213541 WS Telecom Inc",
    "maa": "US",
    "kutsut": [
-    "ListFoundationModels"
+    "GetSMSAttributes"
    ]
   },
   {
-   "aika": "2026-11-25 10:01",
-   "ip": "88.119.166.101",
-   "verkko": "AS61272 UAB Bacloud",
-   "maa": "LT",
+   "aika": "2026-11-25 10:36",
+   "ip": "195.172.134.158",
+   "verkko": "AS212238 Datacamp Limited",
+   "maa": "TR",
    "kutsut": [
-    "ListFoundationModels"
+    "GetSendQuota"
    ]
   },
   {
-   "aika": "2026-11-25 10:01",
-   "ip": "188.233.4.18",
-   "verkko": "AS39435 JSC \"ER-Telecom Holding\"",
-   "maa": "RU",
+   "aika": "2026-11-25 10:35",
+   "ip": "216.173.122.40",
+   "verkko": "AS9009 M247 Europe SRL",
+   "maa": "FR",
    "kutsut": [
-    "ListFoundationModels"
+    "GetSMSAttributes"
    ]
   },
   {
-   "aika": "2026-11-25 10:01",
-   "ip": "178.94.154.13",
-   "verkko": "AS219329 FLASH EDGE INFORMATION TECHNOLOGY LLC",
+   "aika": "2026-11-25 10:35",
+   "ip": "156.230.226.232",
+   "verkko": "AS400463 DynaNode LLC",
    "maa": "US",
    "kutsut": [
-    "ListFoundationModels"
+    "GetSMSAttributes"
    ]
   },
   {
-   "aika": "2026-11-25 10:01",
-   "ip": "108.5.211.122",
-   "verkko": "AS701 Verizon Business",
+   "aika": "2026-11-25 10:35",
+   "ip": "185.213.154.181",
+   "verkko": "AS39351 31173 Services AB",
+   "maa": "SE",
+   "kutsut": [
+    "GetSMSAttributes"
+   ]
+  },
+  {
+   "aika": "2026-11-25 10:35",
+   "ip": "104.253.82.108",
+   "verkko": "AS50304 Blix Solutions AS",
+   "maa": "DK",
+   "kutsut": [
+    "GetSMSAttributes"
+   ]
+  },
+  {
+   "aika": "2026-11-25 10:35",
+   "ip": "23.231.17.73",
+   "verkko": "AS6079 RCN",
    "maa": "US",
    "kutsut": [
-    "ListFoundationModels"
+    "GetSMSAttributes"
    ]
   },
   {
-   "aika": "2026-11-25 10:01",
-   "ip": "85.163.30.1",
-   "verkko": "AS28725 CETIN a.s.",
-   "maa": "CZ",
+   "aika": "2026-11-25 10:35",
+   "ip": "45.138.119.175",
+   "verkko": "AS50495 web2objects GmbH",
+   "maa": "DE",
    "kutsut": [
-    "ListFoundationModels"
+    "GetSendQuota"
    ]
   },
   {
-   "aika": "2026-11-25 10:01",
-   "ip": "3.144.107.86",
-   "verkko": "AS16509 Amazon.com, Inc.",
+   "aika": "2026-11-25 10:35",
+   "ip": "2.26.152.161",
+   "verkko": "AS152179 GLOBAL COMMUNICATION NETWORK LIMITED",
+   "maa": "IN",
+   "kutsut": [
+    "GetSendQuota"
+   ]
+  },
+  {
+   "aika": "2026-11-25 10:35",
+   "ip": "107.173.128.225",
+   "verkko": "AS36352 HostPapa",
    "maa": "US",
    "kutsut": [
-    "ListFoundationModels"
+    "GetSMSAttributes"
    ]
   },
   {
-   "aika": "2026-11-25 10:01",
-   "ip": "23.82.75.98",
-   "verkko": "AS396190 Leaseweb USA, Inc.",
+   "aika": "2026-11-25 10:35",
+   "ip": "142.147.128.41",
+   "verkko": "AS2914 NTT America, Inc.",
    "maa": "US",
    "kutsut": [
-    "ListFoundationModels"
+    "GetSMSAttributes"
    ]
   },
   {
-   "aika": "2026-11-25 10:01",
-   "ip": "51.81.22.61",
-   "verkko": "AS16276 OVH SAS",
+   "aika": "2026-11-25 10:35",
+   "ip": "136.0.109.25",
+   "verkko": "AS18779 EGIHosting",
    "maa": "US",
    "kutsut": [
-    "ListFoundationModels"
+    "GetSendQuota"
    ]
   },
   {
-   "aika": "2026-11-25 10:00",
-   "ip": "178.92.250.58",
-   "verkko": "AS219329 FLASH EDGE INFORMATION TECHNOLOGY LLC",
+   "aika": "2026-11-25 10:35",
+   "ip": "150.230.12.191",
+   "verkko": "AS31898 Oracle Corporation",
+   "maa": "AU",
+   "kutsut": [
+    "GetSendQuota"
+   ]
+  },
+  {
+   "aika": "2026-11-25 10:35",
+   "ip": "23.236.182.241",
+   "verkko": "AS55286 B2 Net Solutions Inc.",
    "maa": "US",
    "kutsut": [
-    "ListFoundationModels"
-   ]
-  },
-  {
-   "aika": "2026-11-25 10:00",
-   "ip": "89.117.76.31",
-   "verkko": "AS40021 Contabo Inc.",
-   "maa": "US",
-   "kutsut": [
-    "ListFoundationModels"
-   ]
-  },
-  {
-   "aika": "2026-11-25 10:00",
-   "ip": "92.112.43.49",
-   "verkko": "AS219329 FLASH EDGE INFORMATION TECHNOLOGY LLC",
-   "maa": "US",
-   "kutsut": [
-    "ListFoundationModels"
-   ]
-  },
-  {
-   "aika": "2026-11-25 09:59",
-   "ip": "84.247.41.180",
-   "verkko": "AS25369 Hydra Communications Ltd",
-   "maa": "GB",
-   "kutsut": [
-    "ListFoundationModels"
+    "GetSMSAttributes"
    ]
   }
  ],
- "varkaita_yht": 155,
+ "varkaita_yht": 255,
  "historia": [
   {
    "pv": "2026-11-20",
