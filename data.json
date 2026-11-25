@@ -1,60 +1,60 @@
 {
- "paivitetty": "2026-11-24 23:03 UTC",
- "hyokkayksia_24h": 558549,
- "hyokkaajia_24h": 10420,
- "tervakuoppa_h_7pv": 2309.8,
- "jumissa_nyt": 86,
- "uutuus_pct": 9.7,
- "abuseipdb_paiva": 1142,
- "tekoaly_komentoja_24h": 5615,
+ "paivitetty": "2026-11-25 00:02 UTC",
+ "hyokkayksia_24h": 541398,
+ "hyokkaajia_24h": 10400,
+ "tervakuoppa_h_7pv": 2320.7,
+ "jumissa_nyt": 92,
+ "uutuus_pct": 7.6,
+ "abuseipdb_paiva": 2562,
+ "tekoaly_komentoja_24h": 5629,
  "docker_7pv": 2732,
- "syotteja_7pv": 873,
+ "syotteja_7pv": 887,
  "maat": [
   [
    "Bulgaria",
-   406351
+   398201
   ],
   [
    "?",
-   202712
+   202975
   ],
   [
    "Germany",
-   147396
+   147431
   ],
   [
    "United States",
-   93675
+   97031
   ],
   [
    "Romania",
-   79185
+   79571
   ],
   [
    "United Kingdom",
-   23869
+   25100
   ],
   [
    "China",
-   13250
+   14728
   ],
   [
    "CI",
-   8554
+   8626
   ],
   [
    "Belgium",
-   7806
+   7746
   ],
   [
    "Iran",
-   7012
+   7096
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   3485
+   3536
   ],
   [
    "path traversal",
@@ -62,11 +62,11 @@
   ],
   [
    "hikvision",
-   352
+   353
   ],
   [
    "command injection",
-   149
+   155
   ],
   [
    "Java services (actuator/solr)",
@@ -74,7 +74,7 @@
   ],
   [
    "cgi",
-   132
+   134
   ],
   [
    "Exchange / PHP probes",
@@ -82,7 +82,7 @@
   ],
   [
    "boa",
-   82
+   83
   ]
  ],
  "docker_imaget": [
@@ -107,7 +107,16 @@
    4
   ]
  ],
- "haitalliset_tagit": [],
+ "haitalliset_tagit": [
+  [
+   "Mirai",
+   4
+  ],
+  [
+   "Mirai TCP Scanner",
+   4
+  ]
+ ],
  "cvet": [
   [
    "CVE_2024_6387",
@@ -115,11 +124,11 @@
   ],
   [
    "CVE_1999_0517",
-   162
+   161
   ],
   [
    "CVE_2025_55182",
-   82
+   78
   ],
   [
    "CVE_2022_27255",
@@ -127,7 +136,7 @@
   ],
   [
    "CVE_2024_14007",
-   38
+   40
   ],
   [
    "CVE_2016_20017",
@@ -137,11 +146,11 @@
  "tunnukset": [
   [
    "root",
-   88036
+   88022
   ],
   [
    "anonymous",
-   48826
+   49504
   ],
   [
    "ftp",
@@ -149,19 +158,19 @@
   ],
   [
    "admin",
-   5832
+   5855
   ],
   [
    "ubuntu",
-   5071
+   5090
   ],
   [
    "user",
-   3654
+   3655
   ],
   [
    "79",
-   3520
+   3580
   ],
   [
    "deploy",
@@ -169,6 +178,16 @@
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-24 23:56",
+   "ip": "195.178.110.48",
+   "verkko": "AS48090 TECHOFF SRV LIMITED",
+   "maa": "NL",
+   "kutsut": [
+    "InvokeModel",
+    "ListIdentities"
+   ]
+  },
   {
    "aika": "2026-11-24 22:44",
    "ip": "81.199.26.103",
@@ -295,15 +314,6 @@
    "kutsut": [
     "Converse"
    ]
-  },
-  {
-   "aika": "2026-11-24 22:43",
-   "ip": "81.199.26.102",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
-   "kutsut": [
-    "Converse"
-   ]
   }
  ],
  "varkaita_yht": 91,
@@ -327,6 +337,11 @@
    "pv": "2026-11-23",
    "hyokkayksia": 544117,
    "uutuus": 9.7
+  },
+  {
+   "pv": "2026-11-24",
+   "hyokkayksia": 523378,
+   "uutuus": 7.6
   }
  ]
 }
