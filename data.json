@@ -1,60 +1,60 @@
 {
- "paivitetty": "2026-11-25 04:01 UTC",
- "hyokkayksia_24h": 489224,
- "hyokkaajia_24h": 10354,
- "tervakuoppa_h_7pv": 2383.3,
- "jumissa_nyt": 94,
+ "paivitetty": "2026-11-25 05:04 UTC",
+ "hyokkayksia_24h": 489467,
+ "hyokkaajia_24h": 10388,
+ "tervakuoppa_h_7pv": 2824.1,
+ "jumissa_nyt": 97,
  "uutuus_pct": 7.6,
  "abuseipdb_paiva": 2562,
- "tekoaly_komentoja_24h": 5982,
- "docker_7pv": 2757,
- "syotteja_7pv": 907,
+ "tekoaly_komentoja_24h": 5794,
+ "docker_7pv": 2781,
+ "syotteja_7pv": 911,
  "maat": [
   [
    "Bulgaria",
-   391173
+   404371
   ],
   [
    "?",
-   204125
+   204350
   ],
   [
    "Germany",
-   147339
+   147388
   ],
   [
    "United States",
-   96708
+   97231
   ],
   [
    "Romania",
-   79881
+   80083
   ],
   [
    "United Kingdom",
-   32560
+   32626
   ],
   [
    "China",
-   17670
+   17689
   ],
   [
    "CI",
-   8898
-  ],
-  [
-   "Belgium",
-   7597
+   8978
   ],
   [
    "Iran",
-   7421
+   7508
+  ],
+  [
+   "Belgium",
+   7494
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   3554
+   3558
   ],
   [
    "path traversal",
@@ -62,11 +62,11 @@
   ],
   [
    "hikvision",
-   364
+   372
   ],
   [
    "command injection",
-   161
+   164
   ],
   [
    "Java services (actuator/solr)",
@@ -82,7 +82,7 @@
   ],
   [
    "boa",
-   86
+   87
   ]
  ],
  "docker_imaget": [
@@ -109,18 +109,18 @@
  ],
  "haitalliset_tagit": [
   [
-   "Mirai TCP Scanner",
-   2
+   "Mirai",
+   4
   ],
   [
-   "Mirai",
-   2
+   "Mirai TCP Scanner",
+   4
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1826
+   1829
   ],
   [
    "CVE_1999_0517",
@@ -128,7 +128,7 @@
   ],
   [
    "CVE_2025_55182",
-   81
+   86
   ],
   [
    "CVE_2022_27255",
@@ -136,48 +136,96 @@
   ],
   [
    "CVE_2024_14007",
-   41
+   42
   ],
   [
    "CVE_2016_20017",
-   9
+   8
   ]
  ],
  "tunnukset": [
   [
    "root",
-   89111
+   89463
   ],
   [
    "anonymous",
-   52025
+   52686
   ],
   [
    "ftp",
-   10546
+   10547
   ],
   [
    "admin",
-   5981
+   6005
   ],
   [
    "ubuntu",
-   5237
+   5281
   ],
   [
    "79",
-   3830
+   3903
   ],
   [
    "user",
-   3712
+   3730
   ],
   [
    "deploy",
-   3409
+   3423
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-25 04:47",
+   "ip": "198.13.159.7",
+   "verkko": "AS399629 BL Networks",
+   "maa": "NL",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
+  {
+   "aika": "2026-11-25 04:29",
+   "ip": "198.13.159.7",
+   "verkko": "AS399629 BL Networks",
+   "maa": "NL",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
+  {
+   "aika": "2026-11-25 04:15",
+   "ip": "198.13.159.7",
+   "verkko": "AS399629 BL Networks",
+   "maa": "NL",
+   "kutsut": [
+    "DescribeNetworkInterfaces",
+    "GetCallerIdentity"
+   ]
+  },
+  {
+   "aika": "2026-11-25 04:03",
+   "ip": "78.153.140.80",
+   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
+   "maa": "GB",
+   "kutsut": [
+    "CreateUser",
+    "ListVerifiedEmailAddresses"
+   ]
+  },
+  {
+   "aika": "2026-11-25 04:04",
+   "ip": "198.13.159.7",
+   "verkko": "AS399629 BL Networks",
+   "maa": "NL",
+   "kutsut": [
+    "GetCallerIdentity",
+    "ListApplications"
+   ]
+  },
   {
    "aika": "2026-11-25 03:51",
    "ip": "198.13.159.7",
@@ -272,52 +320,6 @@
    "verkko": "AS62240 Clouvider",
    "maa": "US",
    "kutsut": [
-    "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-25 03:02",
-   "ip": "45.131.195.223",
-   "verkko": "AS62240 Clouvider",
-   "maa": "US",
-   "kutsut": [
-    "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-25 03:02",
-   "ip": "45.131.195.152",
-   "verkko": "AS62240 Clouvider",
-   "maa": "US",
-   "kutsut": [
-    "GetSMSAttributes"
-   ]
-  },
-  {
-   "aika": "2026-11-25 03:02",
-   "ip": "45.131.195.211",
-   "verkko": "AS62240 Clouvider",
-   "maa": "US",
-   "kutsut": [
-    "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-25 03:02",
-   "ip": "45.131.195.92",
-   "verkko": "AS62240 Clouvider",
-   "maa": "US",
-   "kutsut": [
-    "GetSMSAttributes"
-   ]
-  },
-  {
-   "aika": "2026-11-25 03:02",
-   "ip": "45.131.195.201",
-   "verkko": "AS62240 Clouvider",
-   "maa": "US",
-   "kutsut": [
-    "GetSMSAttributes",
     "GetSendQuota"
    ]
   }
