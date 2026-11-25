@@ -1,60 +1,60 @@
 {
- "paivitetty": "2026-11-25 00:02 UTC",
- "hyokkayksia_24h": 541398,
- "hyokkaajia_24h": 10400,
- "tervakuoppa_h_7pv": 2320.7,
- "jumissa_nyt": 92,
+ "paivitetty": "2026-11-25 01:02 UTC",
+ "hyokkayksia_24h": 528126,
+ "hyokkaajia_24h": 10327,
+ "tervakuoppa_h_7pv": 2335.9,
+ "jumissa_nyt": 85,
  "uutuus_pct": 7.6,
  "abuseipdb_paiva": 2562,
- "tekoaly_komentoja_24h": 5629,
- "docker_7pv": 2732,
- "syotteja_7pv": 887,
+ "tekoaly_komentoja_24h": 79,
+ "docker_7pv": 2733,
+ "syotteja_7pv": 891,
  "maat": [
   [
    "Bulgaria",
-   398201
+   394844
   ],
   [
    "?",
-   202975
+   203128
   ],
   [
    "Germany",
-   147431
+   147538
   ],
   [
    "United States",
-   97031
+   97068
   ],
   [
    "Romania",
-   79571
+   80202
   ],
   [
    "United Kingdom",
-   25100
+   26412
   ],
   [
    "China",
-   14728
+   15754
   ],
   [
    "CI",
-   8626
+   8698
   ],
   [
    "Belgium",
-   7746
+   7733
   ],
   [
    "Iran",
-   7096
+   7180
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   3536
+   3540
   ],
   [
    "path traversal",
@@ -62,11 +62,11 @@
   ],
   [
    "hikvision",
-   353
+   356
   ],
   [
    "command injection",
-   155
+   157
   ],
   [
    "Java services (actuator/solr)",
@@ -82,7 +82,7 @@
   ],
   [
    "boa",
-   83
+   85
   ]
  ],
  "docker_imaget": [
@@ -110,25 +110,25 @@
  "haitalliset_tagit": [
   [
    "Mirai",
-   4
+   1
   ],
   [
    "Mirai TCP Scanner",
-   4
+   1
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1814
+   1821
   ],
   [
    "CVE_1999_0517",
-   161
+   135
   ],
   [
    "CVE_2025_55182",
-   78
+   85
   ],
   [
    "CVE_2022_27255",
@@ -140,17 +140,17 @@
   ],
   [
    "CVE_2016_20017",
-   11
+   12
   ]
  ],
  "tunnukset": [
   [
    "root",
-   88022
+   88132
   ],
   [
    "anonymous",
-   49504
+   50150
   ],
   [
    "ftp",
@@ -158,26 +158,35 @@
   ],
   [
    "admin",
-   5855
+   5843
   ],
   [
    "ubuntu",
-   5090
+   5117
   ],
   [
    "user",
-   3655
+   3658
   ],
   [
    "79",
-   3580
+   3646
   ],
   [
    "deploy",
-   3366
+   3373
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-24 23:57",
+   "ip": "195.178.110.48",
+   "verkko": "AS48090 TECHOFF SRV LIMITED",
+   "maa": "NL",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
   {
    "aika": "2026-11-24 23:56",
    "ip": "195.178.110.48",
@@ -304,15 +313,6 @@
    "maa": "DE",
    "kutsut": [
     "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-24 22:43",
-   "ip": "85.203.15.59",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
-   "kutsut": [
-    "Converse"
    ]
   }
  ],
