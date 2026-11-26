@@ -1,46 +1,46 @@
 {
- "paivitetty": "2026-11-26 19:01 UTC",
- "hyokkayksia_24h": 532003,
- "hyokkaajia_24h": 11574,
- "tervakuoppa_h_7pv": 5120.6,
+ "paivitetty": "2026-11-26 20:01 UTC",
+ "hyokkayksia_24h": 519957,
+ "hyokkaajia_24h": 11609,
+ "tervakuoppa_h_7pv": 5170.5,
  "jumissa_nyt": 101,
  "uutuus_pct": 8.4,
  "abuseipdb_paiva": 4181,
- "tekoaly_komentoja_24h": 5895,
- "docker_7pv": 3319,
- "syotteja_7pv": 1235,
+ "tekoaly_komentoja_24h": 5807,
+ "docker_7pv": 3340,
+ "syotteja_7pv": 1237,
  "maat": [
   [
    "Bulgaria",
-   570949
+   559987
   ],
   [
    "?",
-   224050
+   225988
   ],
   [
    "Germany",
-   148378
+   148398
   ],
   [
    "United States",
-   103393
+   103769
   ],
   [
    "Romania",
-   89993
+   90103
   ],
   [
    "United Kingdom",
-   45654
+   44950
   ],
   [
    "Iran",
-   21848
+   22624
   ],
   [
    "China",
-   20872
+   20815
   ],
   [
    "CI",
@@ -48,13 +48,13 @@
   ],
   [
    "The Netherlands",
-   10429
+   10606
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   4365
+   4364
   ],
   [
    "path traversal",
@@ -62,11 +62,11 @@
   ],
   [
    "hikvision",
-   480
+   486
   ],
   [
    "command injection",
-   255
+   259
   ],
   [
    "cgi",
@@ -88,7 +88,7 @@
  "docker_imaget": [
   [
    "postgres:15",
-   29
+   31
   ],
   [
    "alpine",
@@ -109,68 +109,68 @@
  ],
  "haitalliset_tagit": [
   [
-   "Mirai",
-   17
+   "Mirai TCP Scanner",
+   14
   ],
   [
-   "Mirai TCP Scanner",
-   17
+   "Mirai",
+   14
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1832
+   1830
   ],
   [
    "CVE_1999_0517",
-   163
+   161
   ],
   [
    "CVE_2025_55182",
-   72
+   70
   ],
   [
    "CVE_2024_14007",
    38
   ],
   [
-   "CVE_2022_27255",
-   26
-  ],
-  [
    "CVE_2018_2893",
    8
+  ],
+  [
+   "CVE_2021_35394",
+   7
   ]
  ],
  "tunnukset": [
   [
    "root",
-   100141
+   100209
   ],
   [
    "anonymous",
-   83594
+   84517
   ],
   [
    "ftp",
-   10587
+   10588
   ],
   [
    "ubuntu",
-   7354
+   7455
   ],
   [
    "admin",
-   6991
+   7008
   ],
   [
    "79",
-   6168
+   6228
   ],
   [
    "user",
-   4293
+   4302
   ],
   [
    "deploy",
@@ -178,6 +178,42 @@
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-26 19:37",
+   "ip": "198.13.159.7",
+   "verkko": "AS399629 BL Networks",
+   "maa": "NL",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
+  {
+   "aika": "2026-11-26 19:24",
+   "ip": "198.13.159.7",
+   "verkko": "AS399629 BL Networks",
+   "maa": "NL",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
+  {
+   "aika": "2026-11-26 19:07",
+   "ip": "198.13.159.7",
+   "verkko": "AS399629 BL Networks",
+   "maa": "NL",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
+  {
+   "aika": "2026-11-26 18:52",
+   "ip": "198.13.159.7",
+   "verkko": "AS399629 BL Networks",
+   "maa": "NL",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
   {
    "aika": "2026-11-26 18:38",
    "ip": "198.13.159.7",
@@ -273,42 +309,6 @@
    "ip": "64.137.99.172",
    "verkko": "AS202044 Getechbrothers, MB",
    "maa": "ES",
-   "kutsut": [
-    "GetSMSAttributes"
-   ]
-  },
-  {
-   "aika": "2026-11-26 18:04",
-   "ip": "45.41.160.196",
-   "verkko": "AS46516 HostRoyale LLC",
-   "maa": "US",
-   "kutsut": [
-    "GetSMSAttributes"
-   ]
-  },
-  {
-   "aika": "2026-11-26 18:04",
-   "ip": "173.239.248.57",
-   "verkko": "AS212238 Datacamp Limited",
-   "maa": "DE",
-   "kutsut": [
-    "GetSMSAttributes"
-   ]
-  },
-  {
-   "aika": "2026-11-26 18:04",
-   "ip": "191.96.202.101",
-   "verkko": "AS396190 Leaseweb USA, Inc.",
-   "maa": "US",
-   "kutsut": [
-    "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-26 18:04",
-   "ip": "166.88.85.243",
-   "verkko": "AS18779 EGIHosting",
-   "maa": "US",
    "kutsut": [
     "GetSMSAttributes"
    ]
