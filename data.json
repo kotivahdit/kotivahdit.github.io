@@ -1,60 +1,60 @@
 {
- "paivitetty": "2026-11-26 07:00 UTC",
- "hyokkayksia_24h": 520764,
- "hyokkaajia_24h": 10862,
- "tervakuoppa_h_7pv": 4245.0,
- "jumissa_nyt": 95,
+ "paivitetty": "2026-11-26 08:00 UTC",
+ "hyokkayksia_24h": 527909,
+ "hyokkaajia_24h": 11085,
+ "tervakuoppa_h_7pv": 4423.8,
+ "jumissa_nyt": 94,
  "uutuus_pct": 8.4,
  "abuseipdb_paiva": 4181,
- "tekoaly_komentoja_24h": 5893,
- "docker_7pv": 3037,
- "syotteja_7pv": 1126,
+ "tekoaly_komentoja_24h": 5712,
+ "docker_7pv": 3067,
+ "syotteja_7pv": 1139,
  "maat": [
   [
    "Bulgaria",
-   506520
+   517752
   ],
   [
    "?",
-   212841
+   213236
   ],
   [
    "Germany",
-   172598
+   172645
   ],
   [
    "United States",
-   99926
+   100086
   ],
   [
    "Romania",
-   88501
+   87967
   ],
   [
    "United Kingdom",
-   43009
+   43108
   ],
   [
    "China",
-   21276
+   21270
   ],
   [
    "Iran",
-   15439
+   15880
   ],
   [
    "CI",
-   10834
+   10914
   ],
   [
    "ET",
-   9033
+   9201
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   4087
+   4097
   ],
   [
    "path traversal",
@@ -62,11 +62,11 @@
   ],
   [
    "hikvision",
-   446
+   448
   ],
   [
    "command injection",
-   229
+   231
   ],
   [
    "cgi",
@@ -74,11 +74,11 @@
   ],
   [
    "Java services (actuator/solr)",
-   182
+   183
   ],
   [
    "Exchange / PHP probes",
-   121
+   128
   ],
   [
    "boa",
@@ -120,11 +120,11 @@
  "cvet": [
   [
    "CVE_2024_6387",
-   1822
+   1815
   ],
   [
    "CVE_1999_0517",
-   158
+   156
   ],
   [
    "CVE_2002_1149",
@@ -136,7 +136,7 @@
   ],
   [
    "CVE_2025_55182",
-   73
+   74
   ],
   [
    "CVE_2022_27255",
@@ -146,11 +146,11 @@
  "tunnukset": [
   [
    "root",
-   97067
+   97132
   ],
   [
    "anonymous",
-   71446
+   72480
   ],
   [
    "ftp",
@@ -158,163 +158,163 @@
   ],
   [
    "admin",
-   6736
+   6746
   ],
   [
    "ubuntu",
-   6344
+   6366
   ],
   [
    "79",
-   5452
+   5518
   ],
   [
    "user",
-   4140
+   4143
   ],
   [
    "deploy",
-   3754
+   3756
   ]
  ],
  "varkaat": [
   {
-   "aika": "2026-11-26 06:46",
-   "ip": "185.198.240.166",
-   "verkko": "AS62240 Clouvider",
+   "aika": "2026-11-26 07:45",
+   "ip": "198.13.159.7",
+   "verkko": "AS399629 BL Networks",
+   "maa": "NL",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
+  {
+   "aika": "2026-11-26 07:30",
+   "ip": "198.13.159.7",
+   "verkko": "AS399629 BL Networks",
+   "maa": "NL",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
+  {
+   "aika": "2026-11-26 07:14",
+   "ip": "198.13.159.7",
+   "verkko": "AS399629 BL Networks",
+   "maa": "NL",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
+  {
+   "aika": "2026-11-26 07:03",
+   "ip": "128.90.164.2",
+   "verkko": "AS22363 Powerhouse Management, Inc.",
+   "maa": "CZ",
+   "kutsut": [
+    "GetSMSAttributes"
+   ]
+  },
+  {
+   "aika": "2026-11-26 07:03",
+   "ip": "3.138.172.86",
+   "verkko": "AS16509 Amazon.com, Inc.",
    "maa": "US",
    "kutsut": [
     "GetSMSAttributes"
    ]
   },
   {
-   "aika": "2026-11-26 06:45",
-   "ip": "209.87.169.172",
-   "verkko": "AS62240 Clouvider",
+   "aika": "2026-11-26 07:03",
+   "ip": "154.6.11.157",
+   "verkko": "AS64286 LogicWeb Inc.",
    "maa": "US",
    "kutsut": [
     "GetSMSAttributes"
    ]
   },
   {
-   "aika": "2026-11-26 06:45",
-   "ip": "209.87.169.157",
-   "verkko": "AS62240 Clouvider",
-   "maa": "US",
-   "kutsut": [
-    "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-26 06:45",
-   "ip": "185.198.240.180",
-   "verkko": "AS62240 Clouvider",
-   "maa": "US",
-   "kutsut": [
-    "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-26 06:45",
-   "ip": "209.87.169.160",
-   "verkko": "AS62240 Clouvider",
+   "aika": "2026-11-26 07:03",
+   "ip": "151.240.109.108",
+   "verkko": "AS137409 GSL Networks Pty LTD",
    "maa": "US",
    "kutsut": [
     "GetSMSAttributes"
    ]
   },
   {
-   "aika": "2026-11-26 06:45",
-   "ip": "45.131.195.252",
-   "verkko": "AS62240 Clouvider",
-   "maa": "US",
-   "kutsut": [
-    "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-26 06:45",
-   "ip": "209.87.169.166",
-   "verkko": "AS62240 Clouvider",
-   "maa": "US",
-   "kutsut": [
-    "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-26 06:45",
-   "ip": "209.87.169.163",
-   "verkko": "AS62240 Clouvider",
-   "maa": "US",
-   "kutsut": [
-    "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-26 06:44",
-   "ip": "209.87.169.158",
-   "verkko": "AS62240 Clouvider",
-   "maa": "US",
-   "kutsut": [
-    "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-26 06:44",
-   "ip": "185.198.240.168",
-   "verkko": "AS62240 Clouvider",
+   "aika": "2026-11-26 07:02",
+   "ip": "18.117.11.30",
+   "verkko": "AS16509 Amazon.com, Inc.",
    "maa": "US",
    "kutsut": [
     "GetSMSAttributes"
    ]
   },
   {
-   "aika": "2026-11-26 06:44",
-   "ip": "185.198.240.98",
-   "verkko": "AS62240 Clouvider",
+   "aika": "2026-11-26 07:02",
+   "ip": "193.187.115.150",
+   "verkko": "AS213772 BK Customers",
+   "maa": "LT",
+   "kutsut": [
+    "GetSMSAttributes"
+   ]
+  },
+  {
+   "aika": "2026-11-26 07:02",
+   "ip": "193.56.117.22",
+   "verkko": "AS206092 F.N.S. HOLDINGS LIMITED",
+   "maa": "US",
+   "kutsut": [
+    "GetSendQuota"
+   ]
+  },
+  {
+   "aika": "2026-11-26 07:02",
+   "ip": "45.84.44.29",
+   "verkko": "AS7979 Servers.com, Inc.",
+   "maa": "NL",
+   "kutsut": [
+    "GetSendQuota"
+   ]
+  },
+  {
+   "aika": "2026-11-26 07:02",
+   "ip": "185.101.254.59",
+   "verkko": "AS29802 HIVELOCITY, Inc.",
+   "maa": "FR",
+   "kutsut": [
+    "GetSendQuota"
+   ]
+  },
+  {
+   "aika": "2026-11-26 07:02",
+   "ip": "82.40.82.252",
+   "verkko": "AS40403 Rocks Computer Services, LLC",
+   "maa": "US",
+   "kutsut": [
+    "GetSendQuota"
+   ]
+  },
+  {
+   "aika": "2026-11-26 07:02",
+   "ip": "154.6.126.235",
+   "verkko": "AS64286 LogicWeb Inc.",
    "maa": "US",
    "kutsut": [
     "GetSMSAttributes"
    ]
   },
   {
-   "aika": "2026-11-26 06:44",
-   "ip": "185.198.240.160",
-   "verkko": "AS62240 Clouvider",
-   "maa": "US",
-   "kutsut": [
-    "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-26 06:44",
-   "ip": "209.87.169.171",
-   "verkko": "AS62240 Clouvider",
-   "maa": "US",
-   "kutsut": [
-    "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-26 06:44",
-   "ip": "209.87.169.167",
-   "verkko": "AS62240 Clouvider",
-   "maa": "US",
+   "aika": "2026-11-26 07:02",
+   "ip": "154.222.195.140",
+   "verkko": "AS202656 Ivanov Vitaliy Sergeevich",
+   "maa": "DE",
    "kutsut": [
     "GetSMSAttributes"
-   ]
-  },
-  {
-   "aika": "2026-11-26 06:44",
-   "ip": "185.198.240.164",
-   "verkko": "AS62240 Clouvider",
-   "maa": "US",
-   "kutsut": [
-    "GetSendQuota"
    ]
   }
  ],
- "varkaita_yht": 1158,
+ "varkaita_yht": 1184,
  "historia": [
   {
    "pv": "2026-11-20",
