@@ -1,42 +1,42 @@
 {
- "paivitetty": "2026-11-27 17:02 UTC",
- "hyokkayksia_24h": 505615,
- "hyokkaajia_24h": 10216,
- "tervakuoppa_h_7pv": 6647.1,
+ "paivitetty": "2026-11-27 18:02 UTC",
+ "hyokkayksia_24h": 489178,
+ "hyokkaajia_24h": 10197,
+ "tervakuoppa_h_7pv": 6705.5,
  "jumissa_nyt": 92,
  "uutuus_pct": 8.4,
  "abuseipdb_paiva": 4124,
- "tekoaly_komentoja_24h": 5465,
- "docker_7pv": 3597,
- "syotteja_7pv": 1375,
+ "tekoaly_komentoja_24h": 5111,
+ "docker_7pv": 3512,
+ "syotteja_7pv": 1383,
  "maat": [
   [
    "Bulgaria",
-   565345
+   556282
   ],
   [
    "?",
-   255756
+   256749
   ],
   [
    "United States",
-   111963
+   111657
   ],
   [
    "Romania",
-   93629
+   95270
   ],
   [
    "Iran",
-   59024
+   61247
   ],
   [
    "Germany",
-   25878
+   25897
   ],
   [
    "China",
-   20030
+   20556
   ],
   [
    "CI",
@@ -44,7 +44,7 @@
   ],
   [
    "United Kingdom",
-   10353
+   10278
   ],
   [
    "ET",
@@ -54,7 +54,7 @@
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   4491
+   4523
   ],
   [
    "path traversal",
@@ -62,7 +62,7 @@
   ],
   [
    "hikvision",
-   537
+   539
   ],
   [
    "command injection",
@@ -88,11 +88,11 @@
  "docker_imaget": [
   [
    "alpine",
-   32
+   31
   ],
   [
    "postgres:15",
-   31
+   29
   ],
   [
    "alpine:latest",
@@ -110,25 +110,25 @@
  "haitalliset_tagit": [
   [
    "Mirai",
-   23
+   24
   ],
   [
    "Mirai TCP Scanner",
-   23
+   24
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1805
+   1809
   ],
   [
    "CVE_1999_0517",
-   175
+   176
   ],
   [
    "CVE_2025_55182",
-   38
+   37
   ],
   [
    "CVE_2001_0540",
@@ -146,27 +146,27 @@
  "tunnukset": [
   [
    "anonymous",
-   111917
+   113981
   ],
   [
    "root",
-   102646
+   102713
   ],
   [
    "ubuntu",
-   7543
+   7654
   ],
   [
    "79",
-   7130
+   7186
   ],
   [
    "admin",
-   5016
+   5028
   ],
   [
    "Test",
-   2840
+   2862
   ],
   [
    "user",
@@ -174,7 +174,7 @@
   ],
   [
    "hello",
-   1798
+   1788
   ]
  ],
  "varkaat": [
