@@ -1,60 +1,60 @@
 {
- "paivitetty": "2026-11-27 15:03 UTC",
- "hyokkayksia_24h": 508505,
- "hyokkaajia_24h": 11116,
- "tervakuoppa_h_7pv": 6460.7,
- "jumissa_nyt": 96,
+ "paivitetty": "2026-11-27 16:04 UTC",
+ "hyokkayksia_24h": 526665,
+ "hyokkaajia_24h": 10358,
+ "tervakuoppa_h_7pv": 6594.5,
+ "jumissa_nyt": 93,
  "uutuus_pct": 8.4,
  "abuseipdb_paiva": 4124,
- "tekoaly_komentoja_24h": 5610,
- "docker_7pv": 3597,
- "syotteja_7pv": 1369,
+ "tekoaly_komentoja_24h": 5443,
+ "docker_7pv": 3625,
+ "syotteja_7pv": 1375,
  "maat": [
   [
    "Bulgaria",
-   563771
+   578444
   ],
   [
    "?",
-   251125
-  ],
-  [
-   "Germany",
-   124055
+   254534
   ],
   [
    "United States",
-   107351
+   111296
   ],
   [
    "Romania",
-   89835
+   91334
   ],
   [
    "Iran",
-   54970
+   57534
+  ],
+  [
+   "Germany",
+   27329
   ],
   [
    "China",
-   18103
-  ],
-  [
-   "United Kingdom",
-   12247
+   19316
   ],
   [
    "CI",
    11034
   ],
   [
-   "The Netherlands",
-   9912
+   "United Kingdom",
+   10511
+  ],
+  [
+   "ET",
+   9771
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   4490
+   4491
   ],
   [
    "path traversal",
@@ -62,7 +62,7 @@
   ],
   [
    "hikvision",
-   531
+   533
   ],
   [
    "command injection",
@@ -70,7 +70,7 @@
   ],
   [
    "cgi",
-   224
+   227
   ],
   [
    "Java services (actuator/solr)",
@@ -78,11 +78,11 @@
   ],
   [
    "Exchange / PHP probes",
-   162
+   164
   ],
   [
    "boa",
-   103
+   104
   ]
  ],
  "docker_imaget": [
@@ -100,7 +100,7 @@
   ],
   [
    "ubuntu:18.04",
-   11
+   12
   ],
   [
    "metal3d/xmrig",
@@ -110,25 +110,25 @@
  "haitalliset_tagit": [
   [
    "Mirai",
-   21
+   22
   ],
   [
    "Mirai TCP Scanner",
-   21
+   22
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1805
+   1804
   ],
   [
    "CVE_1999_0517",
-   168
+   169
   ],
   [
    "CVE_2025_55182",
-   49
+   45
   ],
   [
    "CVE_2001_0540",
@@ -146,35 +146,35 @@
  "tunnukset": [
   [
    "anonymous",
-   109900
+   110527
   ],
   [
    "root",
-   102696
-  ],
-  [
-   "ftp",
-   9910
+   102223
   ],
   [
    "ubuntu",
-   9035
+   7455
   ],
   [
    "79",
-   7051
+   7104
   ],
   [
    "admin",
-   6699
+   5009
+  ],
+  [
+   "Test",
+   2826
   ],
   [
    "user",
-   3903
+   2175
   ],
   [
-   "deploy",
-   3457
+   "hello",
+   1798
   ]
  ],
  "varkaat": [
