@@ -1,50 +1,50 @@
 {
- "paivitetty": "2026-11-27 09:00 UTC",
- "hyokkayksia_24h": 463573,
- "hyokkaajia_24h": 11573,
- "tervakuoppa_h_7pv": 5798.3,
- "jumissa_nyt": 95,
+ "paivitetty": "2026-11-27 10:01 UTC",
+ "hyokkayksia_24h": 462627,
+ "hyokkaajia_24h": 11506,
+ "tervakuoppa_h_7pv": 5801.3,
+ "jumissa_nyt": 99,
  "uutuus_pct": 8.4,
  "abuseipdb_paiva": 4124,
- "tekoaly_komentoja_24h": 4880,
- "docker_7pv": 3550,
- "syotteja_7pv": 1342,
+ "tekoaly_komentoja_24h": 4822,
+ "docker_7pv": 3553,
+ "syotteja_7pv": 1348,
  "maat": [
   [
    "Bulgaria",
-   521196
+   522863
   ],
   [
    "?",
-   244952
+   246036
   ],
   [
    "Germany",
-   148236
+   148105
   ],
   [
    "United States",
-   109049
+   109134
   ],
   [
    "Romania",
-   93423
+   93393
   ],
   [
    "Iran",
-   44771
+   46333
   ],
   [
    "United Kingdom",
-   23382
+   21314
   ],
   [
    "China",
-   17522
+   17514
   ],
   [
    "The Netherlands",
-   11819
+   11657
   ],
   [
    "CI",
@@ -54,7 +54,7 @@
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   4491
+   4496
   ],
   [
    "path traversal",
@@ -62,15 +62,15 @@
   ],
   [
    "hikvision",
-   518
+   523
   ],
   [
    "command injection",
-   263
+   262
   ],
   [
    "cgi",
-   220
+   219
   ],
   [
    "Java services (actuator/solr)",
@@ -82,7 +82,7 @@
   ],
   [
    "boa",
-   100
+   99
   ]
  ],
  "docker_imaget": [
@@ -110,33 +110,33 @@
  "haitalliset_tagit": [
   [
    "Mirai",
-   16
+   19
   ],
   [
    "Mirai TCP Scanner",
-   16
+   19
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1811
+   1809
   ],
   [
    "CVE_1999_0517",
-   140
+   136
   ],
   [
    "CVE_2025_55182",
-   64
-  ],
-  [
-   "CVE_2024_14007",
-   14
+   61
   ],
   [
    "CVE_2023_46604",
    12
+  ],
+  [
+   "CVE_2024_14007",
+   11
   ],
   [
    "CVE_2016_20017",
@@ -145,39 +145,58 @@
  ],
  "tunnukset": [
   [
-   "root",
-   102585
+   "anonymous",
+   103253
   ],
   [
-   "anonymous",
-   101844
+   "root",
+   102814
   ],
   [
    "ftp",
-   10607
+   10608
   ],
   [
    "ubuntu",
-   8949
+   9054
   ],
   [
    "admin",
-   7195
+   7203
   ],
   [
    "79",
-   6822
+   6852
   ],
   [
    "user",
-   4380
+   4397
   ],
   [
    "deploy",
-   3946
+   3950
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-27 09:53",
+   "ip": "179.253.249.207",
+   "verkko": "AS906 DMIT Cloud Services",
+   "maa": "US",
+   "kutsut": [
+    "CreateVpc"
+   ]
+  },
+  {
+   "aika": "2026-11-27 09:39",
+   "ip": "179.253.249.207",
+   "verkko": "AS906 DMIT Cloud Services",
+   "maa": "US",
+   "kutsut": [
+    "GetCallerIdentity",
+    "RunInstances"
+   ]
+  },
   {
    "aika": "2026-11-27 08:53",
    "ip": "167.100.106.86",
@@ -295,27 +314,9 @@
    "kutsut": [
     "GetSMSAttributes"
    ]
-  },
-  {
-   "aika": "2026-11-27 08:42",
-   "ip": "45.95.13.12",
-   "verkko": "AS212238 Datacamp Limited",
-   "maa": "PT",
-   "kutsut": [
-    "GetSMSAttributes"
-   ]
-  },
-  {
-   "aika": "2026-11-27 08:42",
-   "ip": "2.57.21.234",
-   "verkko": "AS396362 Leaseweb USA, Inc.",
-   "maa": "US",
-   "kutsut": [
-    "GetSMSAttributes"
-   ]
   }
  ],
- "varkaita_yht": 1658,
+ "varkaita_yht": 1659,
  "historia": [
   {
    "pv": "2026-11-20",
