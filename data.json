@@ -1,42 +1,42 @@
 {
- "paivitetty": "2026-11-27 18:57 UTC",
- "hyokkayksia_24h": 479345,
- "hyokkaajia_24h": 10226,
- "tervakuoppa_h_7pv": 6862.9,
- "jumissa_nyt": 94,
+ "paivitetty": "2026-11-27 19:02 UTC",
+ "hyokkayksia_24h": 479620,
+ "hyokkaajia_24h": 10221,
+ "tervakuoppa_h_7pv": 6866.1,
+ "jumissa_nyt": 90,
  "uutuus_pct": 8.4,
  "abuseipdb_paiva": 4124,
  "tekoaly_komentoja_24h": 5004,
- "docker_7pv": 3619,
+ "docker_7pv": 3621,
  "syotteja_7pv": 1390,
  "maat": [
   [
    "Bulgaria",
-   545428
+   545132
   ],
   [
    "?",
-   257679
+   257885
   ],
   [
    "United States",
-   111530
+   111542
   ],
   [
    "Romania",
-   95193
+   95198
   ],
   [
    "Iran",
-   62931
+   63334
   ],
   [
    "Germany",
-   25577
+   25459
   ],
   [
    "China",
-   20546
+   20553
   ],
   [
    "CI",
@@ -146,31 +146,31 @@
  "tunnukset": [
   [
    "anonymous",
-   115540
+   115928
   ],
   [
    "root",
-   102486
+   102434
   ],
   [
    "ubuntu",
-   7714
+   7732
   ],
   [
    "79",
-   7223
+   7233
   ],
   [
    "admin",
-   5005
+   5004
   ],
   [
    "Test",
-   2878
+   2882
   ],
   [
    "user",
-   2173
+   2171
   ],
   [
    "hello",
