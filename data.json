@@ -1,42 +1,42 @@
 {
- "paivitetty": "2026-11-27 19:02 UTC",
- "hyokkayksia_24h": 479620,
- "hyokkaajia_24h": 10221,
- "tervakuoppa_h_7pv": 6866.1,
- "jumissa_nyt": 90,
+ "paivitetty": "2026-11-27 20:04 UTC",
+ "hyokkayksia_24h": 482162,
+ "hyokkaajia_24h": 10196,
+ "tervakuoppa_h_7pv": 6995.3,
+ "jumissa_nyt": 96,
  "uutuus_pct": 8.4,
  "abuseipdb_paiva": 4124,
- "tekoaly_komentoja_24h": 5004,
- "docker_7pv": 3621,
- "syotteja_7pv": 1390,
+ "tekoaly_komentoja_24h": 4964,
+ "docker_7pv": 3559,
+ "syotteja_7pv": 1394,
  "maat": [
   [
    "Bulgaria",
-   545132
+   545352
   ],
   [
    "?",
-   257885
+   258942
   ],
   [
    "United States",
-   111542
+   112031
   ],
   [
    "Romania",
-   95198
+   95367
   ],
   [
    "Iran",
-   63334
+   65938
   ],
   [
    "Germany",
-   25459
+   24921
   ],
   [
    "China",
-   20553
+   20538
   ],
   [
    "CI",
@@ -44,7 +44,7 @@
   ],
   [
    "United Kingdom",
-   10184
+   10114
   ],
   [
    "ET",
@@ -54,7 +54,7 @@
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   4530
+   4534
   ],
   [
    "path traversal",
@@ -70,19 +70,19 @@
   ],
   [
    "cgi",
-   227
+   230
   ],
   [
    "Java services (actuator/solr)",
-   194
+   195
   ],
   [
    "Exchange / PHP probes",
-   165
+   164
   ],
   [
    "boa",
-   103
+   105
   ]
  ],
  "docker_imaget": [
@@ -92,7 +92,7 @@
   ],
   [
    "postgres:15",
-   29
+   27
   ],
   [
    "alpine:latest",
@@ -109,26 +109,26 @@
  ],
  "haitalliset_tagit": [
   [
-   "Mirai",
-   16
+   "Mirai TCP Scanner",
+   17
   ],
   [
-   "Mirai TCP Scanner",
-   16
+   "Mirai",
+   17
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1810
+   1808
   ],
   [
    "CVE_1999_0517",
-   177
+   186
   ],
   [
    "CVE_2025_55182",
-   35
+   43
   ],
   [
    "CVE_2001_0540",
@@ -136,29 +136,29 @@
   ],
   [
    "CVE_2024_14007",
-   17
+   18
   ],
   [
-   "CVE_2018_2893",
-   12
+   "CVE_2022_27255",
+   13
   ]
  ],
  "tunnukset": [
   [
    "anonymous",
-   115928
+   117793
   ],
   [
    "root",
-   102434
+   102407
   ],
   [
    "ubuntu",
-   7732
+   7817
   ],
   [
    "79",
-   7233
+   7272
   ],
   [
    "admin",
@@ -166,15 +166,15 @@
   ],
   [
    "Test",
-   2882
+   2902
   ],
   [
    "user",
-   2171
+   2177
   ],
   [
    "hello",
-   1788
+   1787
   ]
  ],
  "varkaat": [
