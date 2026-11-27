@@ -1,60 +1,60 @@
 {
- "paivitetty": "2026-11-27 11:00 UTC",
- "hyokkayksia_24h": 452337,
- "hyokkaajia_24h": 11394,
- "tervakuoppa_h_7pv": 5816.3,
- "jumissa_nyt": 98,
+ "paivitetty": "2026-11-27 12:00 UTC",
+ "hyokkayksia_24h": 458151,
+ "hyokkaajia_24h": 11377,
+ "tervakuoppa_h_7pv": 5860.5,
+ "jumissa_nyt": 95,
  "uutuus_pct": 8.4,
  "abuseipdb_paiva": 4124,
- "tekoaly_komentoja_24h": 4840,
- "docker_7pv": 3566,
- "syotteja_7pv": 1362,
+ "tekoaly_komentoja_24h": 5473,
+ "docker_7pv": 3567,
+ "syotteja_7pv": 1358,
  "maat": [
   [
    "Bulgaria",
-   512599
+   522808
   ],
   [
    "?",
-   247105
+   248234
   ],
   [
    "Germany",
-   148087
+   148091
   ],
   [
    "United States",
-   109108
+   104109
   ],
   [
    "Romania",
-   92259
+   90498
   ],
   [
    "Iran",
-   48773
-  ],
-  [
-   "United Kingdom",
-   19150
+   49886
   ],
   [
    "China",
-   17499
+   17486
   ],
   [
-   "The Netherlands",
-   11111
+   "United Kingdom",
+   16267
   ],
   [
    "CI",
    11034
+  ],
+  [
+   "The Netherlands",
+   10884
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   4535
+   4455
   ],
   [
    "path traversal",
@@ -62,11 +62,11 @@
   ],
   [
    "hikvision",
-   526
+   524
   ],
   [
    "command injection",
-   261
+   260
   ],
   [
    "cgi",
@@ -74,15 +74,15 @@
   ],
   [
    "Java services (actuator/solr)",
-   199
+   194
   ],
   [
    "Exchange / PHP probes",
-   159
+   160
   ],
   [
    "boa",
-   99
+   100
   ]
  ],
  "docker_imaget": [
@@ -124,11 +124,11 @@
   ],
   [
    "CVE_1999_0517",
-   143
+   158
   ],
   [
    "CVE_2025_55182",
-   61
+   57
   ],
   [
    "CVE_2001_0540",
@@ -146,35 +146,35 @@
  "tunnukset": [
   [
    "anonymous",
-   105203
+   106826
   ],
   [
    "root",
-   103000
+   102693
   ],
   [
    "ftp",
-   10607
+   10608
   ],
   [
    "ubuntu",
-   9161
+   9227
   ],
   [
    "admin",
-   7203
+   7161
   ],
   [
    "79",
-   6887
+   6933
   ],
   [
    "user",
-   4393
+   4383
   ],
   [
    "deploy",
-   3958
+   3935
   ]
  ],
  "varkaat": [
