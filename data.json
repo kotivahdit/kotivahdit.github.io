@@ -1,42 +1,42 @@
 {
- "paivitetty": "2026-11-27 18:02 UTC",
- "hyokkayksia_24h": 489178,
- "hyokkaajia_24h": 10197,
- "tervakuoppa_h_7pv": 6705.5,
- "jumissa_nyt": 92,
+ "paivitetty": "2026-11-27 18:57 UTC",
+ "hyokkayksia_24h": 479345,
+ "hyokkaajia_24h": 10226,
+ "tervakuoppa_h_7pv": 6862.9,
+ "jumissa_nyt": 94,
  "uutuus_pct": 8.4,
  "abuseipdb_paiva": 4124,
- "tekoaly_komentoja_24h": 5111,
- "docker_7pv": 3512,
- "syotteja_7pv": 1383,
+ "tekoaly_komentoja_24h": 5004,
+ "docker_7pv": 3619,
+ "syotteja_7pv": 1390,
  "maat": [
   [
    "Bulgaria",
-   556282
+   545428
   ],
   [
    "?",
-   256749
+   257679
   ],
   [
    "United States",
-   111657
+   111530
   ],
   [
    "Romania",
-   95270
+   95193
   ],
   [
    "Iran",
-   61247
+   62931
   ],
   [
    "Germany",
-   25897
+   25577
   ],
   [
    "China",
-   20556
+   20546
   ],
   [
    "CI",
@@ -44,7 +44,7 @@
   ],
   [
    "United Kingdom",
-   10278
+   10184
   ],
   [
    "ET",
@@ -54,7 +54,7 @@
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   4523
+   4530
   ],
   [
    "path traversal",
@@ -62,7 +62,7 @@
   ],
   [
    "hikvision",
-   539
+   537
   ],
   [
    "command injection",
@@ -100,7 +100,7 @@
   ],
   [
    "ubuntu:18.04",
-   12
+   14
   ],
   [
    "metal3d/xmrig",
@@ -110,67 +110,67 @@
  "haitalliset_tagit": [
   [
    "Mirai",
-   24
+   16
   ],
   [
    "Mirai TCP Scanner",
-   24
+   16
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1809
+   1810
   ],
   [
    "CVE_1999_0517",
-   176
+   177
   ],
   [
    "CVE_2025_55182",
-   37
+   35
   ],
   [
    "CVE_2001_0540",
    22
   ],
   [
-   "CVE_2018_2893",
-   12
+   "CVE_2024_14007",
+   17
   ],
   [
-   "CVE_2023_46604",
+   "CVE_2018_2893",
    12
   ]
  ],
  "tunnukset": [
   [
    "anonymous",
-   113981
+   115540
   ],
   [
    "root",
-   102713
+   102486
   ],
   [
    "ubuntu",
-   7654
+   7714
   ],
   [
    "79",
-   7186
+   7223
   ],
   [
    "admin",
-   5028
+   5005
   ],
   [
    "Test",
-   2862
+   2878
   ],
   [
    "user",
-   2187
+   2173
   ],
   [
    "hello",
@@ -179,143 +179,142 @@
  ],
  "varkaat": [
   {
-   "aika": "2026-11-27 16:47",
-   "ip": "82.229.86.234",
-   "verkko": "AS12322 Free SAS",
-   "maa": "FR",
+   "aika": "2026-11-27 18:28",
+   "ip": "23.229.46.251",
+   "verkko": "AS55286 B2 Net Solutions Inc.",
+   "maa": "US",
    "kutsut": [
-    "GetCallerIdentity",
+    "GetSMSAttributes"
+   ]
+  },
+  {
+   "aika": "2026-11-27 18:28",
+   "ip": "104.201.54.43",
+   "verkko": "AS22552 eSited Solutions",
+   "maa": "US",
+   "kutsut": [
+    "GetSMSAttributes"
+   ]
+  },
+  {
+   "aika": "2026-11-27 18:28",
+   "ip": "104.253.0.110",
+   "verkko": "AS212238 Datacamp Limited",
+   "maa": "CA",
+   "kutsut": [
+    "GetSMSAttributes"
+   ]
+  },
+  {
+   "aika": "2026-11-27 18:28",
+   "ip": "165.22.37.37",
+   "verkko": "AS14061 DigitalOcean, LLC",
+   "maa": "US",
+   "kutsut": [
+    "GetSMSAttributes"
+   ]
+  },
+  {
+   "aika": "2026-11-27 18:28",
+   "ip": "136.0.127.114",
+   "verkko": "AS40676 Psychz Networks",
+   "maa": "US",
+   "kutsut": [
     "GetSendQuota"
    ]
   },
   {
-   "aika": "2026-11-27 16:41",
-   "ip": "85.203.15.197",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
+   "aika": "2026-11-27 18:28",
+   "ip": "145.241.125.210",
+   "verkko": "AS31898 Oracle Corporation",
+   "maa": "AE",
    "kutsut": [
-    "ListFoundationModels"
+    "GetSendQuota"
    ]
   },
   {
-   "aika": "2026-11-27 16:41",
-   "ip": "85.203.15.195",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
+   "aika": "2026-11-27 18:28",
+   "ip": "52.8.168.25",
+   "verkko": "AS16509 Amazon.com, Inc.",
+   "maa": "US",
    "kutsut": [
-    "ListFoundationModels"
+    "GetSendQuota"
    ]
   },
   {
-   "aika": "2026-11-27 16:41",
-   "ip": "85.203.15.201",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
+   "aika": "2026-11-27 18:28",
+   "ip": "166.88.110.117",
+   "verkko": "AS212238 Datacamp Limited",
+   "maa": "TR",
    "kutsut": [
-    "ListFoundationModels"
+    "GetSendQuota"
    ]
   },
   {
-   "aika": "2026-11-27 16:41",
-   "ip": "81.199.26.20",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
+   "aika": "2026-11-27 18:28",
+   "ip": "77.81.103.79",
+   "verkko": "AS64445 NetJoin Srl",
+   "maa": "IT",
    "kutsut": [
-    "ListFoundationModels"
+    "GetSMSAttributes"
    ]
   },
   {
-   "aika": "2026-11-27 16:41",
-   "ip": "85.203.15.106",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
+   "aika": "2026-11-27 18:28",
+   "ip": "82.24.245.12",
+   "verkko": "AS37153 Xneelo (Pty) Ltd",
+   "maa": "ZA",
    "kutsut": [
-    "ListFoundationModels"
+    "GetSMSAttributes"
    ]
   },
   {
-   "aika": "2026-11-27 16:41",
-   "ip": "85.203.15.110",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
+   "aika": "2026-11-27 18:28",
+   "ip": "45.39.50.207",
+   "verkko": "AS20738 Heart Internet limited",
+   "maa": "GB",
    "kutsut": [
-    "ListFoundationModels"
+    "GetSendQuota"
    ]
   },
   {
-   "aika": "2026-11-27 16:41",
-   "ip": "85.203.15.77",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
+   "aika": "2026-11-27 18:28",
+   "ip": "18.217.30.196",
+   "verkko": "AS16509 Amazon.com, Inc.",
+   "maa": "US",
    "kutsut": [
-    "ListFoundationModels"
+    "GetSendQuota"
    ]
   },
   {
-   "aika": "2026-11-27 16:41",
-   "ip": "85.203.15.193",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
+   "aika": "2026-11-27 18:27",
+   "ip": "185.198.26.162",
+   "verkko": "AS63473 HostHatch, LLC",
+   "maa": "US",
    "kutsut": [
-    "ListFoundationModels"
+    "GetSMSAttributes"
    ]
   },
   {
-   "aika": "2026-11-27 16:41",
-   "ip": "81.199.26.17",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
+   "aika": "2026-11-27 18:27",
+   "ip": "92.112.175.26",
+   "verkko": "AS262287 Latitude.sh LTDA",
+   "maa": "BR",
    "kutsut": [
-    "ListFoundationModels"
+    "GetSMSAttributes"
    ]
   },
   {
-   "aika": "2026-11-27 16:41",
-   "ip": "81.199.26.29",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
+   "aika": "2026-11-27 18:27",
+   "ip": "140.99.194.240",
+   "verkko": "AS59711 HZ Hosting Ltd",
+   "maa": "FR",
    "kutsut": [
-    "ListFoundationModels"
-   ]
-  },
-  {
-   "aika": "2026-11-27 16:41",
-   "ip": "85.203.15.76",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
-   "kutsut": [
-    "ListFoundationModels"
-   ]
-  },
-  {
-   "aika": "2026-11-27 16:41",
-   "ip": "81.199.26.31",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
-   "kutsut": [
-    "GetCallerIdentity"
-   ]
-  },
-  {
-   "aika": "2026-11-27 16:41",
-   "ip": "81.199.26.19",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
-   "kutsut": [
-    "ListFoundationModels"
-   ]
-  },
-  {
-   "aika": "2026-11-27 16:41",
-   "ip": "85.203.15.98",
-   "verkko": "AS62240 Clouvider",
-   "maa": "DE",
-   "kutsut": [
-    "ListFoundationModels"
+    "GetSendQuota"
    ]
   }
  ],
- "varkaita_yht": 1889,
+ "varkaita_yht": 1917,
  "historia": [
   {
    "pv": "2026-11-20",
