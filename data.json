@@ -1,50 +1,50 @@
 {
- "paivitetty": "2026-11-28 12:02 UTC",
- "hyokkayksia_24h": 555340,
- "hyokkaajia_24h": 9800,
- "tervakuoppa_h_7pv": 7317.9,
- "jumissa_nyt": 92,
+ "paivitetty": "2026-11-28 13:01 UTC",
+ "hyokkayksia_24h": 539434,
+ "hyokkaajia_24h": 9728,
+ "tervakuoppa_h_7pv": 7357.8,
+ "jumissa_nyt": 94,
  "uutuus_pct": 7.6,
  "abuseipdb_paiva": 1753,
- "tekoaly_komentoja_24h": 5131,
- "docker_7pv": 3773,
- "syotteja_7pv": 1458,
+ "tekoaly_komentoja_24h": 5159,
+ "docker_7pv": 3781,
+ "syotteja_7pv": 1462,
  "maat": [
   [
    "Bulgaria",
-   601417
+   598247
   ],
   [
    "?",
-   279470
+   279315
   ],
   [
    "United States",
-   108877
+   108910
   ],
   [
    "Iran",
-   95179
+   97237
   ],
   [
    "Romania",
-   92580
+   91666
   ],
   [
    "Germany",
-   22950
+   22053
   ],
   [
    "China",
-   19651
+   19652
   ],
   [
    "Indonesia",
-   11808
+   11965
   ],
   [
    "Brazil",
-   11396
+   11692
   ],
   [
    "CI",
@@ -54,7 +54,7 @@
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   4624
+   4628
   ],
   [
    "path traversal",
@@ -62,7 +62,7 @@
   ],
   [
    "hikvision",
-   526
+   522
   ],
   [
    "command injection",
@@ -74,7 +74,7 @@
   ],
   [
    "Java services (actuator/solr)",
-   182
+   178
   ],
   [
    "Exchange / PHP probes",
@@ -82,7 +82,7 @@
   ],
   [
    "boa",
-   96
+   97
   ]
  ],
  "docker_imaget": [
@@ -110,29 +110,29 @@
  "haitalliset_tagit": [
   [
    "Mirai",
-   19
+   29
   ],
   [
    "Mirai TCP Scanner",
-   19
+   29
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1820
+   1819
   ],
   [
    "CVE_2022_27255",
-   351
+   355
   ],
   [
    "CVE_1999_0517",
-   132
+   130
   ],
   [
    "CVE_2024_14007",
-   42
+   44
   ],
   [
    "CVE_2025_55182",
@@ -146,38 +146,47 @@
  "tunnukset": [
   [
    "anonymous",
-   141726
+   143298
   ],
   [
    "root",
-   105129
+   105968
   ],
   [
    "ubuntu",
-   9499
+   9681
   ],
   [
    "79",
-   7849
+   7894
   ],
   [
    "admin",
-   5082
+   5133
   ],
   [
    "Test",
-   3189
+   3195
   ],
   [
    "user",
-   2278
+   2320
   ],
   [
    "129",
-   2103
+   2128
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-28 12:02",
+   "ip": "141.98.10.97",
+   "verkko": "AS209605 UAB Host Baltic",
+   "maa": "LT",
+   "kutsut": [
+    "GetCallerIdentity"
+   ]
+  },
   {
    "aika": "2026-11-28 11:55",
    "ip": "156.241.245.18",
@@ -303,18 +312,9 @@
    "kutsut": [
     "GetSMSAttributes"
    ]
-  },
-  {
-   "aika": "2026-11-28 11:55",
-   "ip": "46.203.115.112",
-   "verkko": "AS212238 Datacamp Limited",
-   "maa": "AU",
-   "kutsut": [
-    "GetSMSAttributes"
-   ]
   }
  ],
- "varkaita_yht": 2162,
+ "varkaita_yht": 2163,
  "historia": [
   {
    "pv": "2026-11-20",
