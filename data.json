@@ -1,60 +1,60 @@
 {
- "paivitetty": "2026-11-28 14:04 UTC",
- "hyokkayksia_24h": 530607,
- "hyokkaajia_24h": 9720,
- "tervakuoppa_h_7pv": 7356.7,
- "jumissa_nyt": 317,
+ "paivitetty": "2026-11-28 15:01 UTC",
+ "hyokkayksia_24h": 558845,
+ "hyokkaajia_24h": 9703,
+ "tervakuoppa_h_7pv": 7523.0,
+ "jumissa_nyt": 394,
  "uutuus_pct": 7.6,
  "abuseipdb_paiva": 1753,
- "tekoaly_komentoja_24h": 5531,
- "docker_7pv": 3772,
- "syotteja_7pv": 1474,
+ "tekoaly_komentoja_24h": 5354,
+ "docker_7pv": 3756,
+ "syotteja_7pv": 1480,
  "maat": [
   [
    "Bulgaria",
-   593937
+   588994
   ],
   [
    "?",
-   279245
+   279449
   ],
   [
    "United States",
-   109461
+   110094
   ],
   [
    "Iran",
-   99123
+   100149
   ],
   [
    "Romania",
-   91547
+   91777
+  ],
+  [
+   "Ukraine",
+   38841
   ],
   [
    "Germany",
-   22086
+   22070
   ],
   [
    "China",
-   19652
+   19651
   ],
   [
    "Indonesia",
-   12089
+   12162
   ],
   [
    "Brazil",
-   11978
-  ],
-  [
-   "CI",
-   11034
+   12142
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   4662
+   4668
   ],
   [
    "path traversal",
@@ -62,15 +62,15 @@
   ],
   [
    "hikvision",
-   520
+   514
   ],
   [
    "command injection",
-   260
+   262
   ],
   [
    "cgi",
-   240
+   242
   ],
   [
    "Java services (actuator/solr)",
@@ -78,7 +78,7 @@
   ],
   [
    "Exchange / PHP probes",
-   170
+   171
   ],
   [
    "boa",
@@ -109,30 +109,30 @@
  ],
  "haitalliset_tagit": [
   [
-   "Mirai TCP Scanner",
-   18
+   "Mirai",
+   14
   ],
   [
-   "Mirai",
-   18
+   "Mirai TCP Scanner",
+   14
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1817
+   1818
   ],
   [
    "CVE_2022_27255",
-   394
+   431
   ],
   [
    "CVE_1999_0517",
-   136
+   135
   ],
   [
    "CVE_2024_14007",
-   45
+   46
   ],
   [
    "CVE_2025_55182",
@@ -146,23 +146,23 @@
  "tunnukset": [
   [
    "anonymous",
-   144790
+   145547
   ],
   [
    "root",
-   106631
+   106919
   ],
   [
    "ubuntu",
-   9876
+   9983
   ],
   [
    "79",
-   7938
+   7969
   ],
   [
    "admin",
-   5180
+   5181
   ],
   [
    "Test",
@@ -170,11 +170,11 @@
   ],
   [
    "user",
-   2372
+   2388
   ],
   [
    "129",
-   2149
+   2160
   ]
  ],
  "varkaat": [
