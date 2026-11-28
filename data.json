@@ -1,46 +1,46 @@
 {
- "paivitetty": "2026-11-28 09:00 UTC",
- "hyokkayksia_24h": 559472,
- "hyokkaajia_24h": 9752,
- "tervakuoppa_h_7pv": 7306.0,
- "jumissa_nyt": 91,
+ "paivitetty": "2026-11-28 10:00 UTC",
+ "hyokkayksia_24h": 567727,
+ "hyokkaajia_24h": 9810,
+ "tervakuoppa_h_7pv": 7296.1,
+ "jumissa_nyt": 98,
  "uutuus_pct": 7.6,
  "abuseipdb_paiva": 1753,
- "tekoaly_komentoja_24h": 5633,
- "docker_7pv": 3806,
- "syotteja_7pv": 1445,
+ "tekoaly_komentoja_24h": 5122,
+ "docker_7pv": 3786,
+ "syotteja_7pv": 1446,
  "maat": [
   [
    "Bulgaria",
-   606118
+   612243
   ],
   [
    "?",
-   278785
+   278949
   ],
   [
    "United States",
-   108107
+   108565
   ],
   [
    "Romania",
-   93461
+   93298
   ],
   [
    "Iran",
-   90483
+   92110
   ],
   [
    "Germany",
-   23183
+   23096
   ],
   [
    "China",
-   19650
+   19651
   ],
   [
    "Indonesia",
-   11348
+   11485
   ],
   [
    "CI",
@@ -48,13 +48,13 @@
   ],
   [
    "Brazil",
-   10773
+   10969
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   4605
+   4606
   ],
   [
    "path traversal",
@@ -62,7 +62,7 @@
   ],
   [
    "hikvision",
-   534
+   532
   ],
   [
    "command injection",
@@ -78,11 +78,11 @@
   ],
   [
    "Exchange / PHP probes",
-   167
+   168
   ],
   [
    "boa",
-   98
+   99
   ]
  ],
  "docker_imaget": [
@@ -92,7 +92,7 @@
   ],
   [
    "alpine",
-   36
+   35
   ],
   [
    "postgres:15",
@@ -110,17 +110,17 @@
  "haitalliset_tagit": [
   [
    "Mirai",
-   22
+   17
   ],
   [
    "Mirai TCP Scanner",
-   22
+   17
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1820
+   1822
   ],
   [
    "CVE_2022_27255",
@@ -128,11 +128,11 @@
   ],
   [
    "CVE_1999_0517",
-   138
+   135
   ],
   [
    "CVE_2024_14007",
-   35
+   36
   ],
   [
    "CVE_2025_55182",
@@ -146,35 +146,35 @@
  "tunnukset": [
   [
    "anonymous",
-   138252
+   139388
   ],
   [
    "root",
-   106020
+   105847
   ],
   [
    "ubuntu",
-   9350
+   9410
   ],
   [
    "79",
-   7767
+   7793
   ],
   [
    "admin",
-   5153
+   5150
   ],
   [
    "Test",
-   3140
+   3154
   ],
   [
    "user",
-   2337
+   2321
   ],
   [
    "129",
-   2053
+   2070
   ]
  ],
  "varkaat": [
