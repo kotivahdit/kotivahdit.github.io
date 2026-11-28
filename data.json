@@ -1,42 +1,42 @@
 {
- "paivitetty": "2026-11-27 23:00 UTC",
- "hyokkayksia_24h": 519894,
- "hyokkaajia_24h": 10005,
- "tervakuoppa_h_7pv": 7034.4,
- "jumissa_nyt": 91,
- "uutuus_pct": 8.4,
- "abuseipdb_paiva": 4124,
- "tekoaly_komentoja_24h": 5473,
- "docker_7pv": 3761,
- "syotteja_7pv": 1419,
+ "paivitetty": "2026-11-28 00:03 UTC",
+ "hyokkayksia_24h": 528926,
+ "hyokkaajia_24h": 9968,
+ "tervakuoppa_h_7pv": 7062.1,
+ "jumissa_nyt": 90,
+ "uutuus_pct": 7.6,
+ "abuseipdb_paiva": 1753,
+ "tekoaly_komentoja_24h": 5572,
+ "docker_7pv": 3795,
+ "syotteja_7pv": 1425,
  "maat": [
   [
    "Bulgaria",
-   578402
+   586024
   ],
   [
    "?",
-   261430
+   262366
   ],
   [
    "United States",
-   105266
+   105067
   ],
   [
    "Romania",
-   96574
+   96679
   ],
   [
    "Iran",
-   71120
+   72978
   ],
   [
    "Germany",
-   24023
+   23405
   ],
   [
    "China",
-   20145
+   20133
   ],
   [
    "CI",
@@ -44,17 +44,17 @@
   ],
   [
    "United Kingdom",
-   10037
+   10001
   ],
   [
-   "ET",
-   9771
+   "Indonesia",
+   9799
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   4560
+   4566
   ],
   [
    "path traversal",
@@ -78,11 +78,11 @@
   ],
   [
    "Exchange / PHP probes",
-   166
+   167
   ],
   [
    "boa",
-   103
+   104
   ]
  ],
  "docker_imaget": [
@@ -92,7 +92,7 @@
   ],
   [
    "alpine",
-   29
+   32
   ],
   [
    "postgres:15",
@@ -109,30 +109,30 @@
  ],
  "haitalliset_tagit": [
   [
-   "Mirai",
-   12
+   "Mirai TCP Scanner",
+   19
   ],
   [
-   "Mirai TCP Scanner",
-   12
+   "Mirai",
+   19
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1818
+   1819
   ],
   [
    "CVE_1999_0517",
-   148
+   152
   ],
   [
    "CVE_2022_27255",
-   65
+   101
   ],
   [
    "CVE_2024_14007",
-   21
+   22
   ],
   [
    "CVE_2001_0540",
@@ -146,38 +146,48 @@
  "tunnukset": [
   [
    "anonymous",
-   122050
+   123603
   ],
   [
    "root",
-   102995
+   103147
   ],
   [
    "ubuntu",
-   8106
+   8169
   ],
   [
    "79",
-   7388
+   7416
   ],
   [
    "admin",
-   5037
+   5018
   ],
   [
    "Test",
-   2952
+   2970
   ],
   [
    "user",
-   2196
+   2201
   ],
   [
    "129",
-   1842
+   1857
   ]
  ],
  "varkaat": [
+  {
+   "aika": "2026-11-27 23:30",
+   "ip": "193.202.84.132",
+   "verkko": "AS202226 Emil Vitukhnovskii trading as Great Flower",
+   "maa": "PL",
+   "kutsut": [
+    "GetCallerIdentity",
+    "ListFoundationModels"
+   ]
+  },
   {
    "aika": "2026-11-27 22:14",
    "ip": "92.112.71.54",
@@ -303,18 +313,9 @@
    "kutsut": [
     "GetSMSAttributes"
    ]
-  },
-  {
-   "aika": "2026-11-27 22:13",
-   "ip": "173.0.9.68",
-   "verkko": "AS397423 Tier.Net Technologies LLC",
-   "maa": "US",
-   "kutsut": [
-    "GetSendQuota"
-   ]
   }
  ],
- "varkaita_yht": 1970,
+ "varkaita_yht": 1971,
  "historia": [
   {
    "pv": "2026-11-20",
@@ -350,6 +351,11 @@
    "pv": "2026-11-26",
    "hyokkayksia": 453328,
    "uutuus": 8.4
+  },
+  {
+   "pv": "2026-11-27",
+   "hyokkayksia": 509701,
+   "uutuus": 7.6
   }
  ]
 }
