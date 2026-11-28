@@ -1,42 +1,42 @@
 {
- "paivitetty": "2026-11-28 06:04 UTC",
- "hyokkayksia_24h": 554468,
- "hyokkaajia_24h": 9863,
- "tervakuoppa_h_7pv": 7306.4,
- "jumissa_nyt": 99,
+ "paivitetty": "2026-11-28 07:03 UTC",
+ "hyokkayksia_24h": 549298,
+ "hyokkaajia_24h": 9794,
+ "tervakuoppa_h_7pv": 7311.0,
+ "jumissa_nyt": 95,
  "uutuus_pct": 7.6,
  "abuseipdb_paiva": 1753,
- "tekoaly_komentoja_24h": 5175,
- "docker_7pv": 3806,
- "syotteja_7pv": 1438,
+ "tekoaly_komentoja_24h": 4826,
+ "docker_7pv": 3798,
+ "syotteja_7pv": 1440,
  "maat": [
   [
    "Bulgaria",
-   599483
+   592985
   ],
   [
    "?",
-   273502
+   277388
   ],
   [
    "United States",
-   107239
+   107330
   ],
   [
    "Romania",
-   95283
+   94262
   ],
   [
    "Iran",
-   84664
+   86911
   ],
   [
    "Germany",
-   22954
+   23010
   ],
   [
    "China",
-   19655
+   19652
   ],
   [
    "CI",
@@ -44,17 +44,17 @@
   ],
   [
    "Indonesia",
-   10805
+   11005
   ],
   [
-   "United Kingdom",
-   10220
+   "Brazil",
+   10360
   ]
  ],
  "hyokkaystyypit": [
   [
    "secret-file leak (.env/.git)",
-   4601
+   4603
   ],
   [
    "path traversal",
@@ -62,7 +62,7 @@
   ],
   [
    "hikvision",
-   537
+   539
   ],
   [
    "command injection",
@@ -74,7 +74,7 @@
   ],
   [
    "Java services (actuator/solr)",
-   194
+   190
   ],
   [
    "Exchange / PHP probes",
@@ -82,7 +82,7 @@
   ],
   [
    "boa",
-   99
+   98
   ]
  ],
  "docker_imaget": [
@@ -92,7 +92,7 @@
   ],
   [
    "alpine",
-   38
+   36
   ],
   [
    "postgres:15",
@@ -110,29 +110,29 @@
  "haitalliset_tagit": [
   [
    "Mirai",
-   13
+   16
   ],
   [
    "Mirai TCP Scanner",
-   13
+   16
   ]
  ],
  "cvet": [
   [
    "CVE_2024_6387",
-   1816
+   1819
   ],
   [
    "CVE_2022_27255",
-   305
+   340
   ],
   [
    "CVE_1999_0517",
-   142
+   144
   ],
   [
    "CVE_2024_14007",
-   31
+   34
   ],
   [
    "CVE_2025_55182",
@@ -146,180 +146,175 @@
  "tunnukset": [
   [
    "anonymous",
-   132825
+   134917
   ],
   [
    "root",
-   105486
+   105996
   ],
   [
    "ubuntu",
-   8974
+   9158
   ],
   [
    "79",
-   7643
+   7694
   ],
   [
    "admin",
-   5164
+   5148
   ],
   [
    "Test",
-   3078
+   3102
   ],
   [
    "user",
-   2323
+   2338
   ],
   [
    "129",
-   1967
+   2000
   ]
  ],
  "varkaat": [
   {
-   "aika": "2026-11-28 05:03",
-   "ip": "78.153.140.80",
-   "verkko": "AS202306 HOSTGLOBAL.PLUS LTD",
-   "maa": "GB",
-   "kutsut": [
-    "CreateUser",
-    "ListVerifiedEmailAddresses"
-   ]
-  },
-  {
-   "aika": "2026-11-28 04:46",
-   "ip": "78.240.254.186",
-   "verkko": "AS51207 Free Mobile SAS",
-   "maa": "FR",
-   "kutsut": [
-    "GetInstances",
-    "GetSMSAttributes",
-    "GetSendQuota",
-    "GetServiceQuota",
-    "ListAttachedUserPolicies"
-   ]
-  },
-  {
-   "aika": "2026-11-28 04:02",
-   "ip": "45.38.122.66",
-   "verkko": "AS59711 HZ Hosting Ltd",
-   "maa": "FR",
+   "aika": "2026-11-28 06:00",
+   "ip": "103.180.150.98",
+   "verkko": "AS63737 VIETSERVER SERVICES TECHNOLOGY COMPANY LIMITED",
+   "maa": "VN",
    "kutsut": [
     "GetSMSAttributes"
    ]
   },
   {
-   "aika": "2026-11-28 04:02",
-   "ip": "192.210.191.253",
-   "verkko": "AS36352 HostPapa",
+   "aika": "2026-11-28 06:00",
+   "ip": "60.248.167.252",
+   "verkko": "AS3462 Data Communication Business Group",
+   "maa": "TW",
+   "kutsut": [
+    "GetSMSAttributes"
+   ]
+  },
+  {
+   "aika": "2026-11-28 06:00",
+   "ip": "191.101.181.67",
+   "verkko": "AS396190 Leaseweb USA, Inc.",
    "maa": "US",
    "kutsut": [
     "GetSMSAttributes"
    ]
   },
   {
-   "aika": "2026-11-28 04:02",
-   "ip": "64.137.103.231",
-   "verkko": "AS133944 trafficforce, UAB",
-   "maa": "AT",
+   "aika": "2026-11-28 06:00",
+   "ip": "144.168.108.131",
+   "verkko": "AS22552 eSited Solutions",
+   "maa": "US",
+   "kutsut": [
+    "GetSMSAttributes"
+   ]
+  },
+  {
+   "aika": "2026-11-28 06:00",
+   "ip": "154.9.201.141",
+   "verkko": "AS174 Cogent Communications, LLC",
+   "maa": "US",
    "kutsut": [
     "GetSendQuota"
    ]
   },
   {
-   "aika": "2026-11-28 04:02",
-   "ip": "138.128.148.155",
-   "verkko": "AS202044 Getechbrothers, MB",
-   "maa": "DE",
+   "aika": "2026-11-28 06:00",
+   "ip": "104.239.38.192",
+   "verkko": "AS9009 M247 Europe SRL",
+   "maa": "CA",
+   "kutsut": [
+    "GetSMSAttributes"
+   ]
+  },
+  {
+   "aika": "2026-11-28 06:00",
+   "ip": "173.244.41.17",
+   "verkko": "AS64286 LogicWeb Inc.",
+   "maa": "US",
+   "kutsut": [
+    "GetSMSAttributes"
+   ]
+  },
+  {
+   "aika": "2026-11-28 06:00",
+   "ip": "191.96.130.105",
+   "verkko": "AS7203 Leaseweb USA, Inc.",
+   "maa": "US",
    "kutsut": [
     "GetSendQuota"
    ]
   },
   {
-   "aika": "2026-11-28 04:02",
-   "ip": "142.111.245.44",
-   "verkko": "AS18779 EGIHosting",
-   "maa": "US",
+   "aika": "2026-11-28 06:00",
+   "ip": "46.203.157.200",
+   "verkko": "AS212238 Datacamp Limited",
+   "maa": "CA",
    "kutsut": [
     "GetSMSAttributes"
    ]
   },
   {
-   "aika": "2026-11-28 04:02",
-   "ip": "205.164.57.171",
-   "verkko": "AS18779 EGIHosting",
-   "maa": "US",
+   "aika": "2026-11-28 06:00",
+   "ip": "50.114.84.144",
+   "verkko": "AS263812 SONDATECH S.A.S.",
+   "maa": "BR",
    "kutsut": [
     "GetSMSAttributes"
    ]
   },
   {
-   "aika": "2026-11-28 04:02",
-   "ip": "38.154.1.115",
+   "aika": "2026-11-28 06:00",
+   "ip": "45.61.98.162",
+   "verkko": "AS46516 HostRoyale LLC",
+   "maa": "US",
+   "kutsut": [
+    "GetSendQuota"
+   ]
+  },
+  {
+   "aika": "2026-11-28 06:00",
+   "ip": "104.239.19.23",
+   "verkko": "AS9009 M247 Europe SRL",
+   "maa": "IT",
+   "kutsut": [
+    "GetSMSAttributes"
+   ]
+  },
+  {
+   "aika": "2026-11-28 06:00",
+   "ip": "45.41.173.41",
+   "verkko": "AS46516 HostRoyale LLC",
+   "maa": "US",
+   "kutsut": [
+    "GetSendQuota"
+   ]
+  },
+  {
+   "aika": "2026-11-28 06:00",
+   "ip": "23.229.110.152",
    "verkko": "AS55286 B2 Net Solutions Inc.",
    "maa": "US",
    "kutsut": [
-    "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-28 04:02",
-   "ip": "82.40.103.210",
-   "verkko": "AS40403 Rocks Computer Services, LLC",
-   "maa": "US",
-   "kutsut": [
-    "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-28 04:02",
-   "ip": "146.103.4.15",
-   "verkko": "AS29802 HIVELOCITY, Inc.",
-   "maa": "FR",
-   "kutsut": [
     "GetSMSAttributes"
    ]
   },
   {
-   "aika": "2026-11-28 04:02",
-   "ip": "103.80.10.109",
-   "verkko": "AS203020 HostRoyale Technologies Pvt Ltd",
-   "maa": "CY",
-   "kutsut": [
-    "GetSMSAttributes"
-   ]
-  },
-  {
-   "aika": "2026-11-28 04:02",
-   "ip": "104.239.81.55",
-   "verkko": "AS62874 Web2Objects LLC",
+   "aika": "2026-11-28 06:00",
+   "ip": "23.94.138.6",
+   "verkko": "AS36352 HostPapa",
    "maa": "US",
    "kutsut": [
     "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-28 04:02",
-   "ip": "38.63.176.17",
-   "verkko": "AS54600 PEG TECH INC",
-   "maa": "US",
-   "kutsut": [
-    "GetSendQuota"
-   ]
-  },
-  {
-   "aika": "2026-11-28 04:02",
-   "ip": "38.6.140.8",
-   "verkko": "AS54600 PEG TECH INC",
-   "maa": "US",
-   "kutsut": [
-    "GetSMSAttributes"
    ]
   }
  ],
- "varkaita_yht": 2055,
+ "varkaita_yht": 2082,
  "historia": [
   {
    "pv": "2026-11-20",
